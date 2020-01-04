@@ -13891,7 +13891,8 @@ impdp $user/$passwordcar@whcar130 attach=SYS_IMPORT_FULL_09
 STATUS - para ver o status do job
 KILL_JOB - para matar o job
 
-
+-----------------------------------------------------------------------------------
+TESTANDO NOVAMENTE PARA VER SE PEGA A ATUALIZAÇÃO
 
 
 
