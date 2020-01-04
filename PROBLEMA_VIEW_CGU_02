@@ -1,0 +1,53 @@
+Investigação para resolução da view 02 CGU 
+
+-------------------
+
+08/03/2019 - no mesmo intante.
+17:14, 17:15, 17:16, 17:17  view 15 - cgu cancelado --- cancelado ----- cancelado --- cancelado --- cancelado -----
+cancel ---- como se estivesse cancelado do sql server para o jdv 
+view 15 ---- erro io --------new io worked - cancel. 
+
+Por que não entrou nos 4 minutos?
+
+17:17 com sucesso.
+
+
+-------------
+
+
+
+
+
+
+
+
+
+
+Possibilidades
+1-SQL Server 2016 Service Pack 2 Cumulative Update (CU) 5 KB4475776 - atualização em 17/02/2019
+2-ver o horário que terminou a carga dia 15 e dia 14
+3-ver o disabled do usuário como está
+
+
+==solução de contorno pode iniciar um select antes do disabled.
+
+
+- ok - REVISAR A VIEW 02 MÁRIO E ANDRÉ
+- ok - VIEW RODAR DIRETO NO BANCO 
+-JEAN SOLTAR 10 X AS VIEWS NO ON-LINE - TESTE
+-MÁRIO REVISAR AS LOGS DO BANCO 
+- --em segundo plano--------- TROCAR A ORDEM DA VIEW e monitorar depois
+-COLOCAR UM SELECT APÓS A LIBERAÇÃO DO USUÁRIO DO JDV NO SQL SERVER
+-INVESTIGAR O TEMPO DE 2 HORAS DE ABORT COM ERRO, VERIFICAR SE ALGUMA DAS APLICAÇÕES ESTÃO COM TIME OUT DE 2 DUAS HORAS
+--Sugestão: conversar com o técnico para buscar somente * e se for o caso alterar view definitivamente.
+
+Verificar jdv -- na madrugada
+
+
+
+
+
+
+
+08/03/2019
+

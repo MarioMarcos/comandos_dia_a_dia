@@ -1,1 +1,0 @@
-# comandos_dia_a_dia
