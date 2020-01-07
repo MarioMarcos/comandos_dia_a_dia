@@ -1,0 +1,30 @@
+#======================================#
+#==============KERNEL==================#
+#======================================#
+xxxxx
+FOI ISSO QUE CORRIGIU O PROBLEMA COM AS MÁQUINAS VIRTUAIS DO VIRTUALBOX - OU SEJA TEM MÁQUINAS QUE NÃO FUNCIONAM COM KERNEL MAIS ATUAL, AI VOCÊ TEM QUE MUDAR PARA UM KERNEL MAIS ANTIGO PARA QUE O VIRTUABOX CONSIGA FUNCIONAR.
+
+Você pode instalar várias versões de Kernel pelo softaware ukuu 
+
+depois para altenar entre um antigo e o mais receten vá no grub em opções avançadas.
+
+lá você pode entrar com uma versão do kernel mais antiga ou mais recente.
+
+obs: ele vai ficar somente quando a sua sessão estiver logada.
+
+Depois ver como deixar permanante. 
+
+Para deixar permanente é só entrar com uma mais antiga e ir no ukuu e apagar a nova. aí ele vai assumir a mais antiga da próxima vez que iniciar à sessão.
+
+
+---------------------------------------------------------------------------------------------------------
+
+1 - ukuu - atualizar kernel linux quando precisar
+sudo apt-add-repository ppa:teejee2008/ppa
+
+2-
+sudo apt-get update
+
+3-
+sudo apt-get install ukuu
+
