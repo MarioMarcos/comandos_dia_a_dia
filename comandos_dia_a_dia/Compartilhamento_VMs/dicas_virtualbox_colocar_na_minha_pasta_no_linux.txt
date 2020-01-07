@@ -1,5 +1,0 @@
-Maq virtualbox dicas - colocar no linux 
-
-1-tecla host é o ctrl (modifiquei para alg Gr mais f) direito
-2-tive problemas mas era a versão do virtualbox com o ubuntu
-3-Para tela cheia host que é ctrl direito mais F ou A ou H para alternar mais as telas (modifiquei para alt gr + f)

@@ -1,5 +1,0 @@
-Os comandos abaixo fazem uma limpeza da memória cache sem que você precise reiniciar o micro. Apreciem!
-
-# echo 3 > /proc/sys/vm/drop_caches
-
-# sysctl -w vm.drop_caches=3
