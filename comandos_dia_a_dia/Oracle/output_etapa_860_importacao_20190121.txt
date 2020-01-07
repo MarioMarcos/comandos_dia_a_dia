@@ -1,0 +1,356 @@
++ set +vx
+### Testando conexao com o Oracle via SQL*Plus
+
+OK
+
+Seg Jan 21 22:07:24 -02 2019
+
+PL/SQL procedure successfully completed.
+
+
+Session altered.
+
+
+Session altered.
+
+
+Session altered.
+
+
+PL/SQL procedure successfully completed.
+
+Seg Jan 21 22:18:49 -02 2019
+
+INICIO_CONF_FK_IMPORT
+---------------------------------------------------
+21-01-19 22:10:47
+
+Elapsed: 00:00:00.00
+CONFER NCIA INCOTERMS
+NR_INCOTERMS COM COMERC_GERAL
+
+no rows selected
+
+Elapsed: 00:00:00.03
+CONFERENCIA ARVORE MOEDA
+MOEDA COM COMERC_GERAL
+
+no rows selected
+
+Elapsed: 00:00:00.08
+MOEDA_FRETE COM COMERC_GERAL
+
+no rows selected
+
+Elapsed: 00:00:00.00
+MOEDA_SEGURO COM COMERC_GERAL
+
+no rows selected
+
+Elapsed: 00:00:00.01
+CONFER NCIA ARVORE DESP_ADUAN
+APLIC_MERC COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.03
+DESP_ADUAN COM FATO
+SELECT NR_DESP_ADUAN FROM ADND.WD_DESP_ADUAN
+                               *
+ERROR at line 2:
+ORA-08103: object no longer exists
+
+
+Elapsed: 00:00:31.10
+BEM_SOB_ECON COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.02
+FUNDAP COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.04
+MAT_USADO COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.04
+METODO_VALORACAO COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.04
+MODAL_DESP COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.03
+SUJ_LICENC COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.04
+TIPO_DI COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.03
+VINC_IMPDR_EXPDR COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.03
+CANAL_DESPACHO COM DESP_ADUAN
+
+no rows selected
+
+Elapsed: 00:00:00.03
+CONFERENCIA DATAS
+DIA_DESEMB COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:30.80
+DIA_CANCEL COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:02:57.98
+DIA_REGIS COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:24.22
+DIA_EMBQ COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:39.37
+DIA_CHEGADA_CARGA COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:52.63
+CONFERENCIA FUND_LEGAL E REGIME_TRIBUTARIO COM MAPA
+REG_TRIBUT COM FUND_LEGAL_REG_TRIBUT
+
+no rows selected
+
+Elapsed: 00:00:00.01
+FUND_LEGAL COM FUND_LEGAL_REG_TRIBUT
+
+no rows selected
+
+Elapsed: 00:00:00.01
+CONFERENCIA ARVORE MERC
+SUBITEM_NCM MERC COM VIEW SUBITEM_NCM
+
+no rows selected
+
+Elapsed: 00:00:00.56
+SUBITEM_NALADI_SH MERC COM VIEW SUBITEM_NCM
+
+no rows selected
+
+Elapsed: 00:00:00.28
+UNID_MEDIDA_EST COM MERC
+
+B_CD_UNID_MEDIDA_EST
+--------------------
+		   0
+
+Elapsed: 00:00:00.12
+CONFERENCIA ARVORE NAT_CAMBIAL
+COB_CAMBIAL_IMP COM NAT_CAMBIAL
+
+no rows selected
+
+Elapsed: 00:00:00.01
+INSTIT_FINANC COM NAT_CAMBIAL
+
+no rows selected
+
+Elapsed: 00:00:00.00
+MODAL_PGTO  COM_NAT_CAMBIAL
+que nao existe na tab adnd.wd_MODAL_PGTO
+
+no rows selected
+
+Elapsed: 00:00:00.02
+MOT_IMP_SCOB COM NAT_CAMBIAL
+
+no rows selected
+
+Elapsed: 00:00:00.01
+CONFERENCIA ARVORE NAT_EST_INFO
+
+no rows selected
+
+Elapsed: 00:00:36.33
+CONFERENCIA ARVORE PAIS
+PAIS COM PA_PAIS
+
+ B_CD_PAIS
+----------
+	15
+	99
+       200
+       699
+
+Elapsed: 00:00:00.73
+PAIS_EXPDR_IMPDR_ESTRG COM PA_PAIS
+
+B_CD_PAIS_EXPDR_IMPDR_ESTRG
+---------------------------
+			 15
+			 42
+			 99
+			102
+			200
+			321
+			343
+			393
+
+8 rows selected.
+
+Elapsed: 00:00:00.18
+PAIS_TRANSPDR COM PA_PAIS
+
+B_CD_PAIS_TRANSPDR
+------------------
+		15
+		99
+	       102
+	       200
+	       292
+	       343
+	       699
+
+7 rows selected.
+
+Elapsed: 00:00:00.26
+PAIS_EMBQ_ESTRG COM PA_PAIS
+
+B_CD_PAIS_EMBQ_ESTRG
+--------------------
+		  15
+		  99
+		 102
+		 200
+		 393
+
+Elapsed: 00:00:00.20
+PAIS_IMPDR COM PA_PAIS
+
+no rows selected
+
+Elapsed: 00:00:00.13
+CONFERENCIA ARVORE ORGANIZ_RECEITA
+NR_RECINTO_ALFAND COM ORGANIZ_RECEITA
+
+no rows selected
+
+Elapsed: 00:00:00.04
+UAN4_DESP COM UAS_NIVEL4
+
+no rows selected
+
+Elapsed: 00:00:00.05
+UAN4_DESBQ_EMBQ COM UAS_NIVEL4
+
+no rows selected
+
+Elapsed: 00:00:00.02
+CONFERENCIA TRANSP
+VIA_TRANSP COM TRANSP
+
+no rows selected
+
+Elapsed: 00:00:00.04
+TRANSP COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:29.28
+CONFERENCIA PESSOAS
+ADQUIR COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:01:09.58
+IMPDR_EXPDR COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:01:13.97
+CONFERENCIA PESSOAS
+ADQUIR COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:28.36
+CONFERENCIA SIT_IMP_EXP
+SIT_IMP_EXP COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:22.13
+CONFERENCIA TIPO_PRODTR
+TIPO_PRODTR COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:18.35
+CONFERENCIA ARVORE FUND_LEGAL_REG_TRIBUT_PIS_COFINS
+REG_TRIBUT_PIS_COFINS COM FUND_LEGAL_REG_TRIBUT_PIS_COFINS
+
+no rows selected
+
+Elapsed: 00:00:00.02
+FUND_LEGAL_PIS_COFINS COM FUND_LEGAL_REG_TRIBUT_PIS_COFINS
+
+no rows selected
+
+Elapsed: 00:00:00.01
+FUND_LEGAL_REDUC_PIS_COFINS COM FUND_LEGAL_REG_TRIBUT_PIS_COFINS
+
+no rows selected
+
+Elapsed: 00:00:00.02
+FUND_LEGAL_REG_TRIBUT_PIS_COFINS COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:23.89
+CONFERENCIA ARVORE TRIBUTACAO2
+NOTA_COMPL_TIPI COM TRIBUTACAO2
+
+no rows selected
+
+Elapsed: 00:00:00.01
+TIPO_ALIQ_PIS_PASEP COM TRIBUTACAO2
+
+no rows selected
+
+Elapsed: 00:00:00.01
+NR_TIPO_ALIQ_COFINS COM TRIBUTACAO2
+
+no rows selected
+
+Elapsed: 00:00:00.01
+NR_TRIBUTACAO2 COM IMPORTACAO
+
+no rows selected
+
+Elapsed: 00:00:23.42
+
+FIM__VERIFICA_FK_IMP
+---------------------------------------------------
+21-01-19 22:22:11
+
+Elapsed: 00:00:00.01
+Inicio:  Seg Jan 21 22:07:24 -02 2019 - Fim:  Seg Jan 21 22:18:49 -02 2019
+ exit 99 
+Erro na execucao da etapa
