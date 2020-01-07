@@ -2,6 +2,9 @@
 #=========COLOCAR AQUI DEPOIS OS QUE TEM QUE SER INSTALADO COM OS PROGRAMAS ABAIXO E DEMAIS CONFIGURAÇÕES=============#
 #=====================================================================================================================#
 
+## copiar arquivos bashrc para pasta principal antes de começar tudo.
+## criar link direto para a pasta Compartilhament_Vms depois de iniciado o git e feito o git clone
+## ln -s ~/Git_MarioMarcos/comando_dia_a_dia/Compartilhamento_VMs/ ~/Área\ de\ Trabalho/Compartilhamento_Vms
 
 
 # --------------------------------------------------------------------------- #
@@ -24,7 +27,7 @@ DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
 
 PROGRAMAS_PARA_INSTALAR=(
   #mint-meta-codecs
-  virtualbox
+  #virtualbox
   #nemo-dropbox
   #steam-installer
   #steam-devices
@@ -40,7 +43,7 @@ whatsapp-desktop
 copyq
 remmina
 vim 
-grub-customizer
+##grub-customizer
 )
 
 # ---------------------------------------------------------------------- #
@@ -88,7 +91,12 @@ for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
   fi
 done
 
+## Instalando GIT
+sudo apt-get install git-all
+
 ## Instalando pacotes Snap ##
+sudo apt-get install snapd
+
 ##sudo snap install slack --classic
 sudo snap install code --classic
 sudo snap install docker
