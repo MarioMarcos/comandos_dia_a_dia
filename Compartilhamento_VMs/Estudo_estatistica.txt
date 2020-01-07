@@ -1,0 +1,83 @@
+cat .gitconfig
+
+
+
+
+
+===========================================
+AT - 3 ==== EX. 3
+--calculo do intervalo de confiança
+
+exercicio 
+IC_media_var_desconhecida <- function(x, confianca){
+n <- length(x)
+xbarra <- mean(x)
+desvio <- sd(x)
+IC_inf <- xbarra - qt((1-confianca)/2, n-1, lower.tail = F)*(desvio/sqrt(n))
+IC_sup <- xbarra + qt((1-confianca)/2, n-1, lower.tail = F)*(desvio/sqrt(n))
+saida <- cbind(IC_inf, IC_sup)
+saida
+}
+
+dados_q3 <- c(230.33, 233.05, 232.58, 229.48, 232.58)
+IC_media_var_desconhecida(dados_q3, .99)
+
+
+
+
+======================================================
+AT - 3 ==== EX. 4
+
+Nesta questão, temos um intervalo de confiança para a proporção.
+Como os dados estão sumarizados, pois já tenho o número de
+defeituosos (x) e o número total de peças (n), podemos calcular a
+proporção de defeituosos (prop = x/n). Assim um script que calcule o
+intervalo de confiança para a proporção seria:
+IC_Proporcao <- function(x, n, confianca){
+prop <- x/n
+IC_inf <- prop - qnorm((1-confianca)/2, lower.tail = F)*(sqrt((prop*(1-
+prop))/n))
+IC_sup <- prop + qnorm((1-confianca)/2, lower.tail = F)*(sqrt((prop*(1-
+prop))/n))
+saida <- cbind(IC_inf, IC_sup)
+saida
+}
+
+IC_Proporcao(60, 100, .95)
+
+
+
+====================================================
+AT - 3 ==== EX. 5
+Nessa questão, devemos utilizar o intervalo de confiança para uma
+média com a variância conhecida. Como os dados estão sumarizados
+(já temos a média e a quantidade de dados da amostra), devemos
+construir uma função que aceite esses parâmetros. Ficaria dessa forma:
+teste_media_var_conhecida <- function(xbarra, n, sigma, confianca){
+IC_inf <- xbarra - qnorm((1-confianca)/2, lower.tail = F)*(sigma/sqrt(n))
+IC_sup <- xbarra + qnorm((1-confianca)/2, lower.tail = F)*(sigma/sqrt(n))
+saida <- cbind(IC_inf, IC_sup)
+saida
+}
+teste_media_var_conhecida(1014, 20, 25, .95)
+JÁ ESTÁ NO R NO CHROME -- 
+
+======================================================
+AT - 3 ==== EX. 6
+
+
+teste_media_var_desconhecida <- function(xbarra, desvio, n, confianca){
+IC_inf <- xbarra - qt((1-confianca)/2, n-1, lower.tail = F)*(desvio/sqrt(n))
+IC_sup <- xbarra + qt((1-confianca)/2, n-1, lower.tail = F)*(desvio/sqrt(n))
+saida <- cbind(IC_inf, IC_sup)
+saida
+}
+teste_media_var_desconhecida(60139.7, 3645.94, 16, .95)
+
+
+
+========================================================
+AT - 3 ==== EX. 7
+
+
+
