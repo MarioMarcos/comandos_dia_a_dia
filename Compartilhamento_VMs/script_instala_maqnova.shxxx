@@ -4,7 +4,8 @@
 
 ## copiar arquivos bashrc para pasta principal antes de começar tudo.
 ## criar link direto para a pasta Compartilhament_Vms depois de iniciado o git e feito o git clone
-## ln -s ~/Git_MarioMarcos/comando_dia_a_dia/Compartilhamento_VMs/ ~/Área\ de\ Trabalho/Compartilhamento_Vms
+## ln -s ~/Git_MarioMarcos/comando_dia_a_dia/Compartilhamento_VMs/ ~/Área\ de\ Trabalho/
+
 
 
 # --------------------------------------------------------------------------- #
