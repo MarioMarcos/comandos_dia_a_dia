@@ -20,6 +20,6 @@ Shift+End	Scroll to bottom
 -----
 IDEIAS
 - live share - extensão -- fazer código depois ver em tempo real.
-- bookmarks - já instalado em casa, instalar no serviço.
+- instalar bookmarks - já instalado em casa, instalar no serviço.
 - pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
-
+- instalar git history no vscode extensão
