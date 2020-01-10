@@ -1,0 +1,25 @@
+When focusing a split terminal pane, you can move focus and resize using one of the following commands:
+
+Key	Command
+
+ctrl + shift + f5 ====abrir janelas adicionais no termianal do vscode
+Alt+Left	Focus Previous Pane
+Alt+Right	Focus Next Pane
+
+Ctrl+Shift+Left	Resize Pane Left
+Ctrl+Shift+Right	Resize Pane Right
+
+Ctrl+Shift+`	Create new terminal
+Ctrl+Shift+Up	Scroll up
+Ctrl+Shift+Down	Scroll down
+Shift+PageUp	Scroll page up
+Shift+PageDown	Scroll page down
+Shift+Home	Scroll to top
+Shift+End	Scroll to bottom
+
+-----
+IDEIAS
+- live share - extensão -- fazer código depois ver em tempo real.
+- bookmarks - já instalado em casa, instalar no serviço.
+- pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
+

@@ -6,7 +6,7 @@ FOI ISSO QUE CORRIGIU O PROBLEMA COM AS MÁQUINAS VIRTUAIS DO VIRTUALBOX - OU SE
 
 Você pode instalar várias versões de Kernel pelo softaware ukuu 
 
-depois para altenar entre um antigo e o mais receten vá no grub em opções avançadas.
+depois para altenar entre um antigo e o mais recente vá no grub em opções avançadas.
 
 lá você pode entrar com uma versão do kernel mais antiga ou mais recente.
 
@@ -14,6 +14,7 @@ obs: ele vai ficar somente quando a sua sessão estiver logada.
 
 Depois ver como deixar permanante. 
 
+=====
 Para deixar permanente é só entrar com uma mais antiga e ir no ukuu e apagar a nova. aí ele vai assumir a mais antiga da próxima vez que iniciar à sessão.
 
 
