@@ -19,9 +19,12 @@ Shift+End	Scroll to bottom
 
 -----
 IDEIAS
-- live share - extensão -- fazer código depois ver em tempo real.
+- live share - extensão vscode -- fazer código depois ver em tempo real.
 - instalar bookmarks - já instalado em casa, instalar no serviço.
 - pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
+
+PARA GIT
 - instalar git history no vscode extensão
 - instalar git remote no vscode extensão
 - instalar git blame no vscode extensão
+- comando para colocar na lista de comandos do git mario :: git config --list ==para listar as configurações no git no terminal e mostrar tudo da conexão ... comando show
