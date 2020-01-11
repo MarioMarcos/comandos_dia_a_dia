@@ -22,9 +22,15 @@ IDEIAS
 - live share - extensão vscode -- fazer código depois ver em tempo real.
 - instalar bookmarks - já instalado em casa, instalar no serviço.
 - pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
+- Digitar CTRl + shift + p e colocar maximizepanel para criar um atalho que eu criei para maximizar o terminal no vscode no teclado que é o CTRL + ' + P ai vai maximizar o terminal.
+
 
 PARA GIT
 - instalar git history no vscode extensão
 - instalar git remote no vscode extensão
 - instalar git blame no vscode extensão
 - comando para colocar na lista de comandos do git mario :: git config --list ==para listar as configurações no git no terminal e mostrar tudo da conexão ... comando show
+
+
+
+
