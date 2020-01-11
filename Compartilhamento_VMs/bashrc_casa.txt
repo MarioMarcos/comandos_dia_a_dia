@@ -1,0 +1,299 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+#case "$TERM" in
+#    xterm-color) color_prompt=yes;;
+#esac
+
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+
+#--mario
+#if [ -n "$force_color_prompt" ]; then
+#    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+#	color_prompt=yes
+#    else
+#	color_prompt=
+#    fi
+#fi
+
+#if [ "$color_prompt" = yes ]; then
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[0;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#else
+#    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+#fi
+#unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+##case "$TERM" in
+##xterm*|rxvt*)
+##    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+##    ;;
+##*)
+##    ;;
+##esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ld='ls -Ft | grep /'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+#RLWRAP - PARA GERAR HISTORICO NO ORACLE DENTRO DO BANCO IGUAL AO LINUX
+alias sqlplus='rlwrap sqlplus'
+#alias rman='rlwrap rman'
+
+#ORACLE
+export ORACLE_HOME="/opt/programas/oracle/instantclient_12_2"
+export PATH="$PATH:$/snap/bin:$ORACLE_HOME/bin:/usr/local/bin:$HOME/bin:/sbin:$ORACLE_HOME:."
+export LD_LIBRARY_PATH="$ORACLE_HOME/lib:$ORACLE_HOME"
+export SQLPATH="/home/mariomarcos/ownCloud/TRABALHOSERPRO/scripts/scriptsronaldo/sqlplus:/home/mariomarcos/ownCloud/TRABALHOSERPRO/scripts/ScriptsOracle:/home/mariomarcos/scripts/scriptsronaldo/sqlplus:/home/mariomarcos/scripts/ScriptsOracle"
+
+#export NLS_LANG=AMERICAN_AMERICA.UTF8
+TNS_ADMIN="/opt/programas/oracle/instantclient_12_2/network/admin"
+export TNS_ADMIN
+
+
+# Atalho para pasta dos scripts no serprodrive (Jatai) e owncloud maquina virtual em casa
+ 
+alias cdtd="cd /home/mariomarcos/Jatai/TRABALHOSERPRO/Banco_de_dados/TERADATA\ DATA\ WAREHOUSE\ APPLIANCE\ 2750/scripts/"   #pasta dos scripts e serviços do TERADATA
+alias cdtd="cd /home/mariomarcos/ownCloud/TRABALHOSERPRO/Banco_de_dados/TERADATA\ DATA\ WAREHOUSE\ APPLIANCE\ 2750/scripts/"   #pasta dos scripts e serviços do TERADATA
+
+alias cdora="cd /home/mariomarcos/Jatai/TRABALHOSERPRO/Banco_de_dados/ORACLE/SCRIPTS/"   #pasta dos scripts e serviços do ORACLE
+alias cdora="cd /home/mariomarcos/ownCloud/TRABALHOSERPRO/Banco_de_dados/ORACLE/SCRIPTS/"   #pasta dos scripts e serviços do ORACLE
+alias cdgit="cd /home/mariomarcos/SerproDrive/TRABALHOSERPRO/Git_Serpro/"   #pasta dos scripts e arquivos git
+alias cdgitm="cd /home/mariomarcos/Git_MarioMarcos/comandos_dia_a_dia/"   #pasta dos scripts e arquivos git Pessoal
+
+# Corporativo Teradata - STN
+
+
+alias sshtera49="ssh dwpub@161.148.236.49"   #S.O DO TERADATA E SCRIPTS DE PUBLICAÇÃO	 
+
+# Corporativo Postgres
+
+alias sshv33="ssh dwpub@161.148.240.33"   #HOMOLOGACAO MAQUINA BANCO POSTGRES
+alias sshv34="ssh dwpub@161.148.236.33"   #PRODUCAO E CARGA MAQUINA BANCO POSTGRES
+alias sshb06="ssh dwpub@161.148.239.33"   #DESENVOLVIMENTO MAQUINA BANCO POSTGRES
+
+# Corporativo
+
+alias sshmdms="ssh dwpub@10.50.240.80"   #METADADOS MDMS
+alias sshpdw02a="ssh dwpub@10.50.240.160"  #CORPORATIVO
+alias sshpdw02b="ssh dwpub@10.50.240.131"  #CORPORATIVO
+alias sshpmd01="ssh dwpub@10.50.240.69"   #CORPORATIVO
+alias sshpdw03="ssh dwpub@10.50.240.30"   #CORPORATIVO 11G
+alias sshpdw032="ssh dwpub@10.50.240.40"   #CORPORATIVO 11G
+alias sshdwt02="ssh dwpub@10.50.240.36" #DWT02
+alias sshis="ssh cdsdw@10.50.240.47"       #CORPORATIVO
+alias sshdwc01="ssh dwpub@10.50.240.135"   #CORPORATIVO
+alias sshdwh01="ssh dwpub@10.50.240.237"   #CORPORATIVO
+alias sshdwd01="ssh dwpub@10.50.240.82"    #CORPORATIVO
+alias sshp7="ssh db2inst1@10.200.244.244" #IBM p7
+alias sshp8="ssh alisson@161.148.172.11"  # DWPRO005
+alias sshp9="ssh dwpub@10.200.145.223"  # CRG36 DES35 Carga e Desenvolvimento
+alias sshp15="ssh alisson@161.148.172.13" # HOM28
+
+alias sshp18="ssh dwpub@161.148.236.101" # WHPRO101
+alias sshp19="ssh dwpub@161.148.172.46" # DWMD005
+alias sshp20="ssh dwpub@10.200.144.47" # MD35
+alias sshp21='ssh dwpub@10.200.144.17'  #DWDES35
+alias sshp25='ssh dwpub@161.148.240.101'  #WHHOM101
+alias sshp76='ssh dwpub@161.148.236.20' #BIPRO001 PRODUÇÃO DW
+
+
+alias sshp74="ssh dwpub@161.148.236.19" #BIMD002 producao md
+alias sshp70="ssh dwpub@161.148.240.19" #BIMD001 homologacao md
+alias sshp71="ssh dwpub@161.148.240.20" #BIHOMD001 homologacao wh
+alias sshp78="ssh dwpub@161.148.239.25" #WHDES101 Desenvolvimento SINESP MJ
+alias sshp79="ssh dwpub@161.148.236.26" #WHCRG101 Carga           SINESP MJ
+
+alias tuwhpro102="ssh -f 76455424115@10.30.92.113 -L 15011:161.148.236.20:1501 -N"
+alias tupdw032="ssh -f 76455424115@10.30.92.113 -L 15013:10.50.240.40:1521 -N"
+alias tupdw031="ssh -f 76455424115@10.30.92.113 -L 15012:10.50.240.30:1521 -N"
+alias tudwc01="ssh -f 76455424115@10.30.92.113 -L 15014:10.50.240.135:1521 -N"
+alias tudwd01="ssh -f 76455424115@10.30.92.113 -L 15015:10.50.240.82:1521 -N"
+alias tudwh01="ssh -f 76455424115@10.30.92.113 -L 15016:10.50.240.237:1521 -N"
+alias tubihom001="ssh -f 76455424115@10.30.92.113 -L 15017:161.148.240.20:1501 -N"
+alias tudwcrg36="ssh -f 76455424115@10.30.92.113 -L 15018:10.200.145.223:1536 -N"
+alias tudwdes35="ssh -f 76455424115@10.30.92.113 -L 15019:10.200.144.17:1535 -N"
+alias tubimd002="ssh -f 76455424115@10.30.92.113 -L 15020:161.148.236.19:1502 -N"
+alias tubimd004="ssh -f 76455424115@10.30.92.113 -L 15021:161.148.239.23:1504 -N"
+alias tubimd001="ssh -f 76455424115@10.30.92.113 -L 15022:161.148.240.19:1501 -N"
+alias tupmd02="ssh -f 76455424115@10.30.92.113 -L 15023:10.50.241.83:1521 -N"
+
+################################################################
+# Corporativo #EXADATA SÃO PAULO
+#sftp://localhost:22130 - local na máquina para acessar  a máquina do exadata - obs: olhe o espaço.
+##Maquinas São Paulo
+alias tunelexaspo="ssh -f 76455424115@10.30.92.112 -L 22130:10.193.34.96:22 -N"
+alias exaspo="ssh -X -t -p 22130 76455424115@localhost 'sudo su - dwpub'"
+##alias exadatabsb="ssh -f 76455424115@10.30.92.112 -L 22130:161.148.236.115:22 -N"
+##Para acessar os bancos com o sqlplus é só entrar no servidor entreposto linux1
+##ou linux2, depois entrar com ssh 7645542411@10.193.34.96 e senha LDAP, depois você
+##entra com sudo su -, a partir dai é só entrar na pasta que deseja e usar o sqlplus
+##para acessar os bancos.
+
+###############################################################
+alias tu115exabsb="ssh -f 76455424115@10.30.92.112 -L 22131:161.148.236.115:22 -N"
+alias tu116exabsb="ssh -f 76455424115@10.30.92.112 -L 22131:161.148.236.116:22 -N"
+alias tu117exabsb="ssh -f 76455424115@10.30.92.112 -L 22131:161.148.236.117:22 -N"
+ #MAQUINA WAREHOUSE E METADADOS PRODUÇÃO, HOMOLOGACAO, BRASILIA
+alias exa003brasiliaProducaoPre-producaoCarga="ssh dwpub@161.148.236.113"   
+
+#MAQUINA WAREHOUSE E METADADOS DO DESENVOLVIMENTO BRASILIA
+alias exa15brasiliaDesenvolvimento="ssh dwpub@161.148.239.62"   
+
+##############################################################
+
+
+
+
+
+
+# Entrepostos Windows
+alias windows1="rdesktop -f -d DFCDDOM0001 -u 76455424115 -r disk:Desktop=/home/mariomarcos/Desktop 10.30.92.74"
+alias windows2="rdesktop -f -d DFCDDOM0001 -u 76455424115 -r disk:Desktop=/home/mariomarcos/Desktop 10.30.92.75"
+alias sql="rdesktop -f -d DFCDDOM0002 -u 76455424115 -r disk:Desktop=/home/mariomarcos/Desktop 161.148.236.69"
+
+
+# Entrepostos Linux
+alias linux1="ssh 76455424115@10.30.92.112"
+alias linux2="ssh 76455424115@10.30.92.113"
+alias linux3="ssh 76455424115@10.30.92.114"
+
+
+#Entreposto powercenter
+alias entrepower="rdesktop -g 1510x840 -r disk:Desktop=/home/mariomarcos/Desktop 10.200.145.157"
+#mariox7080$ - power
+
+alias entrewm="rdesktop -g 1380x800 -r disk:Desktop=/home/mariomarcos/Desktop 10.50.240.159"  #SERVIDOR MICRO
+alias entrewmi1="rdesktop -g 1380x800 -r disk:Desktop=/home/mariomarcos/Desktop 10.50.240.37"  #SERVIDOR MICRO
+alias entrewmi2="rdesktop -g 1380x800 -r disk:Desktop=/home/mariomarcos/Desktop 10.200.145.157"  #SERVIDOR MICRO
+
+
+#POWERCENTER
+alias pbsades="ssh pcenter91@10.200.144.11"  #POWERCENTER - DESENVOLVIMENTO - BRASILIA
+alias pbsapro="ssh pcenter@10.200.144.45"  #POWERCENTER - PRODUCAO - BRASILIA
+alias pspdes="ssh pcenter@10.50.240.77"  #POWERCENTER - DESENVOLVIMENTO - SAO PAULO
+alias psppro="ssh pcenter@10.50.240.79"  #POWERCENTER - PRODUCAO - SAO PAULO
+
+export PASS_PDW031="dwpubpubsp"
+export PASS_PDW032="dwpubpubsp"
+export PASS_PMD01="dwpubmd"
+export PASS_PMD02="dwpubmd"
+export PASS_DWC01="dwpubcargasp"
+export PASS_DWH01="dwpubhomsp"
+export PASS_DWD01="dwpubdessp"
+export PASS_DWT02="dwpubhomsp"
+export PASS_DMD03="dwpubmd"     
+export PASS_MDMS="dwpubmd"
+export PASS_BIPRO001="dwpubpubbsb"     
+export PASS_BIHOM001_ORG="dwpubhombsb"     
+export PASS_BIMD001="dwpubmd"     
+export PASS_BIMD002="dwpubmd"     
+export PASS_BIMD004="dwpubmd"     
+export PASS_DWMD05="dwpubmd"   
+export PASS_DWMD35="dwpubmd"     
+export PASS_DWDES35="dwpubdesbsb"     
+export PASS_DWCRG36="dwpubcargabsb"     
+export PASS_WHPRO101="dwpubpubbsb"
+export PASS_WHHOM101="dwpubhombsb"
+export PASS_WHDES101="dwpubdesbsb"
+export PASS_WHCRG101="dwpubcargabsb"
+export PASS_DWCLN17="dwpubdesbsb"
+export NLS_NUMERIC_CHARACTERS=",."
+
+export EDITOR=gedit
+
+#==================================================
+#MARIO CONFIGURAÇÃO TMUX
+# If not running interactively, do not do anything
+#[[ $- != *i* ]] && return
+#[[ -z "$TMUX" ]] && exec tmux
+#
+#if [ -z "$TMUX" ]; then
+#  mux default          
+#fi 
+
+#==================================================
+#CORES MARIO NO TERMINAL - JANEIRO/2020 - colocar no meu bash on Serpro tambem
+#Referencia: https://blog.remontti.com.br/141
+#==================================================
+export LS_OPTIONS='--color=auto'
+eval "`dircolors`"
+alias ls='ls $LS_OPTIONS'
+alias ll='ls $LS_OPTIONS -l'
+alias l='ls $LS_OPTIONS -lA'
+
+# Extra colorindo o ==&gt; root@debian:~#
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[01;34m\]@\[\033[01;31m\]\h\[\033[00m\]:\[\033[01;37m\]\w\[\033[01;32m\]\$\[\033[00m\] '
+#==========================================================================
