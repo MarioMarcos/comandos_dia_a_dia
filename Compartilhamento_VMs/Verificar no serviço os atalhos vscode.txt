@@ -23,3 +23,5 @@ IDEIAS
 - instalar bookmarks - já instalado em casa, instalar no serviço.
 - pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
 - instalar git history no vscode extensão
+- instalar git remote no vscode extensão
+- instalar git blame no vscode extensão
