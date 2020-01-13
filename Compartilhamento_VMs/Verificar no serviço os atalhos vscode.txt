@@ -30,7 +30,12 @@ PARA GIT
 - instalar git remote no vscode extensão
 - instalar git blame no vscode extensão
 - comando para colocar na lista de comandos do git mario :: git config --list ==para listar as configurações no git no terminal e mostrar tudo da conexão ... comando show
-
-
-
-
+- git shortlog - log legal colocar nos comandos também
+- git log --pretty --xxxx ver o comando correto na net para colocar, mas é bom
+- git log --since='jan 1 2018' --until='jan 10 2018' -- também é legal para ver log entre datas excluindo às mesmas.
+- git log -3 ---- mostra os três últimos commits que foram feitos
+- git revert - para o master ----- para reverter commit de volta sem exclusão dos mesmos
+- git reset - para os branchs ---- para reverter commit de volta com exclusão dos mesmos 
+- git log --author='mariomarcos' - testar depois.
+- git shortlog -sn   ------ mostra os autores e a quantidade total de cada autor
+- git reflog ----- é o cara mostra todas às informações dos logs.
