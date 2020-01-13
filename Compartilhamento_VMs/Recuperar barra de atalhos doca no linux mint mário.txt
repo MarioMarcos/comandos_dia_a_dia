@@ -1,1 +1,5 @@
+No Linux Mint 19.3
+
+Vá no Terminal de escreva isso
+
 gsettings reset-recursively org.cinnamon
