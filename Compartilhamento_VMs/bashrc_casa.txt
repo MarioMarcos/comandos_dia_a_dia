@@ -284,6 +284,7 @@ export EDITOR=gedit
 #  mux default          
 #fi 
 
+#Já aplicado também no .basrch no SERPRO
 #==================================================
 #CORES MARIO NO TERMINAL - JANEIRO/2020 - colocar no meu bash on Serpro tambem
 #Referencia: https://blog.remontti.com.br/141
