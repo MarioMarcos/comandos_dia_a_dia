@@ -1,0 +1,162 @@
+==========================================================================================================
+DO GOOGLE DOCUMENTOS SERPRO
+==========================================================================================================
+
+
+================================================
+DOCKER - CONTAINERS - MICROSERVIÇOS NO UBUNTU    - 25/11/2019 - INICIANDO COM DOCKER
+================================================
+----------------------
+INSTALAR DOCKER
+----------------------
+sudo snap install docker
+
+--------------------------
+LISTAR CONTAINERS QUE TEM NA MÁQUINA
+-------------------------- 
+sudo docker images
+
+--------------------------
+INSTALAR CONTAINERS (SO, BD, MICROSERVIÇOS E OUTROS)
+--------------------------
+sudo docker pull ubuntu
+
+--------------------------
+EXECUTAR UM CONTAINERS
+--------------------------
+sudo docker run -ti --rm ubuntu /bin/bash
+
+--------------------------
+LISTAR CONTAINERS ATIVOS NO HOST
+--------------------------
+sudo docker ps -a
+
+--------------------------
+INICIA CONTAINERS PEGANDO O ID COM O COMANDO ANTERIOR.
+--------------------------
+sudo docker start ef3db5ea5333
+sudo docker stop ef3db5ea5333 --para container
+sudo docker pause ef3db5ea5333 --para pausar
+sudo docker unpause ef3db5ea5333 --para despausar
+--para apagar um container antes você tem que stopar ele com o comando stop conforme segundo item deste tópico
+--depois é só utilizar o comando rm
+sudo docker rm ef3db5ea5333 --para apagar um container
+
+--Se quiser apagar todos de uma vez de stop em todos com o comando abaixo
+sudo docker stop $(docker ps -a -q) e depois
+sudo docker rm $(docker ps -a -q) para apagar todos os containers de uma vez.
+
+
+--------------------------
+INSPECIONAR O CONTAINERS (LISTA PROPRIEDADES DO CONTAINER)
+--------------------------
+sudo docker inspect ef3db5ea5333 |less
+
+
+--------------------------
+BUSCAR UMA IMAGEM NO HUB DOCKER
+--------------------------
+sudo docker search hadoop
+
+
+
+=======================================================================================
+
+--------ESSE AQUI É O ARQUIVO NO TXT --------- MELHORAR TUDO AQUI.
+
+
+
+
+--------------------------------------------------
+MOSTRAR TODOS OS CONTAINERS EXECUTADOS NA MAQUINA
+docker container ps -a
+--------------------------------------------------
+
+-------------------------------------------------
+REMOVE UM CONTAINER DA MAQUINA
+
+docker container run --rm debian bash --version
+obs: executou e já removeu e não aparecerá na lista do ps -a
+--------------------------------------------------
+
+-------------------------------------------------
+CRIANDO UM CONTAINER PARA TESTES DE MOMENTO
+docker container run -it debian bash -- dá acesso ao terminal do container iterativo para testes
+touch curso-docker.txt
+ls curso-docker.txt 
+obs: run sempre criar outro container quando é executado
+exit 
+
+docker container run -it debian bash -- dá acesso ao terminal
+do container iterativo para testes e você vai ver que não tem o arquivo criado anteriormente.
+--------------------------------------------------
+
+-------------------------------------------------
+NOME PARA NOVOS CONTAINERS - iterativo "só no momento para testes"
+docker container run --name mydeb -it debian bash
+obs: criar o container, nomeia ele e vai para o bash
+--------------------------------------------------
+
+docker container ls -a ##mostra os containers já executados
+docker container start -ai mydeb  ##dar acesso ao terminal no container mydeb
+criou um arquivo touch curso-docker.txt
+
+docker container start -ai mydeb ##novamente
+dá um ls ai já vai aparecer o arquivo já gravado lá
+
+##passos importantes para reutilização de um container
+dica: 	a) dê sempre um nome relevante ao container
+        
+
+---------------------------------------------------
+MOTIVOS DE SE UTILIZAR CONTAINERS
+
+COMPARTILHAR PASTA ENTRE HOST E CONTAINER
+COPIAR ARQUIVOS PARA CONTAINER PARA MAQUINA HOST
+COMPARTILHAR MULTIPLOS CONTAINERS E TODOS CONVERSANDO ENTRE SI
+E ISOLAMENTO CONTROLADO 
+IMPORTANTE SIM TER COMUNICAÇÃO ENTRE HOST PARA O CONTAINER
+OU MESMO COMUNICAÇÃO ENTRE VÁRIOS CONTAINERS
+
+COMO MAPEAR UMA PORTA 
+COMO MAPEAR UM VOLUME 
+E OUTRAS FORMAS DE COMUNICAÇÃO COM O MUNDO EXTERIOR
+
+===================================================
+MAPEAR UMA PORTA DE CONTAINERS
+
+criando um container nginx e testando depois no meu terminal
+
+docker container run -p 8080:80 nginx 
+
+primeiro ele vai instalar e depois eu saio com exit
+depois vou para o meu terminal e digito 
+
+curl http://localhost:8080
+
+ele vai retornar a página do nginx padrão e seu acessar o localhost no browser com a parta 8080 
+
+docker container ps ## processos ativos no meu terminal
+vou ver o nginx rodando
+
+
+ctrl + c === mata o processo.
+==================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
