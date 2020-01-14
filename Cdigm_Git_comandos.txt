@@ -1,0 +1,277 @@
+1----%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+==========================================================================
+BAIXAR O GIT DO SITE NA INTERNET - Para Terminal Linux
+==========================================================================
+depois de instalado:
+
+git init   // inicia a linha do tempo --inicia tudo do git no terminal
+
+>>
+--se houver problemas com certificados dentro do SERPRO utilize este comando 
+git config --global http.sslverify "false"
+
+>>
+
+git config --global user.name "Mário Marcos"     --seta o seu nome para o GIT
+git config --global user.email "mario.souza@serpro.gov.br"  --seta o seu email para o GIT
+
+>>
+git add // adiciona ou atualiza mudanças para irem para a linha do tempo
+git commit // adiciona um ponto na linha do tempo
+git log // visualiza os pontos na linha do tempo / commit
+git status // informa o estado das alterações do nosso projeto
+git show // apresenta determinado ponto na história
+git branch // gerenciar novas linhas do tempo
+git checkout // manipula as linhas do tempo
+git merge // unir linhas do tempo
+git push  // envia alterações locais para o repositório remoto
+git clone // clonar um projeto / repositório
+git pull // puxa do repositório remoto 
+git blame nomearq
+git add -i --ver opções
+git config --list  -- para ver quem é o dono do repositório e em que branch está
+
+--FAZER DE NOVO COM NOVO REPOSITÓRIO 
+--esse aqui foi que deu mais certo
+FAZ ISSO AQUI A PRIMEIRA VEZ --lembre-se de criar um projeto inicial dentro do git web aí depois faça isso aqui
+
+Push an existing Git repository
+cd my_scripts_de_trabalho
+
+git remote rename origin docs_new --mudei para branch docs_new
+git remote add origin https://git.serpro/76455424115/my_scripts_de_trabalho.git
+git push -u origin --all
+git push -u origin --tags
+
+>> Depois faz somente git add . >> git commit -m "nomedaversao" >> e git push
+
+
+===========================================================
+PARA DOCUMENTACAO ESTALEIRO utilizando o VISUAUL STUDIO CODE COM GIT já instalado no terminal
+instalar o VSCODE
+
+E qual o passo a passo pra contribuir com documentação do estaleiro?
+É simples, vamos lá:
+
+
+Instale na sua estação o software hugo. Ele é um binário e não precisa de usuário root nem nada, você pode instalar ele baixando-o através do site (pegue a ultima release, ex.: https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.tar.gz). Após descompactar ele, o binário de nome hugo deve existir.
+
+
+Faça um fork e clone esse repositório de DOCS para você. Após clonar o repositório, crie um novo branch e lembre-se de entrar no diretório e dar um git submodule update --init    ----para baixar também o tema utilizado pela documentação
+
+
+Crie uma issue com a descrição do que
+
+ que será documentado, isso evitará que mais alguém possa estar documentando um mesmo assunto.
+
+
+Crie uma página nova! Existem dois tipos de páginas, e isso deve ser observado. Via de regra, basta criar uma nova página com hugo new capitulo/subcapitulo/funcionalidade.md. Não tenha medo de errar, nós vamos revisar o PR para você!!
+
+
+Obs: Tire um tempo para entender como o tema utilizado funciona, como inserir imagens, etc. Podemos ajudar com isso também, mas por ser em Markdown é bem intuitivo
+
+
+Caso queira verificar o resultado de sua contribuição, é possível testar localmente utilizando o comando hugo server a partir do diretório principal. Será iniciada uma instância de servidor web acessível em http://localhost:1313; Alterações efetuadas no código são aplicadas ao salvar o arquivo e recarregar a página, então é possível verificar imediatamente como será o resultado das alterações.
+
+
+Após criada a nova página, suba ela para o seu repositório e abra um Pull Request para nós, que iremos referenciar. Caso exista pressa, referencie um @all  no comentário que alguém irá verificar. Ao fazer o merge request, insira nos comentários um: "Fixes: #numero da issue que você abriu". (isso vai fazer com que a issue seja fechada assim que o merge for aceito.
+
+
+Aguarde! Após aceito o seu PR, iremos marcar ele com uma label conforme a categoria de contribuição (que servirá para pontuação), realizar o Merge e a Integração Continua irá fazer toda a mágica de publicação da página :D
+
+
+POR REINALDO
+
+vá na pasta do DOCS >> code . >> abrar o terminal no code e digite hugo server para que o vscode fique sincronizado para todas as alterações que você fizer reflitam no site do docs do seu reposítório. >> posteriormente terá que ser feito um merge para o branch do docs_new do site principal do estaleiro.
+
+XXXXX esse aqui passou a ser o meu dia a dia
+git status
+git add .
+git commit -m "push
+
+
+--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2- ---------TESTES ESSES AQUI ABAIXO-------------------------------------
+
+git reset HEAD nome-do-arquivo  
+git commit -a -m "Mensagem do commit"
+-- cat .gitconf --testar depois
+git pull origin dev_news
+-- create merge requets é para mandar alterações para uma outra branch para a master.
+Pode ter dialogo entre os desenvolvedores 
+-- 
+criar três branchs para testes
+--
+git merge branch
+
+================================================
+criei um repositório na web e baixei para o meu git terminal
+
+TESTAR ESSE AQUI MELHOR
+
+Git global setup
+git config --global user.name "Mario Marcos Martins de Souza"
+git config --global user.email "mario.souza@serpro.gov.br"
+
+Create a new repository
+git clone https://git.serpro/76455424115/my_scripts_de_trabalho.git
+cd my_scripts_de_trabalho
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://git.serpro/76455424115/my_scripts_de_trabalho.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+3- ===============MAIS GIT PARA ESTUDAR E TESTAR DEPOIS ALÉM DA PARTE AQUI DE CIMA============================================
+Voltar um commit:
+
+git reset HEAD~1
+Voltar dois commits:
+
+git reset HEAD~2
+Voltando um commit e deixando o arquivo no estagio anterior:
+
+git reset HEAD~1 --soft
+Voltando um commit e excluindo o arquivo, deixando no estágio anterior:
+
+git reset HEAD~1 --hard
+Verificando o histórico de commits:
+
+git log
+Verificando o que foi mudado, diferença entre um arquivo e outro:
+
+git log -p
+Verificando os 2 últimos commits:
+
+git log -p -2
+Mostrando as estatísticas de todos os commits:
+
+git log --stat
+Mostrando todos os commits, cada um em uma linha:
+
+git log --pretty=oneline
+Mostrando todos os commits dos últimos 2 dias até o momento atual
+
+git log --since=2.days
+Criando um branch – uma ramificação
+
+git checkout -b nome-do-branch
+Verificando em que branch você está
+
+git branch
+Voltando para o branch master
+
+git checkout master
+Jogando o branch criado no branch master
+Entre como branch master:
+
+git merge nome-do-branch-que-foi-criado
+Grudando o branch criado no branch master sem o commit
+Somente localmente – localhost, entre como branch master:
+
+git rebase nome-do-branch-que-foi-criado
+Removendo um branch:
+
+git branch -D nome-do-branch
+Vendo branchs remotos:
+
+git branch -a
+Mostrando o início do hash, quem comitou, quanto tempo atrás, mensagem: descrição do commit:
+
+git log --pretty=format: "%h - %an, %ar : %s"
+Deletando arquivos:
+
+git rm nome-do-arquivo
+Deletando todos os aquivos removidos ao mesmo tempo:
+
+git ls-files --deleted | xargs git rm
+Ignorando arquivos
+Existem alguns arquivos que muito provavelmente você não vai precisar versionar, como por exemplo os arquivos de cache do SASS, arquivos de configuração e etc. Nesse caso você precisa fazer com que o controle de versão ignore estes arquivos. Para tanto, crie um arquivo chamado .gitignore. Feito isso, dentro deste arquivo, digite o nome ou o endereço das pastas que você quer ignorar. Um exemplo:
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+#
+# If you find yourself ignoring temporary files generated by your text editor
+# or operating system, you probably want to add a global ignore instead:
+# git config --global core.excludesfile ~/.gitignore_global
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the build directory
+/build
+
+# Ignore Sass' cache
+/.sass-cache
+
+# Ignore .DS_store file
+.DS_Store
+.cache
+.rvmrc
+
+vendor/*
+
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+Gemfile.lock
+.vagrant
+Vagrantfile
+
+# rbenv
+.ruby-version
+
+# Ignore deploy related files
+deploy
+
+Gemfile.lock
+
+O arquivo .gitignore fica na raiz do projeto.
+
+Clonando e puxando alterações de projetos
+Clonando um projeto remoto:
+
+git clone url-do-projeto
+Fazendo um clone de outros branchs:
+
+git checkout -b nome-do-branch origin/ nome-do-branch
+Trazendo, puxando as alterações feitas por outros usuários:
+
+git pull origin master
+Sincronizando tudo que está no repositório remoto:
+
+git pull
+Enviando o(s) projeto(s), arquivo(s) para o repositório:
+
+git push origin master
+Enviando um branch para o repositório:
+
+git push origin nome-do-branch
+Tags
+As tags servem para marcar uma etapa. Imagine que você vai lançar uma versão, que resolve uma série de problemas. Você pode marcar aquela etapa criando uma tag. Assim fica simples de fazer qualquer rollback do projeto para uma tag específica em vez de voltar para um commit. Você sabe que tudo o que foi feito até aquela tag está funcionando.
+
+Criando tags:
+
+git tag versão-da-tag
+Listando tags:
+
+git tag -l
+Enviando a tag para o repositório
+
+git push origin master --tags
+Removendo as tags criadas localmente:
+
+git tag -d versão-da-tag
+Removendo tag no repositório remoto:
+
+git push origin :refs/tags/versão-da-tag
+
