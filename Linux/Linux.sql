@@ -61,7 +61,6 @@ ok-18-instalar o gnome-tweak-tool - melhores ferramentas para gnome a partir do 
 
 https://www.blogopcaolinux.com.br/2016/10/pen-drive-bootavel-do-linux-no-windows-rufus.html
 
-
 Outra obs. Foi Waldemar que indicou o MINI TOOL gerenciador de partição no windows para apagar outras partições.
 21-
 
@@ -92,17 +91,11 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 
 30-Frippery Move Clock  -- plug-in do gnome shell extensions para colocar relógio no centro da tela.
 
-31-
+31-Cloverflow  alt tab -- plug-in do gnome shell extensions para alternar telas principais.
 
+32-olhar este arquivo Dica_mudar_tela_login_ubuntu.sql
 
-
-
-
-
-
-
-
-
+33-Instalar HardInfo 0.6-alpha para monitoração do sistema
 --====================================================================
 
 -- link para várias dicas de shell com echo
