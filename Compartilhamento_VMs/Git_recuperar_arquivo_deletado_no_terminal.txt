@@ -1,0 +1,20 @@
+##===================================================================================================
+##PARA RECUPERAR UM ARQUIVO DELETADO NA PASTA DO GIT NO TERMINAL SEM A UTILIZAÇÃO DE GIT CLONE NA WEB 
+##===================================================================================================
+ESSA RECUPERAÇÃO FOI PARA UM ARQUIVO.
+
+
+1-Localizar um arquio em algum commit
+git log --diff-filter=D -- mario.txt
+
+
+a)apaguei um arquivo.txt no diretório do git
+b)depois dei um git add .
+c)dei um git status e apareceu verdinho na área de stage
+d)git reset HEAD aurelio.txt ==para voltar ao estágio anderior
+e)git checkout -- aurelio.txt == ai o arquivo vai voltar para sua pasta normalmente como se não tivesse acontecido nada
+
+obs: Não sincronizei nada com a web, tudo acima foi no terminal e deu certo. Mas se precisar e for necessário faça um git clone para pegar todos os arquivos. 
+Depois testarei como fazer um git clone para pegar somente um arquivo específico.
+
+
