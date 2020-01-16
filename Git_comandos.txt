@@ -9,21 +9,32 @@ git push origin master --para enviar para o servidor remoto -- MAIS USADO
 Git push --set-upstream origin master
 ************** GITHUB******************
 
-Laurezone ver restante do vídeo git
+=============
+Centrazized workflow
+git pull origin master --rebase ==para trazer atualizações que estão no remote e colocar as minhas mudanças no topo de tudo =====testar ainda
+=============
+Feature Branch == é o que a maioria trabalha e vou ver se trabalho com ele também.
 
+- Um branch para cada feature
+- Evita conflitos e consegue trabalhos em Paralelo.
+- Funcina bem com equipes maiores
 
-Cat .gitconf
-Git pull origin dev-news
+No feature branch - não se utiliza o master e sim branchs para o trabalho, o master é considerado ambiente de produção.
 
+EXEMPLO ITEM 41 DO CURSO MARIO MARCOS UDEMY DE GIT E GIT HUB NA VIDA REAL
+
+===============
+
+Laurezone ver restante do vídeo git NO YOUTUBE MUITO BOM
+
+--------------------
+Cat .gitconf   ==ARQUIVO PARA VER DEPOIS
 ---
 
 Create merge requests é para mandar alterações para uma outra branch para. A Master.
 Pode ter dialogo entre os desenvolveres.
 
 ---
-Criar três branchs para testes
-
---
 Git merge branch 
 --
 Git diff arq1 arq2
@@ -38,10 +49,9 @@ Git help status
 Git rm nomearq para apagar
 Git diff nomearq
 
-Gitk ? Será que tem?
 
-Crie um arquivo chamado .gitignore dentro do seu repositório.
-
+--------------------------------------------------
+EXEMPLOS DE GITIGNORE
 Ignorar arquivos:
 . ocultos
 
