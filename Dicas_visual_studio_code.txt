@@ -1,6 +1,0 @@
-DICAS - VISUAL STUDIO CODE
-1-instalar por SNAP
-2-instalar material icon tema
-3-instalar tema drácula
-
-

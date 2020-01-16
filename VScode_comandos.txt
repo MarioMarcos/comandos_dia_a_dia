@@ -1,0 +1,53 @@
+DICAS - VISUAL STUDIO CODE
+1-instalar por SNAP
+2-instalar material icon tema
+3-instalar tema drácula
+
+When focusing a split terminal pane, you can move focus and resize using one of the following commands:
+
+Key     Command
+
+ctrl + shift + f5 ====abrir janelas adicionais no termianal do vscode
+Alt+Left        Focus Previous Pane
+Alt+Right       Focus Next Pane
+
+Ctrl+Shift+Left Resize Pane Left
+Ctrl+Shift+Right        Resize Pane Right
+
+Ctrl+Shift+`    Create new terminal
+Ctrl+Shift+Up   Scroll up
+Ctrl+Shift+Down Scroll down
+Shift+PageUp    Scroll page up
+Shift+PageDown  Scroll page down
+Shift+Home      Scroll to top
+Shift+End       Scroll to bottom
+
+************** VSCODE******************
+A) Zoom in Ctrl + - e ctrl =
+B Ctrl + , abre configurações de settings
+C Ctrl + alt + seta para baixo faz seleção para alteração em bloco
+D ctrl + b para levar direto aos arquivos
+E ctrl  + p ir direto para arquivos de projeto
+Ver depois bash do git
+
+
+
+-----
+IDEIAS
+- live share - extensão vscode -- fazer código depois ver em tempo real.
+- instalar bookmarks - já instalado em casa, instalar no serviço.
+- pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
+- Digitar CTRl + shift + p e colocar maximizepanel para criar um atalho que eu criei para maximizar o terminal no vscode no teclado que é o CTRL + ' + P ai vai maximizar o terminal.
+
+
+PARA GIT
+- instalar git history no vscode extensão
+- instalar git remote no vscode extensão
+- instalar git blame no vscode extensão
+
+
+
+
+
+
+

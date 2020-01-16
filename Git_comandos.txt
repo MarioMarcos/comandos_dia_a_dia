@@ -1,3 +1,65 @@
+************** GITHUB******************
+github.com este aqui é o pessoal
+user:email ou MarioMarcos
+senha: gmail antigo mais caractere
+
+Em uso
+git push está funcionando 
+git push origin master --para enviar para o servidor remoto -- MAIS USADO
+Git push --set-upstream origin master
+************** GITHUB******************
+
+Laurezone ver restante do vídeo git
+
+
+Cat .gitconf
+Git pull origin dev-news
+
+---
+
+Create merge requests é para mandar alterações para uma outra branch para. A Master.
+Pode ter dialogo entre os desenvolveres.
+
+---
+Criar três branchs para testes
+
+--
+Git merge branch 
+--
+Git diff arq1 arq2
+
+--
+Git blame nomearq -- ver detalhes das versões
+Git config --list
+Git config --global alias.com commit
+Git config --global alias.co checkout
+Git help commit
+Git help status
+Git rm nomearq para apagar
+Git diff nomearq
+
+Gitk ? Será que tem?
+
+Crie um arquivo chamado .gitignore dentro do seu repositório.
+
+Ignorar arquivos:
+. ocultos
+
+Ignorar arq de um diretório:
+Log /*
+
+Ignorar arquivos e diretórios dentro de um diretório:
+Temp/**/*
+
+
+Site interessante:
+Gitignore.io  **interessante para criar automaticamente .gitignore
+
+=================================================================================================================
+
+ver este link depois - muito bom para uma criação e forma de trabalhar no GIT
+https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/
+
 1----%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ==========================================================================
 BAIXAR O GIT DO SITE NA INTERNET - Para Terminal Linux
@@ -88,7 +150,7 @@ XXXXX esse aqui passou a ser o meu dia a dia
 git status
 git add .
 git commit -m "push
-
+#apagar arquivo dentro da pasta do git somente com usando git no inicio como o exemplo: git rm file.txt, pois assim ele já joga para a área de stage e ai abre a possiblidade de recuperação do arquivo. 
 
 --%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 2- ---------TESTES ESSES AQUI ABAIXO-------------------------------------
@@ -192,7 +254,12 @@ git rm nome-do-arquivo
 Deletando todos os aquivos removidos ao mesmo tempo:
 
 git ls-files --deleted | xargs git rm
+
+
+=======================================================================================================================
 Ignorando arquivos
+=======================================================================================================================
+
 Existem alguns arquivos que muito provavelmente você não vai precisar versionar, como por exemplo os arquivos de cache do SASS, arquivos de configuração e etc. Nesse caso você precisa fazer com que o controle de versão ignore estes arquivos. Para tanto, crie um arquivo chamado .gitignore. Feito isso, dentro deste arquivo, digite o nome ou o endereço das pastas que você quer ignorar. Um exemplo:
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
@@ -236,42 +303,21 @@ deploy
 Gemfile.lock
 
 O arquivo .gitignore fica na raiz do projeto.
+===================================================================================
+PARA GIT
+- instalar git history no vscode extensão
+- instalar git remote no vscode extensão
+- instalar git blame no vscode extensão
+- comando para colocar na lista de comandos do git mario :: git config --list ==para listar as configurações no git no terminal e mostrar tudo da conexão ... comando show
+- git shortlog - log legal colocar nos comandos também
+- git log --pretty --xxxx ver o comando correto na net para colocar, mas é bom
+- git log --since='jan 1 2018' --until='jan 10 2018' -- também é legal para ver log entre datas excluindo às mesmas.
+- git log -3 ---- mostra os três últimos commits que foram feitos
+- git revert - para o master ----- para reverter commit de volta sem exclusão dos mesmos
+- git reset - para os branchs ---- para reverter commit de volta com exclusão dos mesmos
+- git log --author='mariomarcos' - testar depois.
+- git shortlog -sn   ------ mostra os autores e a quantidade total de cada autor
+- git reflog ----- é o cara mostra todas às informações dos logs.
 
-Clonando e puxando alterações de projetos
-Clonando um projeto remoto:
 
-git clone url-do-projeto
-Fazendo um clone de outros branchs:
-
-git checkout -b nome-do-branch origin/ nome-do-branch
-Trazendo, puxando as alterações feitas por outros usuários:
-
-git pull origin master
-Sincronizando tudo que está no repositório remoto:
-
-git pull
-Enviando o(s) projeto(s), arquivo(s) para o repositório:
-
-git push origin master
-Enviando um branch para o repositório:
-
-git push origin nome-do-branch
-Tags
-As tags servem para marcar uma etapa. Imagine que você vai lançar uma versão, que resolve uma série de problemas. Você pode marcar aquela etapa criando uma tag. Assim fica simples de fazer qualquer rollback do projeto para uma tag específica em vez de voltar para um commit. Você sabe que tudo o que foi feito até aquela tag está funcionando.
-
-Criando tags:
-
-git tag versão-da-tag
-Listando tags:
-
-git tag -l
-Enviando a tag para o repositório
-
-git push origin master --tags
-Removendo as tags criadas localmente:
-
-git tag -d versão-da-tag
-Removendo tag no repositório remoto:
-
-git push origin :refs/tags/versão-da-tag
-
+=
