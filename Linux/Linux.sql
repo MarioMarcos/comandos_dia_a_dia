@@ -85,17 +85,18 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 28-INSTALAR GVIM e configurar algumas funcoes como maximizar automatico(isso tem que ser no ubuntu. ainda não sei fazer)
    colocar tema koehler 
 
-
 29-no do Serpro instalar o Sound Juicer para quando precisar rippar algum cd, pois é o unico lugar que tem player de cd. --quando tiver tocador de cd /DVD
 
-
 30-Frippery Move Clock  -- plug-in do gnome shell extensions para colocar relógio no centro da tela.
-
 31-Cloverflow  alt tab -- plug-in do gnome shell extensions para alternar telas principais.
-
 32-olhar este arquivo Dica_mudar_tela_login_ubuntu.sql
-
 33-Instalar HardInfo 0.6-alpha para monitoração do sistema
+34-Instalar gerar pen drive botavel linux == https://www.balena.io/etcher/ - se precisar
+35-Instalar  grub customizer == ver na net o repositório e o comando
+36-Instalar o recuperarção do grub == ver na net o repositório e o comando
+37-Instalar o Ukuu == opcional para mudar de kernel 
+
+
 --====================================================================
 
 -- link para várias dicas de shell com echo
