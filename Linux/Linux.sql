@@ -95,9 +95,22 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 35-Instalar  grub customizer == ver na net o repositório e o comando
 36-Instalar o recuperarção do grub == ver na net o repositório e o comando
 37-Instalar o Ukuu == opcional para mudar de kernel 
+38-Instalar VLC Player de vídeo
 
-
---====================================================================
+==Estes aqui são para testar e depois colocar acima para instalação
+  -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
+  -Testar Analisar a instalação de DROPBOX, pois ele tem client para linux 
+  -Testar WPS - pacote office - indicação do DIOLINUX, vamos ver
+  -Testar youtube-dl == link para estudos  == para baixar arquivos do youtube por linha de comando == https://itsfoss.com/download-youtube-linux/
+  -Testar STEAM == plataforma game para linux == ver depois de se quer instalar 
+  -Testar TestDisk [Usuários Intermediários] == para recuperar arquivos deletados 
+  -Testar Firewall UFW == para instalar firewall se necessário no seu comp.
+  -Testar Gravador de Áudio - Você pode usá-lo para gravar sons do microfone do sistema, do music player ou de qualquer outra fonte.
+                              sudo apt-add-repository ppa:audio-recorder/ppa
+                              sudo apt-get update
+                              sudo apt-get install audio-recorder 
+  -Testar Audacity para gravação e edição de som 			
+--FIM INSTALAÇÃO ACIMA==================================================================
 
 -- link para várias dicas de shell com echo
 https://www.vivaolinux.com.br/dica/Truques-para-tratamento-de-variaveis-em-shell-script
