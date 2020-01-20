@@ -16,7 +16,7 @@ AULA 44 - Criando release para produção do develop para o master.
 
 
 
-======================================================================================================================================================
+=============================================================================================================================
 AQUI JÁ É A PARTE DO HUGO / ESTALEIRO / NO VSCODE 
 
 site official do HUBO THEME: https://themes.gohugo.io/hugo-theme-learn/
