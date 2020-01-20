@@ -3,6 +3,10 @@ DICAS - VISUAL STUDIO CODE
 2-instalar material icon tema
 3-instalar tema drácula
 
+caminho: local dos arquivos de configurações do vscode:
+Linux $HOME/.config/Code/User/settings.json
+
+
 When focusing a split terminal pane, you can move focus and resize using one of the following commands:
 
 Key     Command
@@ -29,7 +33,6 @@ C Ctrl + alt + seta para baixo faz seleção para alteração em bloco
 D ctrl + b para levar direto aos arquivos
 E ctrl  + p ir direto para arquivos de projeto
 Ver depois bash do git
-
 
 
 -----
