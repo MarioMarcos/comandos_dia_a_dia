@@ -12,6 +12,10 @@ FEVEREIRO/2020
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
+
+21/01/2020 - Solicitação ao Thiago Laubstein para liberação do Estagiário Aurélio para acesso do GIT.SERPRO
+21/01/2020 - Reunião com Misael para retomar projeto Estaleiro Data
+21/01/2020 - Analisando ambiente GIT do projeto Estaleiro Data do Misael para discutir em reunião com o mesmo.
 21/01/2020 - Atendimento à Fernanda - SUNFC, para envio de informações sobre demandas que vão ser descontinuadas no ambiente
              DATAPEN
 
