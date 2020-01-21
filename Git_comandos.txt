@@ -9,6 +9,12 @@ git push origin master --para enviar para o servidor remoto -- MAIS USADO
 Git push --set-upstream origin master
 ************** GITHUB******************
 
+Para baixar o arquivo do GITHUB por linha de comando quando apagar algum arquivo sem querer e não precisar baixar o repositório basta somente usar o wget como no exemplo: 
+wget https://github.com/MarioMarcos/comandos_dia_a_dia/blob/master/VScode_comandos.txt ou
+wget https://github.com/MarioMarcos/comandos_dia_a_dia/blob/master/VScode_comandos.txt --no-check-certificate
+
+ai ele vai baixar o arquivo que vocẽ escolheu, Contudo no GIT LAB existe um botão para baixar o download se precisar.
+
 =============
 Centrazized workflow
 git pull origin master --rebase ==para trazer atualizações que estão no remote e colocar as minhas mudanças no topo de tudo =====testar ainda
