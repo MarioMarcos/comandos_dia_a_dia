@@ -12,6 +12,9 @@ FEVEREIRO/2020
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
+21/01/2020 - Atendimento à Fernanda - SUNFC, para envio de informações sobre demandas que vão ser descontinuadas no ambiente
+             DATAPEN
+
 20/01/2020 - Atualização de Informações do IBAMA - repasse para Humberto junto com Lynara
 20/01/2020 - Aúdio com Equipe Leila Backup para tratativas de continuação da melhoria de rede backup
 20/01/2020 - Atendimento à Cleide sobre arquivos de backup dos testes de vulnerabilidade da aplicação do ministério
