@@ -13,6 +13,10 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
+
+22/01/2020 - Envio de emails para Patrícia Eiko e para Willian Cardoso, com cobrança de algumas atividades do EstaleiroData
+22/01/2020 - Não realizada ainda ======Conferência com Cleide sobre horas de trabalho no projeto Ministério da Cidadania
+22/01/2020 - Solicitação de conferência para o Misael de atualização de cadastro no cronograma do Estaleiro Data
 22/01/2020 - Leitura de contrato CEB para reunião de hoje às 15:00 - Mário e Humberto.
 22/01/2020 - Buscando informação no GIT sobre o projeto Estaleiro Data para complentar a planilha do Cronograma
 22/01/2020 - Resolvendo questão do computador aurélio - monitor
