@@ -13,6 +13,13 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
+
+22/01/2020 - Buscando informação no GIT sobre o projeto Estaleiro Data para complentar a planilha do Cronograma
+22/01/2020 - Resolvendo questão do computador aurélio - monitor
+
+21/01/2020 - Encaminhamento de email para Fabrício Puttini equipe Oracle para que o mesmo me envie as informações do ambiente
+             Oracle para o Datalake.
+21/01/2020 - Trocar de informações com Estagiário Aurélio sobre ambiente GIT/VSCODE para projeto de documentação do ESTALEIRO              
 21/01/2020 - Solicitação ao Thiago Laubstein para liberação do Estagiário Aurélio para acesso do GIT.SERPRO
 21/01/2020 - Reunião com Misael para retomar projeto Estaleiro Data
 21/01/2020 - Analisando ambiente GIT do projeto Estaleiro Data do Misael para discutir em reunião com o mesmo.
