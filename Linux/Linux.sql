@@ -109,7 +109,9 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
                               sudo apt-add-repository ppa:audio-recorder/ppa
                               sudo apt-get update
                               sudo apt-get install audio-recorder 
-  -Testar Audacity para gravação e edição de som 			
+  -Testar Audacity para gravação e edição de som
+  -Testar terminator  -- apt get install terminator == dica klesio para trabalhar com várias telas 
+
 --FIM INSTALAÇÃO ACIMA==================================================================
 
 -- link para várias dicas de shell com echo
