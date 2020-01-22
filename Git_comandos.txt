@@ -9,6 +9,10 @@ git push origin master --para enviar para o servidor remoto -- MAIS USADO
 Git push --set-upstream origin master
 ************** GITHUB******************
 
+Dica 22/01/2020: Estamos preparando um passo a passo para trabalhar com FORK para o repositório, aonde vamos usar no projeto da documentação do Estaleiro docs. ========seguiremos amanhã 23/01/2020.
+
+Dica 22/01/2020: Para atualizar vários repositórios é necessário fazer o procedimento de add, commit e push individualmente. Isto foi testado com Aurélio/Mário e pode ter uma opção mais prática, mas vamos ver posteriormente.
+
 Para baixar o arquivo do GITHUB por linha de comando quando apagar algum arquivo sem querer e não precisar baixar o repositório basta somente usar o wget como no exemplo: 
 wget https://github.com/MarioMarcos/comandos_dia_a_dia/blob/master/VScode_comandos.txt ou
 wget https://github.com/MarioMarcos/comandos_dia_a_dia/blob/master/VScode_comandos.txt --no-check-certificate
