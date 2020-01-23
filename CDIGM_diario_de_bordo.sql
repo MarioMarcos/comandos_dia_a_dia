@@ -12,7 +12,7 @@ FEVEREIRO/2020
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
-
+23/01/2020 - Continuação dos testes do GIT pull request com Aurélio para implantação do docs.estaleiro
 23/01/2020 - Acompanhamento POC - para instalação de máquina virtual para appliance de segurança CYBERSPONSE
 23/01/2020 - Envio de informações para Fernanda/Giovanni das máquinas e bancos de dados para desativação do serviço DATAPEN
 23/01/2020 - Conferência com Cleide sobre horas de trabalho no projeto Ministério da Cidadania
