@@ -12,6 +12,7 @@ FEVEREIRO/2020
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
+24/01/2020 - Leitura de documentação sobre servidor HUGO que será utilizado para trabalho com documentação estaleiro.
 24/01/2020 - Testes funcionais com Aurélio para encaminhar git projeto docs
 
 23/01/2020 - Continuação dos testes do GIT pull request com Aurélio para implantação do docs.estaleiro
