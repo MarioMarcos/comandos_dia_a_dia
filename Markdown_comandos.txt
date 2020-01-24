@@ -1,0 +1,66 @@
+Markdown 
+
+      	1 cabeçalhos -->
+
+
+		# 	Cabeçalho grande(h1)
+		## 	Cabeçalho meio grande (h2)
+		...
+		######	Cabeçalho menor (h6)
+
+
+	2 Itálico -->
+		*This text will be italic*
+		_This will also be italic_
+
+
+	3 Negrito -->
+
+		**This text will be bold**
+		__This will also be bold__
+
+		_You **can** combine them_
+
+	4 Listas -->
+
+	NÃO ORDENADO 
+		* Item 1
+		* Item 2
+  			* Item 2a
+ 			* Item 2b
+
+	ORDENADO 
+		1. Item 1
+		1. Item 2
+		1. Item 3
+  			 1. Item 3a
+  			 1. Item 3b
+
+	5 Imagens -->
+		![GitHub Logo](/images/logo.png)
+		Format: ![Alt Text](url)
+
+	6 Links -->
+
+		http://github.com - automatic!
+		[GitHub](http://github.com)
+
+	7 Citação -->
+
+		As Kanye West said:
+
+		> We're living the future so
+		> the present is our past.
+
+	8 Código embutido -->
+
+		I think you should use an
+		`<addr>` element here instead.
+	9 Tabelas -->
+		Você pode criar tabelas montando uma lista de palavras e dividindo-		as com hífens -(para a primeira linha) e depois separando cada 		coluna com um pipe |:
+
+	10 Link automático para URLs -->
+		Qualquer URL (como http://www.github.com/) será automaticamente 		convertido em um link clicável.
+
+	11 Strikethrough
+		~~palavra riscada~~
