@@ -12,6 +12,8 @@ FEVEREIRO/2020
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
+24/01/2020 - Testes funcionais com Aurélio para encaminhar git projeto docs
+
 23/01/2020 - Continuação dos testes do GIT pull request com Aurélio para implantação do docs.estaleiro
 23/01/2020 - Acompanhamento POC - para instalação de máquina virtual para appliance de segurança CYBERSPONSE
 23/01/2020 - Envio de informações para Fernanda/Giovanni das máquinas e bancos de dados para desativação do serviço DATAPEN
@@ -111,7 +113,7 @@ no prazo - 2019SS/0000478878 - 04/06/2019 - exec script
 no prazo - 2019SS/0000474725 - 04/06/2019 - pub dwtg
 no prazo - 2019SS/0000489754 são paulo produção problema
 
-
+SUNCF/CFTMA/CFTRB
 
 
 
