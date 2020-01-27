@@ -13,7 +13,14 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
-24/01/2020 - 
+27/01/2020 - 
+27/01/2020 - Liguei para Negrini para saber previsão de data da máquina projeto SQL COLUNAR, o mesmo pediu para ligar em 20/02/2020
+27/01/2020 - Atendimento à André Magalhães para recuperar senha Teradata Admin 
+27/01/2020 - Liguei para Gustavo Monti, para falar sobre data de licitação dos softwares proprietários plataforma de IA
+27/01/2020 - Áudio - com Giovanni, Fernanda sobre dados de desativação do DATAPEN dos bancos no datalake
+
+
+
 24/01/2020 - Acompanhamento atividade para POC CYBERSPONSE com Ulisses Recife SS - [GOVI] NOTIFICAÇÃO DE ABERTURA DE SOLICITAÇÃO - SERPRO - Nº 2020SS/0000064425
 24/01/2020 - Leitura de documentação sobre servidor HUGO que será utilizado para trabalho com documentação estaleiro.
 24/01/2020 - Testes funcionais com Aurélio para encaminhar git projeto docs
