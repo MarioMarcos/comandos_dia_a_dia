@@ -8,6 +8,15 @@ git push está funcionando
 git push origin master --para enviar para o servidor remoto -- MAIS USADO
 Git push --set-upstream origin master
 ************** GITHUB******************
+-------------------------------------------------------
+Dica: 27/01/2020: 
+CD/CI
+https://docs.gitlab.com/ee/ci/yaml/
+
+EXEMPLOS:
+https://docs.gitlab.com/ee/ci/examples/README.html
+
+-------------------------------------------------------
 
 Dica 22/01/2020: Estamos preparando um passo a passo para trabalhar com FORK para o repositório, aonde vamos usar no projeto da documentação do Estaleiro docs. ========seguiremos amanhã 23/01/2020.
 
