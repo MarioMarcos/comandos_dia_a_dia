@@ -1,0 +1,17 @@
+ESTUDO EM CASA NO SITE AMAZON -- não foi no curso.
+
+
+====AWS links interessantes e  ideias para o futuro 
+
+a) https://aws.amazon.com/pt/quickstart/architecture/cicd-taskcat/ esse link é onde está o modemo de CI e CD para colocar quick start automatizado no aws
+
+b)https://aws.amazon.com/pt/quickstart/faq/ - ver os quick starts
+
+c) https://aws.amazon.com/pt/solutionspace/
+
+d) aqui é o modelo que o Reinaldo pegou para fazer a documentação. https://workshop.quickstart.awspartner.com/
+
+e) planejando a arquitetura : https://aws-quickstart.github.io/planning.html
+
+f) Creating an architecture diagram - você quem faz o diagrama em um powerpoint ou em um editor de diagramas, inclusive tem os icons na amazon e também um exemplo de powerpoint, o que tem lá que você pode automatizar em script depois com o cloudformation e até mesmo tem alguns pacotes prontos de quick start. Por fim tem que executar um desses e aprofundar no desenho das arquiteturas.
+
