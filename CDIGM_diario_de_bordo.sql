@@ -13,7 +13,9 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
-27/01/2020 - 
+29/01/2020 - Curso AWS INNOVATE 
+
+27/01/2020 - Testes com Aurélio para trabalho com GTI no projeto documentação no Estaleiro
 27/01/2020 - Liguei para Negrini para saber previsão de data da máquina projeto SQL COLUNAR, o mesmo pediu para ligar em 20/02/2020
 27/01/2020 - Atendimento à André Magalhães para recuperar senha Teradata Admin 
 27/01/2020 - Liguei para Gustavo Monti, para falar sobre data de licitação dos softwares proprietários plataforma de IA
