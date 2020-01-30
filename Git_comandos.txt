@@ -136,41 +136,6 @@ git push -u origin --tags
 
 >> Depois faz somente git add . >> git commit -m "nomedaversao" >> e git push
 
-
-===========================================================
-PARA DOCUMENTACAO ESTALEIRO utilizando o VISUAUL STUDIO CODE COM GIT já instalado no terminal
-instalar o VSCODE
-
-E qual o passo a passo pra contribuir com documentação do estaleiro?
-É simples, vamos lá:
-
-
-Instale na sua estação o software hugo. Ele é um binário e não precisa de usuário root nem nada, você pode instalar ele baixando-o através do site (pegue a ultima release, ex.: https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.tar.gz). Após descompactar ele, o binário de nome hugo deve existir.
-
-
-Faça um fork e clone esse repositório de DOCS para você. Após clonar o repositório, crie um novo branch e lembre-se de entrar no diretório e dar um git submodule update --init    ----para baixar também o tema utilizado pela documentação
-
-
-Crie uma issue com a descrição do que
-
- que será documentado, isso evitará que mais alguém possa estar documentando um mesmo assunto.
-
-
-Crie uma página nova! Existem dois tipos de páginas, e isso deve ser observado. Via de regra, basta criar uma nova página com hugo new capitulo/subcapitulo/funcionalidade.md. Não tenha medo de errar, nós vamos revisar o PR para você!!
-
-
-Obs: Tire um tempo para entender como o tema utilizado funciona, como inserir imagens, etc. Podemos ajudar com isso também, mas por ser em Markdown é bem intuitivo
-
-
-Caso queira verificar o resultado de sua contribuição, é possível testar localmente utilizando o comando hugo server a partir do diretório principal. Será iniciada uma instância de servidor web acessível em http://localhost:1313; Alterações efetuadas no código são aplicadas ao salvar o arquivo e recarregar a página, então é possível verificar imediatamente como será o resultado das alterações.
-
-
-Após criada a nova página, suba ela para o seu repositório e abra um Pull Request para nós, que iremos referenciar. Caso exista pressa, referencie um @all  no comentário que alguém irá verificar. Ao fazer o merge request, insira nos comentários um: "Fixes: #numero da issue que você abriu". (isso vai fazer com que a issue seja fechada assim que o merge for aceito.
-
-
-Aguarde! Após aceito o seu PR, iremos marcar ele com uma label conforme a categoria de contribuição (que servirá para pontuação), realizar o Merge e a Integração Continua irá fazer toda a mágica de publicação da página :D
-
-
 POR REINALDO
 
 vá na pasta do DOCS >> code . >> abrar o terminal no code e digite hugo server para que o vscode fique sincronizado para todas as alterações que você fizer reflitam no site do docs do seu reposítório. >> posteriormente terá que ser feito um merge para o branch do docs_new do site principal do estaleiro.
@@ -179,6 +144,7 @@ XXXXX esse aqui passou a ser o meu dia a dia
 git status
 git add .
 git commit -m "push
+
 #apagar arquivo dentro da pasta do git somente com usando git no inicio como o exemplo: git rm file.txt, pois assim ele já joga para a área de stage e ai abre a possiblidade de recuperação do arquivo. 
 
 --%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -191,7 +157,7 @@ git pull origin dev_news
 -- create merge requets é para mandar alterações para uma outra branch para a master.
 Pode ter dialogo entre os desenvolvedores 
 -- 
-criar três branchs para testes
+
 --
 git merge branch
 
@@ -220,7 +186,10 @@ git add .
 git commit -m "Initial commit"
 git push -u origin master
 
-3- ===============MAIS GIT PARA ESTUDAR E TESTAR DEPOIS ALÉM DA PARTE AQUI DE CIMA============================================
+3- ===============MAIS GIT PARA ESTUDAR E TESTAR DEPOIS ALÉM DA PARTE AQUI DE CIMA==========================
+----------------------
+COMANDOS PARA GIT RESET
+-----------------------
 Voltar um commit:
 
 git reset HEAD~1
@@ -235,23 +204,56 @@ Voltando um commit e excluindo o arquivo, deixando no estágio anterior:
 git reset HEAD~1 --hard
 Verificando o histórico de commits:
 
-git log
-Verificando o que foi mudado, diferença entre um arquivo e outro:
+----------------------
+COMANDOS PARA GIT LOG
+-----------------------
+Mostrando o início do hash, quem comitou, quanto tempo atrás, mensagem: descrição do commit:
+	git log --pretty='format:%C(auto)%h (%s, %ad)'
 
-git log -p
+mostra log dos últimos procedimentos
+muito bom. vai ser um dos mais utilizados.
+	git reflog 
+
+log legal colocar nos comandos também
+	git shortlog  
+
+log mostras o total de commits por autor
+	git shortlog -sn 
+
+log por autor
+	git log --author='Mario*' 
+
+
+log geral
+	git log
+
+Por período
+	git log --since='jan 1 2018' --until='jan 10 2018' -- também é legal para ver log entre datas excluindo às mesmas.
+
+log com diff
+	git log -p
 Verificando os 2 últimos commits:
+	git log -p -2
 
-git log -p -2
 Mostrando as estatísticas de todos os commits:
-
-git log --stat
+	git log --stat
 Mostrando todos os commits, cada um em uma linha:
+	git log --pretty=oneline
 
-git log --pretty=oneline
 Mostrando todos os commits dos últimos 2 dias até o momento atual
+	git log --since=2.days
 
-git log --since=2.days
-Criando um branch – uma ramificação
+mostra os três últimos commits que foram feitos
+	git log -3 ---- 
+
+----------------------
+COMANDOS PARA GIT BRANCHS
+-----------------------
+Removendo um branch:
+git branch -D nome-do-branch
+
+Vendo branchs remotos:
+git branch -a
 
 git checkout -b nome-do-branch
 Verificando em que branch você está
@@ -265,23 +267,15 @@ Entre como branch master:
 
 git merge nome-do-branch-que-foi-criado
 Grudando o branch criado no branch master sem o commit
+
 Somente localmente – localhost, entre como branch master:
-
 git rebase nome-do-branch-que-foi-criado
-Removendo um branch:
 
-git branch -D nome-do-branch
-Vendo branchs remotos:
 
-git branch -a
-Mostrando o início do hash, quem comitou, quanto tempo atrás, mensagem: descrição do commit:
-
-git log --pretty=format: "%h - %an, %ar : %s"
 Deletando arquivos:
-
 git rm nome-do-arquivo
-Deletando todos os aquivos removidos ao mesmo tempo:
 
+Deletando todos os aquivos removidos ao mesmo tempo:
 git ls-files --deleted | xargs git rm
 
 
@@ -332,21 +326,16 @@ deploy
 Gemfile.lock
 
 O arquivo .gitignore fica na raiz do projeto.
+
 ===================================================================================
-PARA GIT
+DICAS PARA TESTAR DEPOIS
 - instalar git history no vscode extensão
 - instalar git remote no vscode extensão
 - instalar git blame no vscode extensão
 - comando para colocar na lista de comandos do git mario :: git config --list ==para listar as configurações no git no terminal e mostrar tudo da conexão ... comando show
-- git shortlog - log legal colocar nos comandos também
-- git log --pretty --xxxx ver o comando correto na net para colocar, mas é bom
-- git log --since='jan 1 2018' --until='jan 10 2018' -- também é legal para ver log entre datas excluindo às mesmas.
-- git log -3 ---- mostra os três últimos commits que foram feitos
 - git revert - para o master ----- para reverter commit de volta sem exclusão dos mesmos
 - git reset - para os branchs ---- para reverter commit de volta com exclusão dos mesmos
-- git log --author='mariomarcos' - testar depois.
-- git shortlog -sn   ------ mostra os autores e a quantidade total de cada autor
-- git reflog ----- é o cara mostra todas às informações dos logs.
+
 
 
 =============================================================================
@@ -386,12 +375,15 @@ FEITO EM 30/01/2020
 ==executando a primeira vez para sincronização e não será necessário posteriormente.
 git remote add docs2 https://git.serpro/estaleiro-docs/docs.git
 
+OBS: criar duas branchs para trabalho - develop e work, as demais pessoas também vão ter que trabalhar desta maneira com esta duas branchs
+
 ==vai ser para trazer eventualmente do https://git.serpro/estaleiro-docs/docs.git
 git fetch docs2 	
 git merge docs2/master  
 
 FEITO EM 30/01/2020 A PARTE ACIMA
 
+OBS: 
 
 **FIM DO DIA atualiza para o meu  diretorio local com o git na web**
 testar depois
@@ -408,7 +400,7 @@ git push --set-upstream origin develop
 **NA WEB GITLAB PARA MANDAR PARA O MASTER PRINCIPAL
 clicar em merge request no lado esquerdo do menu
 clicar em new merge request 
-clicar em compare( ao qual voce quer comparar com o do dono do repositorio origniral para 		contribuir  ((na web))) 
+clicar em compare( ao qual voce quer comparar com o do dono do repositorio origniral para contribuir  ((na web))) 
 depois em merge request 
 
 
