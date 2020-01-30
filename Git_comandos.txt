@@ -379,3 +379,40 @@ clicar em compare( ao qual voce quer comparar com o do dono do repositorio orign
 depois em merge request 
 
 =============================================================================
+
+===========================PREPARADO PARA AMBIENTE MÁRIO MARCOS - GIT LAB=============================================
+
+FEITO EM 30/01/2020
+==executando a primeira vez para sincronização e não será necessário posteriormente.
+git remote add docs2 https://git.serpro/estaleiro-docs/docs.git
+
+==vai ser para trazer eventualmente do https://git.serpro/estaleiro-docs/docs.git
+git fetch docs2 	
+git merge docs2/master  
+
+FEITO EM 30/01/2020 A PARTE ACIMA
+
+
+**FIM DO DIA atualiza para o meu  diretorio local com o git na web**
+testar depois
+na branch work faça:
+git add . #adicionar pra area de stage ok
+git commit -m "message" #comitar  a mensagem  ok
+
+mudar da work para develop
+git checkout -b develop 
+git merge work
+git push --set-upstream origin develop
+
+
+**NA WEB GITLAB PARA MANDAR PARA O MASTER PRINCIPAL
+clicar em merge request no lado esquerdo do menu
+clicar em new merge request 
+clicar em compare( ao qual voce quer comparar com o do dono do repositorio origniral para 		contribuir  ((na web))) 
+depois em merge request 
+
+
+=========================================================================================
+
+
+
