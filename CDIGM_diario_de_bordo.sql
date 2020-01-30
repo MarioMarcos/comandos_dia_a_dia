@@ -13,7 +13,9 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
-
+30/01/2020 - reunião com 
+30/01/2020 - clonando a pasta do GIT docs e testando a conexão com o DOCS Mário Marcos
+30/01/2020 - Continuação curso AWS para certificação.
 
 
 29/01/2020 - Continuação curso AWS para certificação.
