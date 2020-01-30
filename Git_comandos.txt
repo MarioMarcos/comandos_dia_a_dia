@@ -349,4 +349,33 @@ PARA GIT
 - git reflog ----- é o cara mostra todas às informações dos logs.
 
 
-=
+=============================================================================
+DEFINIDO COM AURÉLIO SOBRE COMO TRABALHAR COM GITLAB COM MAIS DE UMA PESSOA, CRIANDO BRANCHS ESPECÍFICAS COMO A DEVELOP
+E COM FORK E REMOTE PARA O USUÁRIO PRINCIPAL DEPOIS DE CLONADO O REPOSITÓRIO PRINCIPAL
+
+**somente na primeira configuração do fork apos isso esse comando nao será 			utilizado "
+git remote add master2  https://git.serpro/76455424115/my_scripts_de_trabalho.git 
+
+**INICIO DO DIA trazendo da master do projeto forkado commando diário para verificar alterações**
+git fetch master2 	
+git merge master2/master  
+
+**FIM DO DIA atualiza para o meu  diretorio local com o git na web**
+git push --set-upstream origin develop
+
+**CRIANDO 3 brach para trabalho e para pull request ou merge request
+    git checkout -b develop 
+    alterar algo ou criar na branch work 
+    git add . #adicionar pra area de stage ok
+    git commit -m "message" #comitar  a mensagem  ok
+	Mudar de branch para a develop
+	
+git merge workaurelio ou work (fundir as alteraçõpes da branch de trabalho para a branch de envio. 		obs:tem que mudar de branch para fazer isso ) 
+
+**NA WEB GITLAB PARA MANDAR PARA O MASTER PRINCIPAL
+clicar em merge request no lado esquerdo do menu
+clicar em new merge request 
+clicar em compare( ao qual voce quer comparar com o do dono do repositorio origniral para 		contribuir  ((na web))) 
+depois em merge request 
+
+=============================================================================
