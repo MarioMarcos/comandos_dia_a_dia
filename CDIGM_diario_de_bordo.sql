@@ -13,7 +13,13 @@ FEVEREIRO/2020
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
-30/01/2020 - reunião com 
+
+31/01/2020 - 
+31/01/2020 - Preenchimento de documento sobre conversas iniciais com Reinaldo sobre Documentação Estaleiro Público.
+
+
+30/01/2020 - Reunião ponto de controle com equipe da Plataforma de IA
+30/01/2020 - reunião inicial com Reinaldo sobre documentação Estaleiro Público 
 30/01/2020 - clonando a pasta do GIT docs e testando a conexão com o DOCS Mário Marcos
 30/01/2020 - Continuação curso AWS para certificação.
 
