@@ -14,7 +14,8 @@ JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
 
 
-31/01/2020 - 
+31/01/2020 - Informações com Helder sobre andamento da rede de Backup Melhoria de serviços
+31/01/2020 - Continuação de reunião com Reinaldo sobre documentação Estaleiro Público 
 31/01/2020 - Preenchimento de documento sobre conversas iniciais com Reinaldo sobre Documentação Estaleiro Público.
 
 
