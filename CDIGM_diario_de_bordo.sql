@@ -8,12 +8,12 @@ FEVEREIRO/2020
 -----------------------------------------------------------------------
 
 
+03/02/2020 - Auxílio à equipe de DW André Magalhaẽs para restaurar uma tabela no bkp do Teradata
+03/02/2020 - Curso AWS - Certificação dando continuidade.
 
 ------------------------------------------------------------------------
 JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 -----------------------------------------------------------------------
-
-
 31/01/2020 - Informações com Helder sobre andamento da rede de Backup Melhoria de serviços
 31/01/2020 - Continuação de reunião com Reinaldo sobre documentação Estaleiro Público 
 31/01/2020 - Preenchimento de documento sobre conversas iniciais com Reinaldo sobre Documentação Estaleiro Público.
