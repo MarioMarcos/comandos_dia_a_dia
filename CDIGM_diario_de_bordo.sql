@@ -8,6 +8,8 @@ FEVEREIRO/2020
 -----------------------------------------------------------------------
 
 
+04/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
+
 03/02/2020 - Auxílio à equipe de DW André Magalhaẽs para restaurar uma tabela no bkp do Teradata
 03/02/2020 - Curso AWS - Certificação dando continuidade.
 
