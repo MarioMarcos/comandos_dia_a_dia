@@ -7,6 +7,11 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
+05/02/2020 - Apresentação sobre a nova sistemática de issues no GIT por Hilário - CDIGD
+05/02/2020 - Ligações para Charles Gestor de Contrato sobre andamento do processo de aquisição softwares proprietários para AUTOML
+05/02/2020 - Orientações com Reinaldo sobre GIT CI/CD Pipeline de execução automática de dados no GIT
+05/02/2020 - Atualizações de Cronogramas pendentes
+05/02/2020 - Reunião com Wilton sobre definições do que é uma consultoria ideal para o Serpro
 
 04/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
 
