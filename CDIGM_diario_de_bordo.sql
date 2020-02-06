@@ -7,6 +7,10 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
+06/02/2020 - Reunião sobre informações do GIT CDIGM
+06/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
+
+
 05/02/2020 - Apresentação sobre a nova sistemática de issues no GIT por Hilário - CDIGD
 05/02/2020 - Ligações para Charles Gestor de Contrato sobre andamento do processo de aquisição softwares proprietários para AUTOML
 05/02/2020 - Orientações com Reinaldo sobre GIT CI/CD Pipeline de execução automática de dados no GIT
