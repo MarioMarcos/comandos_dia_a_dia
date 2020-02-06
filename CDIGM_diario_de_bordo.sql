@@ -7,6 +7,7 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
+06/02/2020 - Ponto de Controle - Plataforma de IA
 06/02/2020 - Reunião sobre informações do GIT CDIGM
 06/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
 
