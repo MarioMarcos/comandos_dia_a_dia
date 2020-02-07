@@ -6,6 +6,9 @@
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
+07/02/2020 - Reunião apresentação Aurélio AWS para todos
+07/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
+
 
 06/02/2020 - Ponto de Controle - Plataforma de IA
 06/02/2020 - Reunião sobre informações do GIT CDIGM
