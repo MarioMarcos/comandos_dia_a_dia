@@ -37,6 +37,7 @@ Ver depois bash do git
 
 -----
 IDEIAS
+- Amazon tookit para trabalhar para editar códigos em yaml ou json
 - live share - extensão vscode -- fazer código depois ver em tempo real.
 - instalar bookmarks - já instalado em casa, instalar no serviço.
 - pagar um programador youtyber para me ensinar programação para eu trabalhar remotamente se por acaso perder o serviço no serpro.
