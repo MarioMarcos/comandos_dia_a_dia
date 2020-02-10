@@ -97,8 +97,13 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 37-Instalar o Ukuu == opcional para mudar de kernel 
 38-Instalar VLC Player de vídeo
 39-Instalar SCRCPY - para emular tela do celular no computador - via snap install scrcpy - utilize cabo original samsung
-   Configurar atalhos para inicialização. pegar informações no video do diolinux sobre o assunto.
+   Configurar atalhos para inicialização. pegar informações no video do diolinux sobre o assunto - youtube - https://youtu.be/J_PVOXwNREI
+   ou colocar no aplicativo lançador.
 40-Instalar drives da nvidia de acordo com as configurações de suas placas - ver nome da placa --pegar comando no meu note em casa que fiz a última vez
+41-Menulibre - instalar para editar menus para aparecerem no mostrar aplicativos - muito bom para quando vocẽ instala app no ubuntu e não aparece em lugar nenhum
+   é só usar a ferramenta e mandar adicionar ao lançador  dicas: diolinux
+   ou seja, pode usar só esse ao invés de criar um .sh ok...... sudo apt-get install menulibre
+   
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
@@ -928,3 +933,10 @@ MEU CRONTAB ATUAL INCLUSIVE COM ATUALIZA GOOGLE DRIVE
 30 17 * * * tar -czvf /home/76455424115/bkp/SerproDrive.bkp.tar.gz /home/76455424115/SerproDrive
 45 15 * * * /home/76455424115/bin/atualiza_SerproDrive_para_google_drive >> /home/76455424115/bin/atualiza_SerproDrive_para_google_drive_log
 =============================================================================================================
+comando para executar snap em .sh
+#!/bin/bash
+  2 
+  3 snap run scrcpy
+=============================================================================================================
+~                           
+
