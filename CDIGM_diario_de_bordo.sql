@@ -6,6 +6,13 @@
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
+
+
+10/02/2020 - lab1 - aws construindo uma app web estatíco
+10/02/2020 - Coletando informações com Tatiana - SUNCF sobre demanda CEB
+
+
+
 07/02/2020 - Reunião apresentação Aurélio AWS para todos
 07/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
 
