@@ -103,7 +103,8 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 41-Menulibre - instalar para editar menus para aparecerem no mostrar aplicativos - muito bom para quando vocẽ instala app no ubuntu e não aparece em lugar nenhum
    é só usar a ferramenta e mandar adicionar ao lançador  dicas: diolinux
    ou seja, pode usar só esse ao invés de criar um .sh ok...... sudo apt-get install menulibre
-42-Instalar HP12C que se chama finanx-12c - baixar deste site https://sourceforge.net/projects/finanx/ e depois coloque no lançador com menulibre   
+42-Instalar HP12C que se chama finanx-12c - baixar deste site https://sourceforge.net/projects/finanx/ e depois coloque no lançador com menulibre com o comando
+    java -jar finanx.jar no lançador do menulibre
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
@@ -160,7 +161,7 @@ no GZIP olhe sempre quem é o dono do arquivo para poder funcionar
     nohup gzip -dc ADMIRPJ_IBGE_20151109_INICIAL.gz > ADMIRPJ_IBGE_20151109_INICIAL.pipe &    
 --====================================================================
 - ls > execultor.sql >>>>>>>>>>> lista o arquivo dentro do arquivo.sql e o uso é para pegar tudo do ls e jogar dentro do arquivo. legal para comando sql.
-
+ java -jar finanx.jar
 -  scp dwpub@161.148.236.20:/home/dwpublic/dwpub/logmarcos.log . 
 -  scp dwpub@161.148.236.20:/home/dwpublic/dwpub/work/20150920_siscomex/scripts_produto_hist_20151117.log . >>>>>>>>>>>>  copiar arquivos
 -  scp * 76455424115@10.193.34.96:/opt/approtinas/pro_21761_dwcorp/V01/work/mario/   
