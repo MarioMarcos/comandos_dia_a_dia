@@ -96,6 +96,8 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 36-Instalar o recuperarção do grub == ver na net o repositório e o comando
 37-Instalar o Ukuu == opcional para mudar de kernel 
 38-Instalar VLC Player de vídeo
+39-Instalar SCRCPY - para emular tela do celular no computador - via snap install scrcpy - utilize cabo original samsung
+40-Instalar drives da nvidia de acordo com as configurações de suas placas - ver nome da placa --pegar comando no meu note em casa que fiz a última vez
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
