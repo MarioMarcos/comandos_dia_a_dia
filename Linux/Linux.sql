@@ -103,7 +103,7 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 41-Menulibre - instalar para editar menus para aparecerem no mostrar aplicativos - muito bom para quando vocẽ instala app no ubuntu e não aparece em lugar nenhum
    é só usar a ferramenta e mandar adicionar ao lançador  dicas: diolinux
    ou seja, pode usar só esse ao invés de criar um .sh ok...... sudo apt-get install menulibre
-   
+42-Instalar HP12C que se chama finanx-12c - baixar deste site https://sourceforge.net/projects/finanx/ e depois coloque no lançador com menulibre   
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
