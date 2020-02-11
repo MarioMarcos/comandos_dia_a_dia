@@ -7,6 +7,8 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
+10/02/2020 - la2 - aws - deploy application em RDS
+
 
 10/02/2020 - lab1 - aws construindo uma app web estatíco
 10/02/2020 - Coletando informações com Tatiana - SUNCF sobre demanda CEB
@@ -22,9 +24,9 @@ FEVEREIRO/2020
 06/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
 
 
-05/02/2020 - Apresentação sobre a nova sistemática de issues no GIT por Hilário - CDIGD
+05/02/2020 - Participação na apresentação sobre a nova sistemática de issues no GIT por Hilário - CDIGD
 05/02/2020 - Ligações para Charles Gestor de Contrato sobre andamento do processo de aquisição softwares proprietários para AUTOML
-05/02/2020 - Orientações com Reinaldo sobre GIT CI/CD Pipeline de execução automática de dados no GIT
+05/02/2020 - Recebimento de orientações com Reinaldo sobre GIT CI/CD Pipeline de execução automática de dados no GIT
 05/02/2020 - Atualizações de Cronogramas pendentes
 05/02/2020 - Reunião com Wilton sobre definições do que é uma consultoria ideal para o Serpro
 
