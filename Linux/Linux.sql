@@ -939,5 +939,7 @@ comando para executar snap em .sh
   2 
   3 snap run scrcpy
 =============================================================================================================
-~                           
+#ver que hora que desligou o micro
+cat auth.log | grep "session closed for user root" | grep "Feb 10"                           
+
 
