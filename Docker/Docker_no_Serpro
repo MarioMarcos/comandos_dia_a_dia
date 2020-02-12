@@ -1,0 +1,170 @@
+https://dedat.gitpages.serpro/deat5/deat5-gitpages/introducao-docker/
+https://docs.docker.com/compose/reference/
+
+
+
+Introdução ao Docker e seu uso no SERPRO¶
+
+Objetivo desse material: dar uma noção introdutória (teórica e prática) para que qualquer pessoa possa usufruir dos benefícios dos containers Docker.
+
+Pré-requisito: instalar o software Docker na central de pacotes do SERPRO. É melhor instalar por lá pois já virá com algumas configurações e ferramentas necessárias para esse material.
+
+Uso do terminal: um conhecimento inicial do terminal Linux e seus comandos básicos é útil para uma gestão mais eficaz dos containers, mas caso você não tenha conhecimento algum de terminal então por favor clique aqui. Caso você prefira uma gestão puramente visual dos containers em uma IDE, veja a página do plugin para Eclipse ou para Visual Studio. Mas ainda que usando o plugin, os conceitos abaixo são necessários e se aplicam.
+Docker: o que ele NÃO é¶
+
+    Não é um software de Virtualização:
+    É comum ouvir "Docker é como se fosse um VirtualBox mas sem o ônus de ter um sistema operacional em cima do outro", mas apesar de que essa frase seja útil para transmitir de forma rápida uma ideia geral da ferramenta é preciso cautela pois o funcionamento desses softwares é bem distinto.
+
+    Hypervisors:
+        Tipo 1 (bare metal, como o XenServer e o Hyper-V) é ótimo para servidores na SUPOP, por exemplo.
+        Tipo 2 (hosted, como o VirtualBox e o VMware) é ótimo para rodar Windows dentro do Ubuntu, por exemplo.
+
+    Hypervisors
+
+    Docker não é hypervisor, ele diz respeito a ISOLAMENTO, e não a virtualização. Docker é um software que roda no SO e utiliza o kernel (núcleo) desse SO para isolar recursos.
+
+    No Linux: Como o Docker só reutiliza o kernel do SO onde ele está rodando, então se você rodar o Docker dentro do Linux você poderá ter algo como um Ubuntu 18 dentro de um CentOS 7 ou um Alpine 3.8 dentro de um Debian 9, pois todas essas distribuições distintas poderão rodar com o mesmo kernel único reutilizado. Você não terá, no entanto, um Windows dentro do Linux, pois os kernels não são compatíveis.
+
+    No Windows/Mac: Para rodar containers Linux no Windows/Mac, é preciso um mini-hypervisor. Atualmente o Windows já tem containers nativos do windows-core.
+
+    Não é o Estaleiro: apesar de existirem ganhos em se utilizar o Docker no desenvolvimento de sistemas do tradicional (não-estaleiro), isso não significa que a pessoa estará usufruindo os inúmeros benefícios que o Estaleiro tem (orquestração, redimensionamento, balanceamento e etc).
+
+O que dá para fazer com isso?¶
+
+    Minimizar o "Na minha máquina funciona": você poderá ter a mesma imagem (ex: jboss + ear + configuração) em desenv/testes/validação e localmente. Isso aumenta a reprodutibilidade dos testes e leva a uma maior confiabilidade do sistema.
+    Agilidade na instalação de softwares: provas de conceito e testes podem ser feitos rapidamente e de forma bem isolada (não vai interferir na sua estação de trabalho), você terá "um prato limpo" para em segundos rodar um grande número de softwares (ex: apache, widlfly, postgres, nginx, runner do gitlab-ci e etc).
+    Chavear contexto do desenvolvedor: caso existam containers já configurados para rodar os softwares locais (ex: jboss, banco, apache, tibco, redis, etc) daí será mais fácil para alguém novo iniciar o desenvolvimento nesse sistema. Se você estiver trabalhando no sistema A e quiser ir para o B poderia ser mais fácil (menos difícil).
+
+Conceitos básicos¶
+
+    Imagem x Container: fazendo uma analogia com classes e objetos da Orientação a Objetos (onde classes em execução são objetos), a imagem em execução é um container. As imagens são conjuntos de camadas read-only e o container é a camada de leitura/escrita em cima das outras camadas que vai rodar o processo.
+    Registry: repositório de imagens docker, pode ser o padrão da ferramenta (hub.docker.com) ou um específico seu (hub.estaleiro.serpro). Existem imagens oficiais e também dos usuários.
+    Dockerfile (receita de bolo): arquivo com passo a passo de tudo que tem na sua imagem. Ex: instalação de softwares, execução de comandos, cópia de arquivos e etc.
+    Um processo por container: evitar ao máximo pôr mais de um processo rodando em um único container. Ajuda a melhor reutilizar / extender / escalar / portar imagens, e também melhora a visualização dos logs de saída. Ex: um container só para o httpd, outro só para o jboss, outro só para o banco.
+    Os containers são isolados ("mini-universos") e a comunicação entre eles normalmente é feita por portas e pastas compartilhadas deliberadamente pelo usuário.
+
+Comandos comuns¶
+
+    docker pull: comando que baixa imagens de um registry para a máquina local. A sintaxe básica é docker pull nome_da_imagem:versão. O registry faz parte do nome da imagem e se um registry não for passado então a ferramenta usa o padrão dela (hub.docker.com).
+
+Exemplos:
+docker pull centos:7
+docker pull ubuntu:latest
+docker pull alpine
+docker pull postgres:9.5.4
+docker pull hub.estaleiro.serpro/pipeline/ce-maven:3.5.2
+
+Obs: caso você obtenha o erro "Error response from daemon: Get https://hub.estaleiro.serpro/v2/: x509: certificate signed by unknown authority" ao tentar baixar uma imagem do hub.estaleiro.serpro é porque o certificado dele não é reconhecido pelo Docker, daí uma opção é usar o Docker da central de pacotes, que já estará ok, outra opção é editar o arquivo /etc/docker/daemon.json e nele pôr o conteúdo abaixo. Depois será necessário reiniciar o serviço do docker (systemctl restart docker).
+
+{
+    "insecure-registries" : [ "hub.estaleiro.serpro" ]
+}
+
+Obs 2: caso você realmente precise, é possível ao invés de "hub.estaleiro.serpro" no daemon.json colocar "10.0.0.0/8" e deixar mais permissivo.
+
+    docker push: comando que envia imagens da máquina local para um registry. A sintaxe básica é docker push nome_da_imagem:versão, mas é preciso lembrar que no SERPRO você vai precisar pôr o nome do registry antes do nome da imagem, já que as imagens enviadas sempre serão nossas, e não do hub.docker.com. Exemplos práticos desse comando não estão no nosso escopo desse curso.
+
+    docker images: comando que exibe as imagens já baixadas localmente. Atentar para a coluna "SIZE", notar o baixo tamanho da imagem alpine (por não ter nem o kernel, só os comandos básicos do Linux e mais nada) e notar também que esse tamanho não é "real", é lógico... Ou seja, se houver uma imagem centos:7 de 200 MB e a partir dela eu criar uma imagem (chamada centos-serpro:1.0) com alguns arquivos a mais, daí a imagem nova vai aparecer com tamanho superior ao da imagem base, mas em termos de arquivos em disco os 200 MB da imagem original são reutilizados, o docker trabalha com um sistema de arquivos em camadas, daí cada imagem é uma camada somente leitura e quando criamos um container uma camada de escrita/leitura é colocada em cima dessas outras camadas.
+
+    docker ps: comando que mostra os containers rodando atualmente, normalmente usa-se o docker ps -a para listar inclusive os containers que já pararam.
+
+    docker run: comando que cria um container a partir de uma imagem. Se a imagem não existir localmente o docker tenta baixá-la
+
+docker run -ti --name meu_centos centos:7
+docker run -d --name meu_apache -p 8080:80 httpd:2.4
+curl http://localhost:8080
+docker run --rm -ti alpine ls -la /bin
+
+    docker exec: comando que executa algo num container, muito usado para "entrar" no container (não é comum dar ssh para um container, lembrar da questão do "um processo por container").
+
+docker exec -ti meu_apache whoami
+docker exec -ti meu_apache bash
+
+Obs: control + D para sair do container.
+
+    docker rm: comando que remove um container, a sintaxe básica é docker rm (container_id|nome), caso o container ainda esteja rodando é preciso usar o "-f" para forçar, ex: docker rm -f (container_id|nome).
+
+docker rm -f meu_apache
+
+    docker rmi: comando que remove uma imagem, a sintaxe básica é igual a do docker rm, só que o docker rmi é para imagens.
+
+    docker build: comando que constrói uma imagem a partir de um arquivo Dockerfile. A sintaxe básica é docker build -t nome_da_imagem:versão .
+    Exemplo de Dockerfile:
+
+    FROM centos:7
+    RUN yum install -y java-1.8.0-openjdk-devel.x86_64
+
+    docker cp: comando que copia um arquivo do host para o container ou vice-versa. A sintaxe básica é docker cp (container_id|nome):/caminho/no/container.txt /caminho/destino/no/host.txt, ou então o contrário: docker cp /caminho/destino/no/host.txt (container_id|nome):/caminho/no/container.txt.
+
+    docker start/stop/restart: apesar desses comandos terem sua utilidade em alguns contextos, cuidado para não cair na tentação de usá-los para alterar o comportamento de um container, o normal é destruir e criar outro container sempre que necessário, eles são efêmeros por natureza.
+
+    docker-compose: ferramenta separada (não faz parte do docker em si) mas muito útil para "orquestrar" conjuntos de containers sem muita complexidade e em um único nó (kubernetes, por exemplo, seria adequado para um uso em múltiplos nós). O docker-compose já vem junto ao pacote Docker da central de pacotes. Recomenda-se o uso do docker-compose para quando se tem mais de um container que precisa rodar ao mesmo tempo (ex: apahce + jboss), se for para rodar um único container (ex: postgres) rodar o docker puro talvez seja mais simples.
+
+Existem muitos outros comandos, mas os acima são os mais comuns e no dia a dia já resolvem a maior parte das situações.
+Para uma lista completa de comandos digite: docker ou docker comando --help (idem para o docker-compose)
+Mãos à massa¶
+
+Exercício 1: criar um container java-alpine e entrar nele.
+
+docker pull hub.estaleiro.serpro/pipeline/openjdk:8-alpine
+docker images
+docker ps -a
+docker run --name teste1 -ti hub.estaleiro.serpro/pipeline/openjdk:8-alpine
+
+Numa nova aba:
+docker ps -a
+docker exec -ti teste1 bash
+control + D
+docker rm -f teste1
+docker rmi hub.estaleiro.serpro/pipeline/openjdk:8-alpine
+
+Exercício 2: criar um container com apache e mapear um volume para rodar nele (volume de arquivo e de diretório, as duas formas).
+
+mkdir /tmp/teste2
+cd /tmp/teste2
+echo "<head></head><body>bla bla bla</body>" > index.html
+docker run -d --name meuapache1 -p 80:80 -v ${PWD}:/usr/local/apache2/htdocs/ httpd:2.4
+curl http://localhost
+docker run -d --name meuapache2 -p 8001:80 -v ${PWD}/index.html:/usr/local/apache2/htdocs/index.html httpd:2.4
+curl http://localhost:8001
+docker rm -f meuapache1 meuapache2
+
+Exercício 3: entender e usar um docker-compose.yml para subir um wildfly e um banco postgres, ver que os processos deles são exibidos no host também.
+
+Criar o arquivo /tmp/testes3/docker-compose.yml com o conteúdo abaixo:
+
+version: '2'
+
+services:
+
+  wildfly:
+    image: jboss/wildfly:10.1.0.Final
+    container_name: wildfly
+    ports:
+      - "9000:8080"
+    volumes:
+      - /tmp/teste3/ROOT.war:/opt/jboss/wildfly/standalone/deployments/ROOT.war
+
+  postgres:
+    image: postgres:9.6-alpine
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    ports:
+      - '5432:5432'
+    volumes:
+      - /tmp/teste3/banco:/var/lib/postgresql/data/pgdata
+
+cd /tmp/teste3
+curl -kO https://git.serpro/Estaleiro/plataformas/raw/master/wildfly/test/test-app/deployments/ROOT.war
+docker-compose up
+
+Numa nova aba:
+ps aux | grep jboss
+
+Mais exercícios¶
+
+Caso você queira praticar mais ou ver mais exemplos, a CDNPS elaborou o material abaixo:
+https://git.serpro/CDNPS/treinamentodocker/blob/master/atividade-docker.pdf
