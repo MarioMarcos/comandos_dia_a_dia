@@ -6,8 +6,10 @@
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
-12/02/2020 - 
-
+12/02/2020 - Anaĺise de documentação com Reinaldo sobre Estaleiro GIT
+12/02/2020 - discussão com Aurélio sobre aws
+12/02/2020 - Ponto de Controle com Helder 
+12/02/2020 - Configurações pastas de trabalho Mário
 
 11/02/2020 - Testes com Aurélio sobre estrutura GIT para projeto documentação
 11/02/2020 - Reunião com Reinaldo sobre continuidade da documentação do GIT público
