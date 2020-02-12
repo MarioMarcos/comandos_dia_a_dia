@@ -7,7 +7,7 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
-
+12/02/2020 - Retorno de informações para Aline Cabeceira
 12/02/2020 - Anaĺise de documentação com Reinaldo sobre Estaleiro GIT
 12/02/2020 - discussão com Aurélio sobre aws
 12/02/2020 - Ponto de Controle com Helder 
