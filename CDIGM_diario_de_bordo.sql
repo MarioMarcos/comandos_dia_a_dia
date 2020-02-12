@@ -6,14 +6,15 @@
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
+12/02/2020 - 
 
-10/02/2020 - la2 - aws - deploy application em RDS
 
+11/02/2020 - Testes com Aurélio sobre estrutura GIT para projeto documentação
+11/02/2020 - Reunião com Reinaldo sobre continuidade da documentação do GIT público
+11/02/2020 - lab2 - aws - deploy application em RDS
 
 10/02/2020 - lab1 - aws construindo uma app web estatíco
 10/02/2020 - Coletando informações com Tatiana - SUNCF sobre demanda CEB
-
-
 
 07/02/2020 - Reunião apresentação Aurélio AWS para todos
 07/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
