@@ -7,19 +7,18 @@
 FEVEREIRO/2020
 -----------------------------------------------------------------------
 
-13/02/2020 - 
-reunião m.e
-reuniao giovanna
-pnto controle reinaldo
-Andrei tratando de assuntos
 
-falar com Gerusia sobre desativação de máquinas 
-Cobrança da RDM 
+14/02/2020 - RT - Continuação Equipe de Banco de Dados - incidente bug em consulta sql
+14/02/2020 - Solicitação de Informações para Fernanda Área de Negócio sobre desativação de máquinas
+colocar GIT 14/02/2020 - Análise de RDM projeto Ministério da Economia 
+14/02/2020 - Repasse de informações sobre RDM com Andrei Sibin
+14/02/2020 - Repasse de informações sobre Portal da Economia com Carlos
 
-ajustar depois no dia 13
-
-
-
+13/02/2020 - C.G. reunião m.e
+13/02/2020 - C.G. reuniao giovanna
+13/02/2020 - C.G. pnto controle reinaldo
+13/02/2020 - Andrei tratando de assuntos
+13/02/2020 - Informações com Gerusia sobre desativação de máquinas 
 
 12/02/2020 - Retorno de informações para Aline Cabeceira
 12/02/2020 - Anaĺise de documentação com Reinaldo sobre Estaleiro GIT
@@ -37,11 +36,9 @@ ajustar depois no dia 13
 07/02/2020 - Reunião apresentação Aurélio AWS para todos
 07/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
 
-
 06/02/2020 - Ponto de Controle - Plataforma de IA
 06/02/2020 - Reunião sobre informações do GIT CDIGM
 06/02/2020 - Continuação Curso AWS - Certificação dando continuidade.
-
 
 05/02/2020 - Participação na apresentação sobre a nova sistemática de issues no GIT por Hilário - CDIGD
 05/02/2020 - Ligações para Charles Gestor de Contrato sobre andamento do processo de aquisição softwares proprietários para AUTOML
