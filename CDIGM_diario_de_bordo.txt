@@ -6,11 +6,20 @@
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
+https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
+
+
+17/02/2020 - Ponto de controle plaforma de ia.
+17/02/2020 - Posição de andamento de Informações POC CYBERSPONSE com Ulisses 
+17/02/2020 - Encaminhar emai para Willian Cardoso para solicitar dados sobre máquinas Ministério da Cidadania
+17/02/2020 - Priorização de SS para DNS e Certificado Digital 
+17/02/2020 - Informações sobre SS para Carlos Linux - Priorizar
+17/02/2020 - Atendimento sobre pedidos de informações de Fernanda
 
 
 14/02/2020 - RT - Continuação Equipe de Banco de Dados - incidente bug em consulta sql
 14/02/2020 - Solicitação de Informações para Fernanda Área de Negócio sobre desativação de máquinas
-colocar GIT 14/02/2020 - Análise de RDM projeto Ministério da Economia 
+14/02/2020 - Análise de RDM projeto Ministério da Economia - GIT
 14/02/2020 - Repasse de informações sobre RDM com Andrei Sibin
 14/02/2020 - Repasse de informações sobre Portal da Economia com Carlos
 
