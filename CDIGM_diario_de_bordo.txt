@@ -9,7 +9,28 @@ FEVEREIRO/2020
 https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
 
 
-17/02/2020 - Ponto de controle plaforma de ia.
+20/02/2020 - RDM DESATIVAÇÃO 
+20/02/2020 - Planajemaneto de RDM projeto Ministério da Economia | GIT
+20/02/2020 - Análise de RDM para contexto portal da Economia no GOV.BR | GIT
+20/02/2020 - informações sobre contexto GOV.BR para aprendizado de planejamento para o Portal GOV.BR com France Marry
+20/02/2020 - Ponto de controle - Inclusão dos Exercícios no Sql Colunar | GIT
+20/02/2020 - Ponto de controle - Portal Gov - Portal Ministério da Economia. com France | GIT
+
+
+19/02/2020 - Ponto de controle - Portal Gov - Portal Ministério da Economia. com France | GIT
+19/02/2020 - Atualização de informações com Eudes sobre migração banco WHDES135 - bug Oracle
+19/02/2020 - Curso de VMWARE - nuvens híbridas
+19/02/2020 - Trocar de informações com Eduardo Nascimento sobre migrações powercenter e envio de cronograma migração microstrategy
+19/02/2020 - Repasse de informações sobre reunião de planejamento com Equipe de Bi para Humberto
+19/02/2020 - Informações sobre classificação equipe Datalake para Fernanda
+
+18/02/2020 - Reunião de Planejamento para inicio de edição de cronograma - Com equipe de BI
+18/02/2020 - Ponto de Controle Plataforma de IA 
+18/02/2020 - Posição sobre demanda do Ministério da Economia com Carlos Evangelista
+18/02/2020 - envio de informações para Aline Cabeceira sobre máquinas que atenderam Ministério da Cidadania
+18/02/2020 - Informações com Reinaldo sobre Documentação GIT 
+
+17/02/2020 - Ponto de controle plaforma de ia.  SE PRECISAR
 17/02/2020 - Posição de andamento de Informações POC CYBERSPONSE com Ulisses 
 17/02/2020 - Encaminhar emai para Willian Cardoso para solicitar dados sobre máquinas Ministério da Cidadania
 17/02/2020 - Priorização de SS para DNS e Certificado Digital 
