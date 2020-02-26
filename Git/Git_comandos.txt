@@ -455,3 +455,9 @@ O princípio é usar uma pasta para cada git
                     *por as credenciais 
 
 
+
+----------------------------------------------------------------------------------------------------
+
+--comando para colocar a senha somente uma vez, depois ele não vai pedir mais no terminal.
+--Tem como retirar com o comando que o Aurelio não  passou ainda.......
+git config --global credential.helper store
