@@ -8,6 +8,14 @@ FEVEREIRO/2020
 -----------------------------------------------------------------------
 https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
 
+26/02/2020 - 
+
+
+
+21/02/2020 - Marquei reuniões para Máquina Desenvolvimento para Data Quality
+21/02/2020 - Encaminhar RDM para Desativação de máquinas do Ministério da Economia | GIT
+21/02/2020 - 
+
 
 20/02/2020 - RDM DESATIVAÇÃO 
 20/02/2020 - Planajemaneto de RDM projeto Ministério da Economia | GIT
