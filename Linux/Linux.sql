@@ -105,6 +105,7 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
    ou seja, pode usar só esse ao invés de criar um .sh ok...... sudo apt-get install menulibre
 42-Instalar HP12C que se chama finanx-12c - baixar deste site https://sourceforge.net/projects/finanx/ e depois coloque no lançador com menulibre com o comando
     java -jar finanx.jar no lançador do menulibre
+43-Instalar Alarm clock para quando precisar de algum programa de alarme no ubuntu - alarm-clock-applet_0.3.4-1build1_amd64.deb
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal

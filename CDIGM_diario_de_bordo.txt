@@ -8,14 +8,20 @@ FEVEREIRO/2020
 -----------------------------------------------------------------------
 https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
 
-26/02/2020 - 
 
 
+28/02/2020 - Acompanhamento de Demanda do Desenvolvimento ORACLE - power center | GIT
+28/02/2020 - Apresentação AWS Aurélio 
+28/02/2020 - Repasse de Informações para Fernanda sobre backup dos dados do DATAPEN
+
+27/02/2020 - Atualização do Siscopweb e GIT
+
+26/02/2020 - Atualização das demandas no GIT 
+26/02/2020 - Informações com Eduardo Nascimento sobre demanda bug Oracle
+26/02/2020 - informações com Eudes Oracle sobre demanda bug Oracle
 
 21/02/2020 - Marquei reuniões para Máquina Desenvolvimento para Data Quality
 21/02/2020 - Encaminhar RDM para Desativação de máquinas do Ministério da Economia | GIT
-21/02/2020 - 
-
 
 20/02/2020 - RDM DESATIVAÇÃO 
 20/02/2020 - Planajemaneto de RDM projeto Ministério da Economia | GIT
@@ -23,7 +29,6 @@ https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo 
 20/02/2020 - informações sobre contexto GOV.BR para aprendizado de planejamento para o Portal GOV.BR com France Marry
 20/02/2020 - Ponto de controle - Inclusão dos Exercícios no Sql Colunar | GIT
 20/02/2020 - Ponto de controle - Portal Gov - Portal Ministério da Economia. com France | GIT
-
 
 19/02/2020 - Ponto de controle - Portal Gov - Portal Ministério da Economia. com France | GIT
 19/02/2020 - Atualização de informações com Eudes sobre migração banco WHDES135 - bug Oracle
