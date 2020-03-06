@@ -2,12 +2,28 @@
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
+https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
+
+
+------------------------------------------------------------------------
+MARCO/2020
+-----------------------------------------------------------------------
+
+06/03
+
+05/03
+
+04/03
+
+03/03
+
+02/03/2020 - Ponto de cotrole Atualização da migração Teradata. |  C - GIT
+02/03/2020 - Reunião Técnica para demanda sobre Data Quality | GIT
+02/03/2020 - Envio de informações para Fernanda sobre desativação máquinas DATAPEN
 
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
-https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
-
 
 
 28/02/2020 - Acompanhamento de Demanda do Desenvolvimento ORACLE - power center | GIT
