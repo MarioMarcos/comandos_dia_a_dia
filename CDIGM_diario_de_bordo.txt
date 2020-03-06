@@ -9,13 +9,19 @@ https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo 
 MARCO/2020
 -----------------------------------------------------------------------
 
-06/03
+06/03 - FABIANO
+06/03 - FABIANO
+06/03 - leandro
+06/03 - jeova
+06/03 - lynara humberto
+06/03 - fabiano graca
 
-05/03
 
-04/03
+05/03 - apresentação
 
-03/03
+04/03 - apresentação
+
+03/03 - apresentação
 
 02/03/2020 - Ponto de cotrole Atualização da migração Teradata. |  C - GIT
 02/03/2020 - Reunião Técnica para demanda sobre Data Quality | GIT
