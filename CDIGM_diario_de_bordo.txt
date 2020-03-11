@@ -2,26 +2,35 @@
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
-https://status.aws.amazon.com/ - ver informações sobre serviços aws em tempo real.
-
-
 ------------------------------------------------------------------------
 MARCO/2020
 -----------------------------------------------------------------------
 
-06/03 - FABIANO
+
+11/03/2020 - Análise de RDM para demanda upgrade oracle bug 14 e 15/03 | CGIT
+11/03/2020 - Planajemaneto de RDM projeto upgrade oracle bug 14 e 15/03 | CGIT
+
+10/03/2020 - Reunião com Reinaldo e Aurélio sobre documentação Estaleiro | CGIT 
+10/03/2020 - Reunião áudio sobre definião dos procedimento de riscos sobre solução de contorno ou upgrade versão 12.2 oracle | GIT 
+10/03/2020 - Reunião com Lynara, Humberto e Equipe Ferramentas sobre migração Microstrategy RECEITADATA 
+
+09/03/2020 - Ponto de Controle correção do bug oracle no comdominio na pré-produção e produção | CGIT
+09/03/2020 - Ponto de controle COMPRASNET - | GIT
+
+07/03/2020 - Acompanhamento de execução de atividades para o COMPRASNET final de semana | GIT
+
+06/03 - analise, planejamento demanda desativaçaõ | CGIT
 06/03 - FABIANO
 06/03 - leandro
 06/03 - jeova
 06/03 - lynara humberto
 06/03 - fabiano graca
 
+05/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
 
-05/03 - apresentação
+04/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
 
-04/03 - apresentação
-
-03/03 - apresentação
+03/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
 
 02/03/2020 - Ponto de cotrole Atualização da migração Teradata. |  C - GIT
 02/03/2020 - Reunião Técnica para demanda sobre Data Quality | GIT
@@ -30,7 +39,6 @@ MARCO/2020
 ------------------------------------------------------------------------
 FEVEREIRO/2020
 -----------------------------------------------------------------------
-
 
 28/02/2020 - Acompanhamento de Demanda do Desenvolvimento ORACLE - power center | GIT
 28/02/2020 - Apresentação AWS Aurélio 
@@ -172,12 +180,6 @@ JANEIRO/2020 - INICIEI O MEU DIÁRIO DE BORDO EM 2020 NA CDIGM
 20/01/2020 - Atendimento à Cleide sobre arquivos de backup dos testes de vulnerabilidade da aplicação do ministério
 20/01/2020 - Enviar email para equipes com solicitação de inventário sobre máquinas de bancos de dados para repassar para
              Fernanda equipe do Giovanni
-
-
-
-
-
-
 
 
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
