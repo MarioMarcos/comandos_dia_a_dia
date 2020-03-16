@@ -7,32 +7,34 @@ MARCO/2020
 -----------------------------------------------------------------------
 
 
-11/03/2020 - Análise de RDM para demanda upgrade oracle bug 14 e 15/03 | CGIT
-11/03/2020 - Planajemaneto de RDM projeto upgrade oracle bug 14 e 15/03 | CGIT
+13/03/2020 - cancelamento RDM - 2020RDM/0000017628 - Melhoria Ambiente Power Center - Data Quality - foi repassado para IGD - Dataleke | GIT
+13/03/2020 - cancelamento da 2019RDM/0000083296 - pois o cliente não vai melhorar o ambiente neste momento. | GIT
 
-10/03/2020 - Reunião com Reinaldo e Aurélio sobre documentação Estaleiro | CGIT 
+12/03/2020 - Preparação para Acompanhamento de demanda UPGRADE BUG | GIT
+
+11/03/2020 - Análise de RDM para demanda upgrade oracle bug 14 e 15/03 | GIT
+11/03/2020 - Planajemaneto de RDM projeto upgrade oracle bug 14 e 15/03 | GIT
+
+10/03/2020 - Reunião com Reinaldo e Aurélio sobre documentação Estaleiro | GIT 
 10/03/2020 - Reunião áudio sobre definião dos procedimento de riscos sobre solução de contorno ou upgrade versão 12.2 oracle | GIT 
 10/03/2020 - Reunião com Lynara, Humberto e Equipe Ferramentas sobre migração Microstrategy RECEITADATA 
 
-09/03/2020 - Ponto de Controle correção do bug oracle no comdominio na pré-produção e produção | CGIT
+09/03/2020 - Ponto de Controle correção do bug oracle no comdominio na pré-produção e produção | GIT
 09/03/2020 - Ponto de controle COMPRASNET - | GIT
 
 07/03/2020 - Acompanhamento de execução de atividades para o COMPRASNET final de semana | GIT
 
-06/03 - analise, planejamento demanda desativaçaõ | CGIT
-06/03 - FABIANO
-06/03 - leandro
-06/03 - jeova
-06/03 - lynara humberto
-06/03 - fabiano graca
+06/03/2020 - Analise e planejamento demanda desativação | GIT
+06/03/2020 - Informações com Fabiano - SUPSI, sobre rede do MAINFRAME para complementar apresentação MAINFRAME AS a Service | GIT
+06/03/2020 - Coleta de informações com Leandro Henrique SUPCD ORACLE sobre situação de contorno do bug no condomínio 
+06/03/2020 - Reunião com Lynara e Humberto sobre demandas - ORACLE indo para versão 19C - FERRAMENTAS (MICROSTRATEGY) indo para 2020 | GIT
+06/03/2020 - Reunião em áudio com fabiano graca - sobre demanda DATA QUALITY | GIT
 
-05/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
+05/03/2020 - preparação para apresentação Mainframe as service para superintendente | GIT
+04/03/2020 - preparação para apresentação Mainframe as service para superintendente | GIT
+03/03/2020 - preparação para apresentação Mainframe as service para superintendente | GIT
 
-04/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
-
-03/03 - preparação para apresentação Mainframe as service para superintendente | CGIT
-
-02/03/2020 - Ponto de cotrole Atualização da migração Teradata. |  C - GIT
+02/03/2020 - Ponto de cotrole Atualização da migração Teradata. | GIT
 02/03/2020 - Reunião Técnica para demanda sobre Data Quality | GIT
 02/03/2020 - Envio de informações para Fernanda sobre desativação máquinas DATAPEN
 
