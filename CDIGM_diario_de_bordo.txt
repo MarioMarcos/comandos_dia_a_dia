@@ -1,10 +1,17 @@
-######################################################################
+b######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
 ------------------------------------------------------------------------
 MARCO/2020
 -----------------------------------------------------------------------
+
+14/03/2020 - Tentando configurar o SCCD para utilizar no ubuntu - mas não está indo.
+14/03/2020 - Cobrança ao Roberto Almeida sobre desativação de máquinas CIDADANIA.
+14/03/2020 - Envei email para Eduardo Nascimento cobrando posição sobre a compatibiliade das ferramentas para o upgrade Banco Oracle no Condomínio.
+14/03/2020 - troca de informações com Lynara sobre demanda SGP, Data Analytics
+14/03/2020 - Informações com Eduardo Nascimento sobre pendências com incompatibilidade no upgrade do ORACLE | CGIT
+14/03/2020 - Horário Teletrabalho iniciando às 08:21 às 12:30 e de 13:00 às 16:51
 
 
 13/03/2020 - cancelamento RDM - 2020RDM/0000017628 - Melhoria Ambiente Power Center - Data Quality - foi repassado para IGD - Dataleke | GIT
