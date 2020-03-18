@@ -23,12 +23,16 @@ zenity --info --title="jose" --text="mario marcos"
 -----------------------------------------------------------------------
 INSTALAÇÃO LINUX - NA MINHA MÁQUINA EM CASA OU NO SERPRO - MONTAGEM MÁQUINA NOVA
 -----------------------------------------------------------------------
-ok-1-UBUNTU
-ok-2-jedit e ver se precisa de algum plug in -- NÃO VOU INSTALAR MAIS VOU INSTALAR O GVIM E APRENDER A USAR ELE
+1-UBUNTU
+2-jedit e ver se precisa de algum plug in -- NÃO VOU INSTALAR MAIS VOU INSTALAR O GVIM E APRENDER A USAR ELE
 depois-3-developer é legal no serpro. em casa é melhor preparar o entreposto
 depois-4-teradata studio no comp do serpro. em casa é melhor preparar o entreposto também com o ttu - teradata com sql assistent e sql administrator
-ok-5-owncloud - versão idêntica no serpro e em casa
-ok-6-JAVA correto. openjdk, openjre e openjfx - ver se pode instalar dois java. um para os aplicativos e o nativo que vem no ubuntu
+5-owncloud - versão idêntica no serpro e em casa
+6-JAVA correto. openjdk, openjre e openjfx - ver se pode instalar dois java. um para os aplicativos e o nativo que vem no ubuntu
+--AQUI INSTALA OS JAVA QUE PRECISAM ou a versão mais recente dos opens
+sudo apt-get install openjdk-8-jdk openjdk-8-jre
+sudo apt-get install openjfx
+====isso aqui acima também vai ajudar no wdtokentool e outras aplicacoes a funcionar corretamente.
 7-crontab - no serpro para gravar a pasta owncloud/jatai - no computador do serpro para guardar se por acaso acontecer alguma coisa
 8- use esse comando aqui primeiro para habilitar a extensão no navegador chrome com este comando sudo apt-get install chrome-gnome-shell e depois siga abaixo.
 instalar gpaste no lugar do glipper == configuração chata - se por acaso o atalho não aparecer na barra lá em cima de notificação. remover na mão tudo e instalar o gpaste e depois somente a opção do gnome: gnome-shell-extensions-gpaste. foi assim que a minha funcionou depois de dois dias de testes. só foi resolvido na mão no terminal.
