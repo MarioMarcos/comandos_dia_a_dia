@@ -1,3 +1,33 @@
+Driver de vídeo===23/03/2020========================================================================
+
+Meu computador travou depois que ajustei uns parâmetros de driver NVIDIA
+
+O que resolveu foi removendo o nvidia e voltando o drive padrão.. 
+Com esses comandos abaixo executados como root - acessados pelo GRUB e reiniciei e funcionou novamente
+
+
+--Ver se existe o drives NVIDIA
+dpkg -l | grep -i nvidia
+
+
+In summary
+
+--Remove todos os drives nvidia
+sudo apt-get remove --purge '^nvidia-.*'
+
+--instala ubuntu-desktop
+sudo apt-get install ubuntu-desktop
+
+--apaga o xorg drive de inicalização - aqui vai ser recriado outro automático quando reiniciar
+sudo rm /etc/X11/xorg.conf
+
+--coloca o drive padrão e depois reinicia.
+echo 'nouveau' | sudo tee -a /etc/modules
+
+=================================================================================================
+
+
+
 ! /bin/ksh
 
 
