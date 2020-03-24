@@ -1,3 +1,15 @@
+----------------------------------------------------------------------------------------
+24/03/2020 - configuracao para acesso ao SCCD 
+==Solucao para o problema no SCCD que mesmo com OVPN  funcionando não inicializava o sccd nos browsers chrome e no firefox
+==end. https://www.sccdtk.serpro ou https://www.sccd.serpro 
+=no linux coloque isso aqui no /etc/hosts 
+10.30.120.19     www.sccd.serpro
+10.31.38.23      ns4.serpro
+10.30.120.22     www.sccdtk.serpro
+
+OBS: no windows estava funcionando normalmente com OVPN funcionando
+-----------------------------------------------------------------------------------------
+
 Driver de vídeo===23/03/2020========================================================================
 
 Meu computador travou depois que ajustei uns parâmetros de driver NVIDIA
