@@ -8,7 +8,7 @@ MARCO/2020
 
 
 25/03/2020 - Reunião com FLAVIA BOMFIM - 08:37 e 09:40h. POC - INFORMATICA | CGIT
-25/03/2020 - Reunião Infraestrutura para o SERPRODATA | CGIT
+25/03/2020 - Reunião Infraestrutura para o ERPRODATA | CGIT
 25/03/2020 - Envio de informações para Gerson Tessler - com modelo de RDM - SerproData
 25/03/2020 - Ponto de Controle sobre Sql Colunar - andamento das informações | CGIT
 

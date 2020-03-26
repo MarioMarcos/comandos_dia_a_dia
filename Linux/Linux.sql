@@ -152,6 +152,9 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 42-Instalar HP12C que se chama finanx-12c - baixar deste site https://sourceforge.net/projects/finanx/ e depois coloque no lançador com menulibre com o comando
     java -jar finanx.jar no lançador do menulibre
 43-Instalar Alarm clock para quando precisar de algum programa de alarme no ubuntu - alarm-clock-applet_0.3.4-1build1_amd64.deb
+44-Ir ou criar o arquivo .vimrc ou ir na pasta /etc/vim/vimrc e setar, colocar as configuracoes de trabalho do VIM para isso instale o vim não o gvim que já foi instalado antes 
+   e salve no root. as configuracoes estao na pasta linux no arquivo linux_vim.
+
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
