@@ -7,23 +7,25 @@ MARCO/2020
 -----------------------------------------------------------------------
 
 
-25/03/2020 - Reunião com FLAVIA BOMFIM - 08:37 e 09:40h. POC - INFORMATICA | CGIT
-25/03/2020 - Reunião Infraestrutura para o ERPRODATA | CGIT
+
+08:10 x 12:20 x 12:50 x 16:40 -  25/03
+25/03/2020 - Reunião com FLAVIA BOMFIM - 08:37 e 09:40h. POC - INFORMATICA | GIT
+25/03/2020 - Reunião Infraestrutura para o ERPRODATA | GIT
 25/03/2020 - Envio de informações para Gerson Tessler - com modelo de RDM - SerproData
-25/03/2020 - Ponto de Controle sobre Sql Colunar - andamento das informações | CGIT
+25/03/2020 - Ponto de Controle sobre Sql Colunar - andamento das informações | GIT
 
 08:20 x 12:20 x 12:50 x 16:50 -  24/03
-24/03/2020 - Reunião com Claúdio sobre PENTAHO - aplicação de atualização no ORACLE para demanda do bug no condomínio produção | CGIT
-24/03/2020 - Acompanhamento de execução de demanda do contexto /economia para o portal GOV.BR | CGIT
+24/03/2020 - Reunião com Claúdio sobre PENTAHO - aplicação de atualização no ORACLE para demanda do bug no condomínio produção | GIT
+24/03/2020 - Acompanhamento de execução de demanda do contexto /economia para o portal GOV.BR 
 24/03/2020 - Informações com Lynara Chefe para continuidade de demandas
 
 07:59 x 12:00 x 12:30 x 16:30 -  23/03
 23/03/2020 - Repasse de arquivos e orientações para Aurélio Vinicius projeto docs Estaleiro.
 23/03/2020 - Informações sobre Portal GOV.BR - com France.
-23/03/2020 - Análise RDM portal gov.br /economia | CGIT
-23/03/2020 - Planejamento  RDM portal gov.br /economia | CGIT
-23/03/2020 - Análise RDM portal gov.br /agricultura | CGIT
-23/03/2020 - Planejamento RDM portal gov.br /agricultura | CGIT
+23/03/2020 - Análise RDM portal gov.br /economia | GIT
+23/03/2020 - Planejamento  RDM portal gov.br /economia | GIT
+23/03/2020 - Análise RDM portal gov.br /agricultura | GIT
+23/03/2020 - Planejamento RDM portal gov.br /agricultura | GIT
 
 
 08:40 x 12:53 x 13:23 x 17:13 - 20/03
