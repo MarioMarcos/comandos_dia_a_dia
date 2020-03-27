@@ -1,3 +1,10 @@
+-----TOKEN - WATCHDATA - ERRO FECHAR BROWSE-------------27/03/2020-----------------------
+Mas antes de fazer o que esta abaixo - vá nas pasta SerproCDIGM/MANUAL_INSTALACAO_CERTIFICADOS_DIGITAIS_SERPRO que está no meu 
+serprodrive e vá no manual - orientações-token-Watchdata.pdf  e vá passo a passo para verificar
+depois na terceira opção faça os passos corretos. 
+ISSO É PARA ACESSAR O SCCD E OUTROS, INCLUSIVE O EMAIL COM CERTIFICADO e nos navegadores
+corrigir principalmente o erro "Fechar Brows e retirar o token e tente novamente" um saco
+mas deu certo com o apoio do suporte remoto na pessoa de "sueli real" <sueli.real@serpro.gov.br>; 
 ----------------------------------------------------------------------------------------
 24/03/2020 - configuracao para acesso ao SCCD 
 ==Solucao para o problema no SCCD que mesmo com OVPN  funcionando não inicializava o sccd nos browsers chrome e no firefox
