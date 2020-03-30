@@ -164,6 +164,7 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 45-Instlar PINDIGIN do Serpro para usar chat do SERPRO com o pessoal de lá 
    sudo apt update
    sudo apt install pidgin
+   PEGAR AS CONFIGURACOES - NO SERPRO PINDIGIN E COLOCAR AQUI
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal

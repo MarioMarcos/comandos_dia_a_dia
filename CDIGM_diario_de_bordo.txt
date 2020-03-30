@@ -7,6 +7,9 @@ MARCO/2020
 -----------------------------------------------------------------------
 
 08:26 X 12:30 X 13:00  X 17:04 30/03
+
+
+30/03/2020 - Troca de informações com Eduardo Sobre projeto SERPRODATA
 30/03/2020 - Curso AWS AWESOME - webinnar | CGIT
 30/03/2020 - Anaĺise para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
 30/03/2020 - Planajemaneto para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
