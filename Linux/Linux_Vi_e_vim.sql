@@ -65,18 +65,29 @@ gq	Reformata as linhas para a largura desejada
 
 
 --DICAS PARA COLOCAR NO ARQUIVO .vimrc na sua pasta home. senão existir crie um ok.
-"Arquivo de Configurações do Vim - C/C++
+" Source a global configuration file if available
+if filereadable("/etc/vim/vimrc.local")
+  source /etc/vim/vimrc.local
+endif
 syntax on   "syntax highlight
 set showmatch "mostra caracteres ( { [ quando fechados
 set textwidth=79 "largura do texto
 set nowrap  "sem wrap (quebra de linha)
 set mouse=a "habilita todas as acoes do mouse
-set nu "numeracao de linhas
+set nu! "numeracao de linhas
 set ts=4 "Seta onde o tab para
 set sw=4 "largura do tab
 set et "espacos em vez de tab
+map q :quit<CR>
+"map <C-S> :w<CR>
+set autoindent
+set incsearch
+set wildmenu
+set laststatus=2
+set confirm
+color murphy
+set title
 "
-
 
 
 
