@@ -6,12 +6,22 @@ b######################################################################
 MARCO/2020
 -----------------------------------------------------------------------
 
+08:26 X 12:30 X 13:00  X 17:04 30/03
+30/03/2020 - Curso AWS AWESOME - webinnar | CGIT
+30/03/2020 - Anaĺise para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
+30/03/2020 - Planajemaneto para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
 
+
+08:05 x 12:05 x 12:35 x 16:35 -  27/03
+27/03/2020 - Reunião com Cláudio - sobre atividades atualização driver PENTAHO | CGIT
+
+08:40 x 12:40 x 13:10 x 17:10 -  26/03
+26/03/2020 - Configurações diversas no meu notebook para teletrabalho 
 
 
 08:10 x 12:20 x 12:50 x 16:40 -  25/03
 25/03/2020 - Reunião com FLAVIA BOMFIM - 08:37 e 09:40h. POC - INFORMATICA | GIT
-25/03/2020 - Reunião Infraestrutura para o ERPRODATA | GIT
+25/03/2020 - Reunião Infraestrutura para o SERPRODATA | GIT
 25/03/2020 - Envio de informações para Gerson Tessler - com modelo de RDM - SerproData
 25/03/2020 - Ponto de Controle sobre Sql Colunar - andamento das informações | GIT
 
