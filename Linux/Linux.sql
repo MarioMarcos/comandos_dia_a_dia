@@ -6,15 +6,24 @@ ISSO É PARA ACESSAR O SCCD E OUTROS, INCLUSIVE O EMAIL COM CERTIFICADO e nos na
 corrigir principalmente o erro "Fechar Brows e retirar o token e tente novamente" um saco
 mas deu certo com o apoio do suporte remoto na pessoa de "sueli real" <sueli.real@serpro.gov.br>; 
 ----------------------------------------------------------------------------------------
-24/03/2020 - configuracao para acesso ao SCCD 
-==Solucao para o problema no SCCD que mesmo com OVPN  funcionando não inicializava o sccd nos browsers chrome e no firefox
+24/03/2020 - configuracao para acesso ao SCCD, GIT E PLAYOPS
+==Solucao para o problema no SCCD que mesmo com OVPN  funcionando não inicializava o sccd, git, playops  nos browsers chrome e no firefox
 ==end. https://www.sccdtk.serpro ou https://www.sccd.serpro 
-=no linux coloque isso aqui no /etc/hosts 
+=no linux como root coloque isso aqui no /etc/hosts e reinicie o computador
 10.30.120.19     www.sccd.serpro
 10.31.38.23      ns4.serpro
 10.30.120.22     www.sccdtk.serpro
 
+
+10.31.22.120     www.git.serpro
+10.31.18.14      ns3.serpro
+
+10.200.244.104   www.playops.serpro
+
 OBS: no windows estava funcionando normalmente com OVPN funcionando
+para descobrir um ip de uma aplicacao segura tem que entrar em outra máquina que ele estaja rodando
+e usar o modo desenvolvedor do navegador e em network >>> ctrl + R e depois clique em cima do nome do link principal de depois 
+em hedears vai achar o ip da aplicacao.
 -----------------------------------------------------------------------------------------
 
 Driver de vídeo===23/03/2020========================================================================
