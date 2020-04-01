@@ -3,30 +3,37 @@ b######################################################################
 ######################################################################
 ************************************************************************
 ------------------------------------------------------------------------
+ABRIL/2020
+------------------------------------------------------------------------
+
+08:40 X 12:40 X 13:10  X 17:10 31/03
+
+01/04/2020 - Reunião com Alice sobre pendências para demanda aplicação de patch Teradata
+01/04/2020 - Reunião com Lynara e Humberto sobre demandas DATALAKE para reunião de segunda 06/04
+01/04/2020 - Reunião Ponto de Controle - Sql colunar exercicios | GIT
+01/04/2020 - Acompanhamento da Desativação dos Bancos de Dados do DATAPEN - RDM 2020RDM/0000020984 | GIT
+
+
+
+-----------------------------------------------------------------------
 MARCO/2020
 -----------------------------------------------------------------------
 
 08:40 X 12:40 X 13:10  X 17:10 31/03
-
 31/03/2020 - Troca de informações com Claudio Sobre projeto SERPRODATA
 31/03/2020 - envio de atividades para Claudio e Willian Cardoso
 31/03/2020 - envio de informações para Fernanda (Giovanni) sobre andamento das atividades de desativacao de bancos do  DATAPEN
 31/03/2020 - solicitacao de posição para Fabricio Putinni sobre desativacao bancos Oracle - DATAPEN
 
-
-
-
-
-
 08:26 X 12:30 X 13:00  X 17:04 30/03
 30/03/2020 - Troca de informações com Eduardo Sobre projeto SERPRODATA
-30/03/2020 - Curso AWS AWESOME - webinnar | CGIT
-30/03/2020 - Anaĺise para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
-30/03/2020 - Planajemaneto para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | CGIT
+30/03/2020 - Curso AWS AWESOME - webinnar 
+30/03/2020 - Anaĺise para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | GIT
+30/03/2020 - Planajemaneto para RDM 2020RDM/0000029706 - Pentaho - SERPRODATA | GIT
 
 
 08:05 x 12:05 x 12:35 x 16:35 -  27/03
-27/03/2020 - Reunião com Cláudio - sobre atividades atualização driver PENTAHO | CGIT
+27/03/2020 - Reunião com Cláudio - sobre atividades atualização driver PENTAHO | GIT
 
 08:40 x 12:40 x 13:10 x 17:10 -  26/03
 26/03/2020 - Configurações diversas no meu notebook para teletrabalho 

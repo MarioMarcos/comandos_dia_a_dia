@@ -62,7 +62,9 @@ u	Converte para minúsculas
 gq	Reformata as linhas para a largura desejada
 !	Manda as linhas para um comando externo (!sort)
 :	Aplica um comando 'ex' nas linhas (:s/isso/aquilo/)
-
+v para iniciar selecao é otimo depois use os que estao acima tanto d para recortar como y para copiar e p para colar
+Ctrl + Shift + V = Cola texto de outro editor no vi
+Mário procurando o contrário da questão de cima do vi para fora 
 
 --DICAS PARA COLOCAR NO ARQUIVO .vimrc na sua pasta home. senão existir crie um ok.
 " Source a global configuration file if available
