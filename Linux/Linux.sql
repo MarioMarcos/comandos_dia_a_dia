@@ -170,10 +170,10 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
 43-Instalar Alarm clock para quando precisar de algum programa de alarme no ubuntu - alarm-clock-applet_0.3.4-1build1_amd64.deb
 44-Ir ou criar o arquivo .vimrc ou ir na pasta /etc/vim/vimrc e setar, colocar as configuracoes de trabalho do VIM para isso instale o vim não o gvim que já foi instalado antes 
    e salve no root. as configuracoes estao na pasta linux no arquivo linux_vim.
-45-Instlar PINDIGIN do Serpro para usar chat do SERPRO com o pessoal de lá 
+45-Instlar PIDGIN do Serpro para usar chat do SERPRO com o pessoal de lá 
    sudo apt update
    sudo apt install pidgin
-   PEGAR AS CONFIGURACOES - NO SERPRO PINDIGIN E COLOCAR AQUI
+   PEGAR AS CONFIGURACOES - NO SERPRO PIDGIN E COLOCAR AQUI
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal

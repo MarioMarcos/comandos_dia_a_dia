@@ -6,8 +6,15 @@ b######################################################################
 ABRIL/2020
 ------------------------------------------------------------------------
 
-08:40 X 12:40 X 13:10  X 17:10 31/03
+08:10 X 12:50 X 13:20  X 16:00 02/04
 
+02/04/2020 - Envio de email para Misael repassando o cronograma com o Projeto da Plataforma de IA para o mesmo 
+02/04/2020 - Acompanhento de execução da demanda do portal /economia producao 2020RDM/0000020879 | CGIT /Portal Gov.BR
+02/04/2020 - Acompanhento de execução da demanda do portal /economia homologacao 2020RDM/0000017653 | CGIT /Portal Gov.BR
+02/04/2020 - Solicitação de criação de banco postgres através da 2020AT/0000024061 | CGIT outros
+
+
+08:40 X 12:40 X 13:10  X 17:10 01/04
 01/04/2020 - Reunião com Alice sobre pendências para demanda aplicação de patch Teradata
 01/04/2020 - Reunião com Lynara e Humberto sobre demandas DATALAKE para reunião de segunda 06/04
 01/04/2020 - Reunião Ponto de Controle - Sql colunar exercicios | GIT
