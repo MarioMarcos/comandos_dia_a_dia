@@ -7,17 +7,24 @@ ABRIL/2020
 ------------------------------------------------------------------------
 
 
+08:10 X 12:10 X 12:40  X 16:40 06/04
+06/04/2020 - Fernanda
+06/04/2020 - Flavia
+06/04/2020 - Claudio
+06/04/2020 - avelino
+06/04/2020 - Reunião serprobot
+06/04/2020 - reunião ferramentas datalake
+06/04/2020 - analise 2020RDM/0000032856
+06/04/2020 - planejamento 2020RDM/0000032856
+
+
+
+
 09:40 X 12:30 X 13:00  X 18:10 02/04
 03/04/2020 - Reunião sobre PORTAL GOV, melhorias no contexto /economia, /mapa e /cidadania | CGIT
 03/04/2020 - Preparando planilha para demandas em andamento a pedido da chefe Lynara
 03/04/2020 - Atualização de todas RDM e demandas pendentes.
 03/04/2020 - Acompanhamento de RDM 2020RDM/0000017862 atividade de desativacao das máquinas contexto cidadania SerproCloud.
-
-
-
-
-
-
 
 08:10 X 12:50 X 13:20  X 16:00 02/04
 02/04/2020 - Envio de email para Misael repassando o cronograma com o Projeto da Plataforma de IA para o mesmo 
