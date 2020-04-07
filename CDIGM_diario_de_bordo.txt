@@ -6,18 +6,22 @@ b######################################################################
 ABRIL/2020
 ------------------------------------------------------------------------
 
+08:30 X 12:30 X 13:00  X 17:00 07/04
+
+07/04/2020 - Encaminhamento de RDM 2020RDM/0000025282 para grupo GMCDBRBDDW
+07/04/2020 - 
+
+
 
 08:10 X 12:10 X 12:40  X 16:40 06/04
-06/04/2020 - Fernanda
-06/04/2020 - Flavia
-06/04/2020 - Claudio
-06/04/2020 - avelino
-06/04/2020 - Reunião serprobot
-06/04/2020 - reunião ferramentas datalake
-06/04/2020 - analise 2020RDM/0000032856
-06/04/2020 - planejamento 2020RDM/0000032856
-
-
+06/04/2020 - Solicitação de informações por Fernanda SUNGD sobre DUMP de base de dados
+06/04/2020 - Reunião com Flavia BOMFIM sobre POCINFORMATICA
+06/04/2020 - Reunião com Claudio sobre assunto SERPRODATA
+06/04/2020 - Instruções com Avelino sobre demandas de POC
+06/04/2020 - Reunião Técnica SERPROBOT para início da demanda | CGIT
+06/04/2020 - Reunião Gestores sobre demandas Datalake POCINFORMATICA | CGIT 
+06/04/2020 - Análise 2020RDM/0000032856 sobre SERPROBOTS | CGIT
+06/04/2020 - Planejamento 2020RDM/0000032856 sobre SERPROBOTS | CGIT
 
 
 09:40 X 12:30 X 13:00  X 18:10 02/04
