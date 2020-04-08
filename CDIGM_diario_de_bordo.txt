@@ -6,11 +6,27 @@ b######################################################################
 ABRIL/2020
 ------------------------------------------------------------------------
 
+08:40 X 12:58 X 13:28  X 17:10 07/04
+
+08/04/2020 - Reunião com claudio sobre assuntos INFOSUPEC, SERPRODATA e matriz de compatibilidade do PENTAHO.
+08/04/2020 - Reunião com Márcio Cunha sobre andamento das atividades do INFOSUPEC | CGIT
+08/04/2020 - Reunião Ponto de Controle - Sql Server colunar Inclusão de exercicios | CGIT 
+08/04/2020 - 
+
+
+
+
+
+
+
+
 08:30 X 12:30 X 13:00  X 17:00 07/04
-
 07/04/2020 - Encaminhamento de RDM 2020RDM/0000025282 para grupo GMCDBRBDDW
-07/04/2020 - 
-
+07/04/2020 - Reunião com Equipe às 11:30 sobre demandas CDIGM | CDGIT
+07/04/2020 - Reunião com Flávia, Sanint Clair, Forncedor Informatica sobre POCINFORMATICA | CGIT
+07/04/2020 - Reunião com Humberto e Eduardo Nascimento sobre demandas Equipe OLAPDW | CDGIT
+07/04/2020 - Solicitação de informação para Claudio sobre demandas SERPRODATA
+07/04/2020 - Envio de informações de RDM da Equipe CDIGM para chefe Humberto
 
 
 08:10 X 12:10 X 12:40  X 16:40 06/04
