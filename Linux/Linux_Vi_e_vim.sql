@@ -85,7 +85,7 @@ map q :quit<CR>
 set autoindent
 set incsearch
 set wildmenu
-set laststatus=2
+"set laststatus=2 nao deu certo"
 set confirm
 color murphy
 set title
