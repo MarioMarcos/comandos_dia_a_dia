@@ -174,6 +174,7 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
    sudo apt update
    sudo apt install pidgin
    PEGAR AS CONFIGURACOES - NO SERPRO PIDGIN E COLOCAR AQUI
+46-instalar o numlockx conforme instruções neste arquivo mais abaixo.
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
