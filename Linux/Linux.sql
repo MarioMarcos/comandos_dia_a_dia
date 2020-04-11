@@ -187,8 +187,13 @@ tem um opção para habilitar o anti-aliasing e ir em configuração de colcoar 
 e com isso a fonte fica bem melhor para visualizar
 o restante é conhecendo e arrumando 
 
-46-instalar o numlockx conforme instruções neste arquivo mais abaixo.
-   AINDA IMPLANTANDO.
+46-Numlock - va em lançador de aplicativos e procure teclado - marque ligar o teclado antes de iniciar o plasma.
+   Depois va no arquivo /etc/sddm.conf e na linha general acrescente uma linha numlock=on ai vai funcionar.
+   Este aqui e o oficial o que tiver aqui de NUMLOCK desconsidere todos os outros dentro deste arquivo.
+
+47-NO KDE PLASMA na tela de login altere so o plano de fundo de voce quiser e aplique - tentei alterar o tema todo mas estava dando pal direto e ai so mudei o plano de fundo.
+
+
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
