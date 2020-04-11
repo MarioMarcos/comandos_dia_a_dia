@@ -174,7 +174,21 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
    sudo apt update
    sudo apt install pidgin
    PEGAR AS CONFIGURACOES - NO SERPRO PIDGIN E COLOCAR AQUI
+46 -Isso aqui já com o UBUNTU TODO INSTALADO depois instalar a tela do KDE
+    1-sudo apt-get install kubuntu-desktop
+    2-sudo apt-get tasksel 
+    3-vai aparecer uma opção para escolher entre gcdm e sddm
+    4-escolha sddm
+    4-depois de instalado faça o reboot 
+    5-escolha o tema dark depois nas configuraçoes principais
+Depis configurar muitas coisas que não dá para colocar aqui
+pois são detalhes de tela como dois desktop, telas papeis de paredes e um que achei interessante foi a fonte
+tem um opção para habilitar o anti-aliasing e ir em configuração de colcoar RGB opção completo e além disso colcoar o flag em forçar PPP das fontes 
+e com isso a fonte fica bem melhor para visualizar
+o restante é conhecendo e arrumando 
+
 46-instalar o numlockx conforme instruções neste arquivo mais abaixo.
+   AINDA IMPLANTANDO.
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
