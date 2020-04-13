@@ -1,0 +1,10 @@
+
+Por Andrigo
+
+MAQUINA VAI FICAR NO LABORATORIO POC
+VAI ACESSAR OS BANCOS NO DESENVOLVIMENTO
+Reuniao Flavia - Vai pegar na produçao e fazer uma copia jogar na pre-produca
+(copia pelas equipes de bancos de dados por Equipe Negrini e Bruno Assunes) o para ser mascarado para a rede de
+desenvolvimento ja mascarado.
+161.148.239.0 - rede de desenvolvimento
+
