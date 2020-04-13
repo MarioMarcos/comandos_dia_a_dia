@@ -6,26 +6,28 @@ b######################################################################
 ABRIL/2020
 ------------------------------------------------------------------------
 
+
+
+
+
+
 08:30 X 12:30 X 13:00  X 16:00 13/04
 13/04/2020 - Reuniao com Flavia sobre detalhes da reuniao POCINFORMATICA sobre segurança 
-13/04/2020 - 
-
-
-
-
+13/04/2020 - Reuniao com Equipe sobre demandas gerais
+13/04/2020 - Teste de conectividade para curso AWS 
+13/04/2020 - Reuniao POCINFORMATICA sobre direcionamento de questao de seguranca | CGIT
+13/04/2020 - Informacoes com Selma Trevisan sobre GRS INFOSUPEC
 
 09:00 X 13:00 X 13:30  X 17:30 09/04
 09/04/2020 - Reunião com Humberto sobre demandas POCINFORMATICA
 09/04/2020 - Envio de email para Fabiano para informações com Andrigo sobre POCINFORMATICA
 09/04/2020 - Reuniao com FLAVIA sobre detalhes da demanda POCINFORMATICA | CGIT
 
-
 08:40 X 12:58 X 13:28  X 17:10 08/04
 08/04/2020 - Reunião com claudio sobre assuntos INFOSUPEC, SERPRODATA e matriz de compatibilidade do PENTAHO.
 08/04/2020 - Reunião com Márcio Cunha sobre andamento das atividades do INFOSUPEC | CGIT
 08/04/2020 - Reunião Ponto de Controle - Sql Server colunar Inclusão de exercicios | CGIT 
 08/04/2020 - Reunião com Flavia sobre andamento demanda POCINFORMATICA | CGIT
-
 
 08:30 X 12:30 X 13:00  X 17:00 07/04
 07/04/2020 - Encaminhamento de RDM 2020RDM/0000025282 para grupo GMCDBRBDDW
@@ -34,7 +36,6 @@ ABRIL/2020
 07/04/2020 - Reunião com Humberto e Eduardo Nascimento sobre demandas Equipe OLAPDW | CDGIT
 07/04/2020 - Solicitação de informação para Claudio sobre demandas SERPRODATA
 07/04/2020 - Envio de informações de RDM da Equipe CDIGM para chefe Humberto
-
 
 08:10 X 12:10 X 12:40  X 16:40 06/04
 06/04/2020 - Solicitação de informações por Fernanda SUNGD sobre DUMP de base de dados
