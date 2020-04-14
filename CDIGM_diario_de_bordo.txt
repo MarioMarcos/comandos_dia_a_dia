@@ -5,13 +5,16 @@ b######################################################################
 ------------------------------------------------------------------------
 ABRIL/2020
 ------------------------------------------------------------------------
+09:00 X 13:00 X 13:30  X 17:30 14/04
+14/04/2020 - [Poc Informática] Registro de reunião encaminhado para Humberto e Lynara 
+14/04/2020 - [Poc Informática] Informações para Registro de Reunião
+14/04/2020 - [SERPRODATA - PENTAHO] Reunão com Claudio e Eduardo para andamento demanda | CGIT
+14/04/2020 - [Poc Informatica] Reunião para alinhamento da demanda - continuação | CGIT
+14/04/2020 - Solicitação para cancelamento de RDM enviada erroneamente para equipe virtualização 2020RDM/0000035405
+14/04/2020 - Solicitação para alteração de RDM para equipe de Eduardo Nascimento 24734 RDM
+14/04/2020 - [Poc Informática] Reunião com Flávia para alinhamento sobre a reunião de amanhã às 09:00
 
-
-
-
-
-
-08:30 X 12:30 X 13:00  X 16:00 13/04
+08:30 X 12:30 X 13:00  X 18:20 13/04 - terminei 18:20 enviando emails
 13/04/2020 - Reuniao com Flavia sobre detalhes da reuniao POCINFORMATICA sobre segurança 
 13/04/2020 - Reuniao com Equipe sobre demandas gerais
 13/04/2020 - Teste de conectividade para curso AWS 
