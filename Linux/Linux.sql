@@ -26,7 +26,7 @@ e usar o modo desenvolvedor do navegador e em network >>> ctrl + R e depois cliq
 em hedears vai achar o ip da aplicacao.
 -----------------------------------------------------------------------------------------
 
-Driver de vídeo===23/03/2020========================================================================
+Driver de vídeo===23/03/2020===Monitor============================================================
 
 Meu computador travou depois que ajustei uns parâmetros de driver NVIDIA
 
@@ -57,7 +57,6 @@ echo 'nouveau' | sudo tee -a /etc/modules
 
 
 ! /bin/ksh
-
 
 
 o link do watchdata para instalação do token ----- está na pasta documentos/outros.
@@ -175,17 +174,20 @@ Não esqueça de colocar o home/bin no seu path no .bashrc.
    sudo apt install pidgin
    PEGAR AS CONFIGURACOES - NO SERPRO PIDGIN E COLOCAR AQUI
 46 -Isso aqui já com o UBUNTU TODO INSTALADO depois instalar a tela do KDE
-    1-sudo apt-get install kubuntu-desktop
-    2-sudo apt-get tasksel 
-    3-vai aparecer uma opção para escolher entre gcdm e sddm
-    4-escolha sddm
-    4-depois de instalado faça o reboot 
-    5-escolha o tema dark depois nas configuraçoes principais
+    1-sudo add-apt-repository ppa:kubuntu-ppa/backports
+    2-sudo apt-get install kubuntu-desktop
+    3-sudo apt-get tasksel 
+    4-vai aparecer uma opção para escolher entre gcdm e sddm
+    5-escolha sddm
+    6-depois de instalado faça o reboot 
+    7-escolha o tema dark depois nas configuraçoes principais
 Depis configurar muitas coisas que não dá para colocar aqui
 pois são detalhes de tela como dois desktop, telas papeis de paredes e um que achei interessante foi a fonte
 tem um opção para habilitar o anti-aliasing e ir em configuração de colcoar RGB opção completo e além disso colcoar o flag em forçar PPP das fontes 
 e com isso a fonte fica bem melhor para visualizar
 o restante é conhecendo e arrumando 
+
+Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu-ppa/backports
 
 46-Numlock - va em lançador de aplicativos e procure teclado - marque ligar o teclado antes de iniciar o plasma.
    Depois va no arquivo /etc/sddm.conf e na linha general acrescente uma linha numlock=on ai vai funcionar.
