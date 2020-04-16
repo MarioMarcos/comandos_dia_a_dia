@@ -5,6 +5,18 @@ b######################################################################
 ------------------------------------------------------------------------
 ABRIL/2020
 ------------------------------------------------------------------------
+
+09:00 x 12:30 X 13:00 x 18:00 - 16/04/2020
+16/04/2020 - Reunião com Humberto sobre demandas Eduardo Nascimento
+16/04/2020 - analise rdm poc informação
+16/04/2020 - planejamento rdm poc Informatica
+16/04/2020 - Envio de email com modelo de cronograma para Flavia projeto poc Informatica
+16/04/2020 - [Atualização do Concomínio banco Oracle] - Reunião com Equipes para execução em 25 e 26/04 | CGIT
+16/04/2020 - Criação das atividades no trello para execução e acompanhamento das demandas | CGIT
+
+09:00 x 12:30 X 13:00 x 18:00 - 15/04/2020
+15/04/2020 - [Curso AWS Essentials] | CGIT
+
 09:00 X 13:00 X 13:30  X 17:30 14/04
 14/04/2020 - [Poc Informática] Registro de reunião encaminhado para Humberto e Lynara 
 14/04/2020 - [Poc Informática] Informações para Registro de Reunião
