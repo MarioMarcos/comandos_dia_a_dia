@@ -195,7 +195,12 @@ Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu
 
 47-NO KDE PLASMA na tela de login altere so o plano de fundo de voce quiser e aplique - tentei alterar o tema todo mas estava dando pal direto e ai so mudei o plano de fundo.
 
+48-Se for usar o KDE PLASTA instale o KDE CONECTOr no celular e configure no computador tambem para ter aceso ao celular
+  instale o kde connector no computador com sudo apt-get install kdeconnector e use sudo apt-get install kdeconnect indicator-kdeconnect.
+  OBS: So funciona no WIFI. tem que retirar o cabo de rede para que ele funcione.
 
+
+49- Instale o net-tools para ter opçao de usar o ifconfig no linux para ver ip, comando: sudo apt-get install net-toolssudo apt-get install net-tools
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
