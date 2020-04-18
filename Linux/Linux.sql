@@ -1,3 +1,10 @@
+----------PROBLEMA NA AREA DE TRABALHO DO KDE com Ubuntu quando coloquei transparencia------------------------------------
+--17/07/2020
+--100% em umas configuraçoes de area de trabalho. (transparencia)
+   Resolvido com um atalho ALT + SHIFT + F12 -- foi um milagre ai ele retorna a tela normal e voce vai la e retira a configuracao.
+
+
+
 -----TOKEN - WATCHDATA - ERRO FECHAR BROWSE-------------27/03/2020-----------------------
 Mas antes de fazer o que esta abaixo - vá nas pasta SerproCDIGM/MANUAL_INSTALACAO_CERTIFICADOS_DIGITAIS_SERPRO que está no meu 
 serprodrive e vá no manual - orientações-token-Watchdata.pdf  e vá passo a passo para verificar
