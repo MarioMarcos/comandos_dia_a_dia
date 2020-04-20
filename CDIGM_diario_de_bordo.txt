@@ -6,6 +6,15 @@ b######################################################################
 ABRIL/2020
 ------------------------------------------------------------------------
 
+08:40 x 12:40 X 13:10 x 17:55 - 20/04/2020
+20/04/2020 - Alterei à classificação de RDM para grupo LINUX RDM 2020RDM/0000028457
+20/04/2020 - Informações com Fernando Rosa sobre INFOSUPEC
+20/04/2020 - Reunião com Selam / GRS para informações sobre matriz de conexões da segurança para SUPCD
+20/04/2020 - [INFOSUPEC] Reunião Técnica de Implantação | CGIT
+20/04/2020 - Marcação de reunião para Solução de contorno Oracle 
+
+
+
 08:55 x 13:00 X 13:30 x 17:25 - 17/04/2020
 17/04/2020 - reunião com claudio pendencias
 17/04/2020 - reunião com douglas ser
@@ -21,7 +30,7 @@ ABRIL/2020
 16/04/2020 - Criação das atividades no trello para execução e acompanhamento das demandas | CGIT
 
 09:00 x 12:30 X 13:00 x 18:00 - 15/04/2020
-15/04/2020 - [Curso AWS Essentials] | CGIT
+15/04/2020 - [Curso AWS Essentials] | CGIT                  
 
 09:00 X 13:00 X 13:30  X 17:30 14/04
 14/04/2020 - [Poc Informática] Registro de reunião encaminhado para Humberto e Lynara 
