@@ -209,6 +209,9 @@ Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu
 
 49- Instale o net-tools para ter opçao de usar o ifconfig no linux para ver ip, comando: sudo apt-get install net-toolssudo apt-get install net-tools
 
+50-Instalar DROPBOX para usar como sincronizador de pastas
+
+
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
   -Testar Analisar a instalação de DROPBOX, pois ele tem client para linux 

@@ -1,53 +1,69 @@
-b######################################################################
+PARA FLAVIA VER NA SEGUNDA
+Tivemos problemas em alocação de recursos e hoje conseguimos encaminhar e avaliarmos que está ok e atendida e semana que vem 
+entre segudna e quarta vamos construir os ambientes e na quarta já sentar pois não tínhamos, recursos.
+
+######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
 ------------------------------------------------------------------------
 ABRIL/2020
 ------------------------------------------------------------------------
+08:45 x 12:45 x 13:15 x 17:15 - 24/04/2020
+24/04/2020 - Atualização demandas no GIT.SERPRO
+24/04/2020 - Informações com Lynara sobre demandas 
+24/04/2020 - [POC INFORMATICA] Reunião Técnica com Humberto, Lynara, Osmir, Baldoino e Willian Virtualização sobre disponibilidades de máquinas | CGIT
+24/04/2020 - [SERPRODATA] Reunião com Julio Cesar, Claudio Rocha, André Maravilha | CGIT
+24/04/2020 - Preparação para deamanda de final de semana Atualização do banco Oracle | CGIT
+24/04/2020 - Ponto de controle com Giovanna para ajuste no cronograma Atualização do banco Oracle Bug | CGIT
+24/04/2020 - [SERPRODATA] Abertura de Atividade para banco postgres | CGIT
 
-
+08:30 x 12:30 X 13:00 x 17:00 - 23/04/2020 
+23/04/2020 - Atualização das demandas no GIT.SERPRO
+23/04/2020 - Reuniao com Lynara Chefe sobre assuntos de demandas
+23/04/2020 - [INFOSUPEC] Análise RDM 2020RDM/0000023733 | GIT
+23/04/2020 - [INFOSUPEC] Planejamento RDM 2020RDM/0000023733 | GIT
+23/04/2020 - Reunião sobre máquinas microstrategy no cluster BI virtualizado | GIT
+23/04/2020 - Reunião com Equipe com Lynara e Humberto assuntos diversos | GIT
+23/04/2020 - Live com Presidente e Diretores
 
 08:15 x 12:15 X 12:45 x 17:22 - 22/04/2020 
-22/04/2020 - Reanálise RDM 2020RDM/0000023733 RDM | CGIT
-22/04/2020 - Replanejamento RDM 2020RDM/0000023733 RDM | CGIT
-22/04/2020 - Instruções para Márcio Cunha para abertura de RDM | CGIT
-22/04/2020 - [Sql Colunar inclusão de exercícios] Reunião Ponto de Controle | CGIT
-22/04/2020 - Reunião com Lynara sobre demandas Mário Marcos 
+22/04/2020 - Reanálise RDM 2020RDM/0000023733 RDM | GIT
+22/04/2020 - Replanejamento RDM 2020RDM/0000023733 RDM | GIT
+22/04/2020 - Instruções para Márcio Cunha para abertura de RDM 
+22/04/2020 - [Sql Colunar inclusão de exercícios] Reunião Ponto de Controle | GIT
+22/04/2020 - Reunião com Lynara sobre demandas Mário Marcos | GIT
 22/04/2020 - Encaminhametno de Email sobre atendimento à VPN do final de semana e do BUG
-
 
 08:40 x 12:40 X 13:10 x 17:55 - 20/04/2020
 20/04/2020 - Alterei à classificação de RDM para grupo LINUX RDM 2020RDM/0000028457
-20/04/2020 - Informações com Fernando Rosa sobre INFOSUPEC
-20/04/2020 - Reunião com Selam / GRS para informações sobre matriz de conexões da segurança para SUPCD
-20/04/2020 - [INFOSUPEC] Reunião Técnica de Implantação | CGIT
+20/04/2020 - Informações com Fernando Rosa sobre INFOSUPEC | GIT
+20/04/2020 - Reunião com Selma / GRS para informações sobre matriz de conexões da segurança para SUPCD | GIT
+20/04/2020 - [INFOSUPEC] Reunião Técnica de Implantação | GIT
 20/04/2020 - Marcação de reunião para Solução de contorno Oracle 
 
-
-
 08:55 x 13:00 X 13:30 x 17:25 - 17/04/2020
-17/04/2020 - reunião com claudio pendencias
-17/04/2020 - reunião com douglas ser
-17/04/2020 - reunião com GRS INFOSUPEC | CGIT
-17/04/2020 - REUNIÃO COM IMPORTOA E HUMBEROT PENDENCIA DE Informacoes
+17/04/2020 - Ponto de Controle com Claudio pendencias SERPRODATA | GIT
+17/04/2020 - Reunião com douglas SERPROBOTS | GIT
+17/04/2020 - Reunião com GRS INFOSUPEC | GIT
+17/04/2020 - Reunião com Alexandre Improta e Humberto sobre pendência de Informacoes ORACLE BUG receita | GIT
 
 09:00 x 12:30 X 13:00 x 18:00 - 16/04/2020
-16/04/2020 - Reunião com Humberto sobre demandas Eduardo Nascimento
-16/04/2020 - analise rdm poc informação
-16/04/2020 - planejamento rdm poc Informatica
+16/04/2020 - Reunião com Humberto sobre demandas Eduardo Nascimento | GIT
+16/04/2020 - Ànalise rdm poc informação - 2020RDM/0000036270 | GIT
+16/04/2020 - Planejamento rdm poc Informatica - 2020RDM/0000036270 | GIT
 16/04/2020 - Envio de email com modelo de cronograma para Flavia projeto poc Informatica
-16/04/2020 - [Atualização do Concomínio banco Oracle] - Reunião com Equipes para execução em 25 e 26/04 | CGIT
-16/04/2020 - Criação das atividades no trello para execução e acompanhamento das demandas | CGIT
+16/04/2020 - [Atualização do Concomínio banco Oracle] - Reunião com Equipes para execução em 25 e 26/04 | GIT
+16/04/2020 - Criação das atividades no trello para execução e acompanhamento das demandas | GIT
 
 09:00 x 12:30 X 13:00 x 18:00 - 15/04/2020
-15/04/2020 - [Curso AWS Essentials] | CGIT                  
+15/04/2020 - [Curso AWS Essentials] | GIT                  
 
 09:00 X 13:00 X 13:30  X 17:30 14/04
 14/04/2020 - [Poc Informática] Registro de reunião encaminhado para Humberto e Lynara 
 14/04/2020 - [Poc Informática] Informações para Registro de Reunião
-14/04/2020 - [SERPRODATA - PENTAHO] Reunão com Claudio e Eduardo para andamento demanda | CGIT
-14/04/2020 - [Poc Informatica] Reunião para alinhamento da demanda - continuação | CGIT
+14/04/2020 - [SERPRODATA - PENTAHO] Reunão com Claudio e Eduardo para andamento demanda | GIT
+14/04/2020 - [Poc Informatica] Reunião para alinhamento da demanda - continuação | GIT
 14/04/2020 - Solicitação para cancelamento de RDM enviada erroneamente para equipe virtualização 2020RDM/0000035405
 14/04/2020 - Solicitação para alteração de RDM para equipe de Eduardo Nascimento 24734 RDM
 14/04/2020 - [Poc Informática] Reunião com Flávia para alinhamento sobre a reunião de amanhã às 09:00
@@ -56,25 +72,25 @@ ABRIL/2020
 13/04/2020 - Reuniao com Flavia sobre detalhes da reuniao POCINFORMATICA sobre segurança 
 13/04/2020 - Reuniao com Equipe sobre demandas gerais
 13/04/2020 - Teste de conectividade para curso AWS 
-13/04/2020 - Reuniao POCINFORMATICA sobre direcionamento de questao de seguranca | CGIT
+13/04/2020 - Reuniao POCINFORMATICA sobre direcionamento de questao de seguranca | GIT
 13/04/2020 - Informacoes com Selma Trevisan sobre GRS INFOSUPEC
 
 09:00 X 13:00 X 13:30  X 17:30 09/04
 09/04/2020 - Reunião com Humberto sobre demandas POCINFORMATICA
 09/04/2020 - Envio de email para Fabiano para informações com Andrigo sobre POCINFORMATICA
-09/04/2020 - Reuniao com FLAVIA sobre detalhes da demanda POCINFORMATICA | CGIT
+09/04/2020 - Reuniao com FLAVIA sobre detalhes da demanda POCINFORMATICA | GIT
 
 08:40 X 12:58 X 13:28  X 17:10 08/04
 08/04/2020 - Reunião com claudio sobre assuntos INFOSUPEC, SERPRODATA e matriz de compatibilidade do PENTAHO.
-08/04/2020 - Reunião com Márcio Cunha sobre andamento das atividades do INFOSUPEC | CGIT
-08/04/2020 - Reunião Ponto de Controle - Sql Server colunar Inclusão de exercicios | CGIT 
-08/04/2020 - Reunião com Flavia sobre andamento demanda POCINFORMATICA | CGIT
+08/04/2020 - Reunião com Márcio Cunha sobre andamento das atividades do INFOSUPEC | GIT
+08/04/2020 - Reunião Ponto de Controle - Sql Server colunar Inclusão de exercicios | GIT 
+08/04/2020 - Reunião com Flavia sobre andamento demanda POCINFORMATICA | GIT
 
 08:30 X 12:30 X 13:00  X 17:00 07/04
 07/04/2020 - Encaminhamento de RDM 2020RDM/0000025282 para grupo GMCDBRBDDW
-07/04/2020 - Reunião com Equipe às 11:30 sobre demandas CDIGM | CDGIT
-07/04/2020 - Reunião com Flávia, Sanint Clair, Forncedor Informatica sobre POCINFORMATICA | CGIT
-07/04/2020 - Reunião com Humberto e Eduardo Nascimento sobre demandas Equipe OLAPDW | CDGIT
+07/04/2020 - Reunião com Equipe às 11:30 sobre demandas CDIGM 
+07/04/2020 - Reunião com Flávia, Sanint Clair, Forncedor Informatica sobre POCINFORMATICA | GIT
+07/04/2020 - Reunião com Humberto e Eduardo Nascimento sobre demandas Equipe OLAPDW | GIT
 07/04/2020 - Solicitação de informação para Claudio sobre demandas SERPRODATA
 07/04/2020 - Envio de informações de RDM da Equipe CDIGM para chefe Humberto
 
@@ -83,23 +99,23 @@ ABRIL/2020
 06/04/2020 - Reunião com Flavia BOMFIM sobre POCINFORMATICA
 06/04/2020 - Reunião com Claudio sobre assunto SERPRODATA
 06/04/2020 - Instruções com Avelino sobre demandas de POC
-06/04/2020 - Reunião Técnica SERPROBOT para início da demanda | CGIT
-06/04/2020 - Reunião Gestores sobre demandas Datalake POCINFORMATICA | CGIT 
-06/04/2020 - Análise 2020RDM/0000032856 sobre SERPROBOTS | CGIT
-06/04/2020 - Planejamento 2020RDM/0000032856 sobre SERPROBOTS | CGIT
+06/04/2020 - Reunião Técnica SERPROBOT para início da demanda | GIT
+06/04/2020 - Reunião Gestores sobre demandas Datalake POCINFORMATICA | GIT 
+06/04/2020 - Análise 2020RDM/0000032856 sobre SERPROBOTS | GIT
+06/04/2020 - Planejamento 2020RDM/0000032856 sobre SERPROBOTS | GIT
 
 
 09:40 X 12:30 X 13:00  X 18:10 02/04
-03/04/2020 - Reunião sobre PORTAL GOV, melhorias no contexto /economia, /mapa e /cidadania | CGIT
+03/04/2020 - Reunião sobre PORTAL GOV, melhorias no contexto /economia, /mapa e /cidadania | GIT
 03/04/2020 - Preparando planilha para demandas em andamento a pedido da chefe Lynara
 03/04/2020 - Atualização de todas RDM e demandas pendentes.
-03/04/2020 - Acompanhamento de RDM 2020RDM/0000017862 atividade de desativacao das máquinas contexto cidadania SerproCloud.
+03/04/2020 - Acompanhamento de RDM 2020RDM/0000017862 atividade de desativacao das máquinas contexto cidadania SerproCloud. | GIT
 
 08:10 X 12:50 X 13:20  X 16:00 02/04
 02/04/2020 - Envio de email para Misael repassando o cronograma com o Projeto da Plataforma de IA para o mesmo 
-02/04/2020 - Acompanhento de execução da demanda do portal /economia producao 2020RDM/0000020879 | CGIT /Portal Gov.BR
-02/04/2020 - Acompanhento de execução da demanda do portal /economia homologacao 2020RDM/0000017653 | CGIT /Portal Gov.BR
-02/04/2020 - Solicitação de criação de banco postgres através da 2020AT/0000024061 | CGIT outros
+02/04/2020 - Acompanhento de execução da demanda do portal /economia producao 2020RDM/0000020879 | GIT /Portal Gov.BR
+02/04/2020 - Acompanhento de execução da demanda do portal /economia homologacao 2020RDM/0000017653 | GIT /Portal Gov.BR
+02/04/2020 - Solicitação de criação de banco postgres através da 2020AT/0000024061 | GIT outros
 
 08:40 X 12:40 X 13:10  X 17:10 01/04
 01/04/2020 - Reunião com Alice sobre pendências para demanda aplicação de patch Teradata
@@ -176,7 +192,7 @@ MARCO/2020
 
 
 17/03/2020 - Configurando OVPN
-17/03/2020 - Solicitação de prioridade para atendimento de uma demanda para o DATAPEN | CGIT
+17/03/2020 - Solicitação de prioridade para atendimento de uma demanda para o DATAPEN | GIT
 17/03/2020 - Horário Teletrabalho iniciando às 08:10 às 12:39 e de 13:00 às 16:31
 
 
@@ -184,7 +200,7 @@ MARCO/2020
 16/03/2020 - Cobrança ao Roberto Almeida sobre desativação de máquinas CIDADANIA.
 16/03/2020 - Envei email para Eduardo Nascimento cobrando posição sobre a compatibiliade das ferramentas para o upgrade Banco Oracle no Condomínio.
 16/03/2020 - troca de informações com Lynara sobre demanda SGP, Data Analytics
-16/03/2020 - Informações com Eduardo Nascimento sobre pendências com incompatibilidade no upgrade do ORACLE | CGIT
+16/03/2020 - Informações com Eduardo Nascimento sobre pendências com incompatibilidade no upgrade do ORACLE | GIT
 16/03/2020 - Horário Teletrabalho iniciando às 08:21 às 12:30 e de 13:00 às 16:51
 
 
