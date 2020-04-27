@@ -1,7 +1,3 @@
-PARA FLAVIA VER NA SEGUNDA
-Tivemos problemas em alocação de recursos e hoje conseguimos encaminhar e avaliarmos que está ok e atendida e semana que vem 
-entre segudna e quarta vamos construir os ambientes e na quarta já sentar pois não tínhamos, recursos.
-
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
@@ -9,6 +5,15 @@ entre segudna e quarta vamos construir os ambientes e na quarta já sentar pois 
 ------------------------------------------------------------------------
 ABRIL/2020
 ------------------------------------------------------------------------
+08:45 x 12:45 x 13:15 x 17:15 - 27/04/2020
+27/04/2020 - [POCINFORMATICA] Reunião sobre definições de máquinas com Willian, Ricardo Sicupira, Gustavo Silva, Gustavo Baldoino e Dario Barbosa | CGIT
+27/04/2020 - [SERPROBOTS] Informação para Thiago sobre regra de firewall solicitando priorização 
+27/04/2020 - [POC INFORMATICA] trabalhando na preparação do cronograma | CGIT
+27/04/2020 - [INFOSUPEC] Ponto de controle sobre continuidade da demanda | CGIT
+27/04/2020 - Ponto de controle sobre atualização do banco oracle bug encerramento | CGIT
+27/04/2020 - Reunião sobre migração POWERCENTER POC08 | CGIT
+
+
 08:45 x 12:45 x 13:15 x 18:20 - 24/04/2020
 24/04/2020 - Atualização demandas no GIT.SERPRO
 24/04/2020 - Informações com Lynara sobre demandas 
