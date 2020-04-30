@@ -1,32 +1,3 @@
-FLAVIA BOMFIM
-Boa tarde, Mário.15:50
-Para posicionar, o cronograma detalhado será encaminhado pela manhã.15:50
-Download de pacotes de produto deverão estar disponíveis amanhã também.15:50
-Quanto ao faísca da cópia de dados...15:51
-A SUPGP também está providenciando até amanhã.
-
-PARA FLAVIA VER NA SEGUNDA
-
-
-Previsão que temos as máquinas amanha, 
-
-
-
-
-
-
-
-
-2020RDM/0000023733
-
-2020AT/0000020581 - ORACLE
-2020AT/0000020584 - Dw
-2020AT/0000020588 - OLAPDW
-2020AT/0000020591 - IMPLEMONIT
-2020AT/0000020592 - SIGPB
-2020AT/0000031725 - CONTROLM
-
-
 2020RDM/0000038212 - Projeto - INFOSUPEC - Pentaho - PHP e Postgres
 
 2020AT/0000032127	- IMPLA/LINUX
@@ -34,55 +5,35 @@ Previsão que temos as máquinas amanha,
 2020AT/0000032135	- POSTGRES
 
 
-================================================
-1-
+====================================================================================================
+Reunião com Negrini solução de contorno.
 
-CURSO GOOGLE CLOUD FUNDAMENTALS
+- Lynara contextualizando sobre a demanda
+- Negrini: Ruins no processamento, na consulta do cliente, podem gerar diversos problemas no ambiente com a aplicação
+- ficou de ver quando que a migração da ferramenta vai ocorrer, para iniciar a migração do oracle 198
+- a versão da oracle não é mais suportada e não migrou ainda por causa da migração da ferramenta que é o maior risco
+- temos que ver com a área de negocio, pois existe o risco, até porque ninguém reportou nada no banco da receita em São Paulo
+- A questão é aguarda até 30 de julho ou aplica a solução e podemos ter o risco de performance neste período.
 
-acesso por 30 dias 
-https://go.qwiklabs.com/qwiklabs-free 
+- Lynara: POC08, já inicou o planejamento para migrar 
 
-acesse por guia anônima
-
-https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
-
-
-Detalhes de cotas de discos
-https://cloud.google.com/storage/quotas
-
-pergunta: As aplicações internas em um Projeto podem realizar execuções de funções em serviços SERVERLESS como o Cloud Functions com total segurança e retornar dados para os projetos.
+alinhado com Negrini sobre pocinformatica que vai criar as estruturas do banco de desenvolvimento sem acesso 
+da DIDES e com permissão de select no banco de Préprodução. Vou seguir a linha para os outros bancos também.
 
 
-More Resources do google
-Why Google Cloud Platform?   https://cloud.google.com/why-google/
-Pricing philosophy	https://cloud.google.com/pricing/philosophy/
-Data centers   https://www.google.com/about/datacenters/
-Google Cloud Platform product overview   http://cloud.google.com/products/
-Google Cloud Platform solutions   http://cloud.google.com/solutions/
+=================================
+Assuntos Lynara
 
-Console do Google Cloud Plataform
-https://console.cloud.google.com/
-
-SDK para desnenvolvimento para API
-https://developers.google.com/discovery/libraries
+1-Email Thiago - Desenvolvimento SERPROBOTS Elastic Search
+2-Email Gerson - Sobre segurança no processo de acesso às workstation
+3-Têm notícia da AWS? Porque não fazemos ambiente de contingência gov.br na AMAZON? 
+OK - 4-Abri a atividade para o Oracle (Eudes) que vai aplicar os patches amanhã dia 01/05/2020 no ambiente de Préprodução e Préprodução. Não necessitará de acompanhamento do planejamento. Qualquer incidente nos procura
+5-Quando abrimos uma atividade para um Equipe, quem define os participantes e resolve questão de Hora Extra dessa Equipe?
+OK - 6-Edinardo respondeu o seu email sobre informação da atividade dos patches?
 
 
-
-Anthos Technical Documentation: 
-https://cloud.google.com/anthos/
-https://cloud.google.com/anthos/docs/
-
-
-Tutor do curso
-eduardo.duarte@flane.com.pa
-
-
-
-
-
-
-
-
+==================================
+Atividades Oracle dia 01/05/2020 - aplicação de patches Eudes
 
 
 

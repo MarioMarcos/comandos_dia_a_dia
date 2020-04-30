@@ -1,0 +1,57 @@
+Código do serviço: 11432
+
+Solicito criação de ambiente na ZDM PoC (161.148.239.0) para a prova de conceito dos produtos Informatica para ingestão, governança e gerenciamento de dados
+
+SERVIDORES
+
+Axon: 1 Servidor (200 GB de disco, 26 GB de memória e CPU 8 cores),
+PowerExchange, EDC & DEI (Plataforma Informatica): 1 Servidor de Domínio (300 GB de disco, 64 GB de memória e CPU 24 cores), 
+TDM  (Plataforma Informatica): 1 Servidos (100 GB de disco, 16 GB de memória e CPU 8 cores), e
+MDM  (Plataforma Informatica): 1 Servidor (400 GB de disco, 64 GB de memória e CPU 16 cores).
+Hadoop: 3 Servidores Internal Cluster (500 GB de disco, 64 GB de memória e CPU 32 cores), 
+
+Os servidores podem ser virtualizados e com sistema operacional linux nas distribuições:
+Amazon Linux 2,
+CentOS Linux version 7.5 or 7.6,
+Oracle Enterprise Linux 7.4,
+Red Hat Enterprise Linux 7.x, e
+SUSE Linux Enterprise Server 12 SP2, SP3, or SP4.
+
+BANCO DE DADOS
+
+Schemas Oracle (19c, 18c, 12cR2, 12cR1 ou 11gR) para os repositórios dos diversos produtos. São os repositórios:
+
+INFA_DOM - Domain Repository, 2 GB de disco.
+INFA_CACHE - Data object cache database, 2 GB de disco.
+INFA_MRS - Model Repository, 2 GB de disco.
+INFA_MOM - Monitoring Model Repository, 2 GB de disco.
+INFA_REF - Reference Data, 2 GB de disco.
+INFA_PWH - Profiling Warehouse, 20 GB de disco.
+INFA_WKFLW_DB - Workflow Database - usuário infa_wkflw_db, 2 GB de disco.
+INFA_TDM - TDM Repository - usuário infa_tdm, 2 GB de disco.
+INFA_TDW - Test Data Warehouse Repository, 2 GB de disco.
+TDM_DOM - Domain Repository, 2 GB de disco.
+TDM_CACHE - Data object cache database, 2 GB de disco.
+TDM_MRS - Model Repository, 2 GB de disco.
+TDM_MOM - Monitoring Model Repository, 2 GB de disco.
+TDM_REF - Reference Data, 2 GB de disco.
+TDM_PWH - Profiling Warehouse, 20 GB de disco.
+CMX_SYSTEM - MDM Hub Master Database, 2 GB de disco.
+CMX_ORS  -  Operational Reference Store, 2 GB de disco.
+AVOS - ActiveVOS Database, 2GB de disco.
+
+
+CÓPIA DE BANCO DE DADOS
+
+Copiar da produção os bancos de dados dos sistemas corporativos SGP (Oracle), FCT/GFC (SQL Server), SiscopWeb (PostGreSQL/Outsystem) e Sisgad (PostGreSQL) (para o ambiente de homologação. Por meio da ferramenta TDM, novos bancos de dados serão criados com dados mascarados no ambiente de desenvolvimento, ou no próprio ambiente de homologação, e a partir desses dados mascarados, os cenários de ingestão de dados (6 a 9) serão realizados.
+
+Portas indicadas no documento anexo desta RDM. Outras informações:
+
+Arquitetura do Ambiente de PoC (draw.io)
+https://drive.google.com/drive/folders/19YHkAx1cuwNRQE2WUzrfTlVhNem8g8QO?usp=sharing
+
+Cronograma da PoC
+https://docs.google.com/spreadsheets/d/1p-hfE2dNuMYlVyK7CtEDqRsfnfe13EKvSnfwqRGsrLk/edit?usp=sharing
+
+PoC - Produtos Informatica - versão 1.1
+https://docs.google.com/document/d/1xHoEOz_S1Q9OwOJ0hmaVhfRJbB8zdZz6OfFvu1mExuA/edit?usp=sharing

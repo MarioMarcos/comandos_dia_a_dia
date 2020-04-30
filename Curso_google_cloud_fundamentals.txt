@@ -1,0 +1,40 @@
+1-
+
+CURSO GOOGLE CLOUD FUNDAMENTALS
+
+acesso por 30 dias 
+https://go.qwiklabs.com/qwiklabs-free 
+
+acesse por guia anônima
+
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+
+
+Detalhes de cotas de discos
+https://cloud.google.com/storage/quotas
+
+pergunta: As aplicações internas em um Projeto podem realizar execuções de funções em serviços SERVERLESS como o Cloud Functions com total segurança e retornar dados para os projetos.
+
+
+More Resources do google
+Why Google Cloud Platform?   https://cloud.google.com/why-google/
+Pricing philosophy	https://cloud.google.com/pricing/philosophy/
+Data centers   https://www.google.com/about/datacenters/
+Google Cloud Platform product overview   http://cloud.google.com/products/
+Google Cloud Platform solutions   http://cloud.google.com/solutions/
+
+Console do Google Cloud Plataform
+https://console.cloud.google.com/
+
+SDK para desnenvolvimento para API
+https://developers.google.com/discovery/libraries
+
+
+
+Anthos Technical Documentation: 
+https://cloud.google.com/anthos/
+https://cloud.google.com/anthos/docs/
+
+
+Tutor do curso
+eduardo.duarte@flane.com.pa

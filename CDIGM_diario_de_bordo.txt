@@ -3,29 +3,57 @@
 ######################################################################
 ************************************************************************
 ------------------------------------------------------------------------
+MAIO/2020
+------------------------------------------------------------------------
+08:25 x 12:25 x 12:55 x 16:55 - 30/04/2020
+04/05/2020 - 
+
+------------------------------------------------------------------------
 ABRIL/2020
 ------------------------------------------------------------------------
 
+08:25 x 12:25 x 12:55 x 16:55 - 30/04/2020
+30/04/2020 - [SERPROBOTS] Fechamento da atividade para SERPROBOTS | GIT
+30/04/2020 - Reunão com Negrini e Lynara sobre solução de contorno bug oracle receita | CGIT
+30/04/2020 - Orientação para Marcio Cunha sobre publicador | CGIT PBC 
+30/04/2020 - Alinhamento da demanda aplicação de patches com EUDES | CGIT PBC
+30/04/2020 - Análise da RDM 2020RDM/0000040607 Aplicação de Patches Oracle | CGIT ANAB 
+30/04/2020 - Planejamento da RDM 2020RDM/0000040607 Aplicação de Patches Oracle | CGIT PLANB 
+30/04/2020 - [Inclusão de Exercicios Sql Colunar] Reunião Técnica para migração de bancos menores Sql server para Zdm de produção | CGIT PCM 
+30/04/2020 - Ponto de Controle com a Equipe CDIGM | CGIT PCB 
+30/04/2020 - Live do Presidente
+
+08:40 x 12:40 x 13:10 x 17:10 - 29/04/2020
+29/04/2020 - [POCINFORMATICA] Atividade para Virtualização criarem os servidores | GIT
+29/04/2020 - [POCINFORMATICA] Reunião para ajuste no cronograma inicial | GIT
+29/04/2020 - Reunião com Edinardo e Lynara para ajustes demanda bug oracle aplicação de patches | GIT
+29/04/2020 - 
+
 09:00 x 17:15 - 28/04/2020
-28/04/2020 - CURSO GOOGLE CLOUD
+28/04/2020 - CURSO GOOGLE CLOUD | GIT
 
 08:45 x 12:45 x 13:15 x 17:15 - 27/04/2020
-27/04/2020 - [POCINFORMATICA] Reunião sobre definições de máquinas com Willian, Ricardo Sicupira, Gustavo Silva, Gustavo Baldoino e Dario Barbosa | CGIT
-27/04/2020 - [SERPROBOTS] Informação para Thiago sobre regra de firewall solicitando priorização 
-27/04/2020 - [POC INFORMATICA] trabalhando na preparação do cronograma | CGIT
-27/04/2020 - [INFOSUPEC] Ponto de controle sobre continuidade da demanda | CGIT
-27/04/2020 - Ponto de controle sobre atualização do banco oracle bug encerramento | CGIT
-27/04/2020 - Reunião sobre migração POWERCENTER POC08 | CGIT
+27/04/2020 - [POCINFORMATICA] Reunião sobre definições de máquinas com Willian, Ricardo Sicupira, Gustavo Silva, Gustavo Baldoino e Dario Barbosa | GIT
+27/04/2020 - [SERPROBOTS] Informação para Thiago sobre regra de firewall solicitando priorização | GIT
+27/04/2020 - [POC INFORMATICA] trabalhando na preparação do cronograma | GIT
+27/04/2020 - [INFOSUPEC] Ponto de controle sobre continuidade da demanda | GIT
+27/04/2020 - Ponto de controle sobre atualização do banco oracle bug encerramento | GIT
+27/04/2020 - Reunião sobre migração POWERCENTER POC08 | GIT
 
+00:00 x 01:20 e 10:00 x 12:00  - 26/04/2020  
+25/07/2020 - [Atualização do condomínio bug Oracle] Acompanhamento de execução | CGIT
+
+06:45 x 00:00 - 25/04/2020  
+25/07/2020 - [Atualização do condomínio bug Oracle] Acompanhamento de execução | CGIT
 
 08:45 x 12:45 x 13:15 x 18:20 - 24/04/2020
 24/04/2020 - Atualização demandas no GIT.SERPRO
 24/04/2020 - Informações com Lynara sobre demandas 
-24/04/2020 - [POC INFORMATICA] Reunião Técnica com Humberto, Lynara, Osmir, Baldoino e Willian Virtualização sobre disponibilidades de máquinas | CGIT
-24/04/2020 - [SERPRODATA] Reunião com Julio Cesar, Claudio Rocha, André Maravilha | CGIT
-24/04/2020 - Preparação para deamanda de final de semana Atualização do banco Oracle | CGIT
-24/04/2020 - Ponto de controle com Giovanna para ajuste no cronograma Atualização do banco Oracle Bug | CGIT
-24/04/2020 - [SERPRODATA] Abertura de Atividade para banco postgres | CGIT
+24/04/2020 - [POC INFORMATICA] Reunião Técnica com Humberto, Lynara, Osmir, Baldoino e Willian Virtualização sobre disponibilidades de máquinas | GIT
+24/04/2020 - [SERPRODATA] Reunião com Julio Cesar, Claudio Rocha, André Maravilha | GIT
+24/04/2020 - Preparação para demanda de final de semana Atualização do banco Oracle | GIT
+24/04/2020 - Ponto de controle com Giovanna para ajuste no cronograma Atualização do banco Oracle Bug | GIT
+24/04/2020 - [SERPRODATA] Abertura de Atividade para banco postgres | GIT
 
 08:30 x 12:30 X 13:00 x 17:00 - 23/04/2020 
 23/04/2020 - Atualização das demandas no GIT.SERPRO
