@@ -5,8 +5,27 @@
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
-08:25 x 12:25 x 12:55 x 16:55 - 30/04/2020
-04/05/2020 - 
+08:40 x 12:40 x 13:10 x 17:10 - 05/05/2020
+05/05/2020 - 
+
+
+
+08:40 x 12:40 x 13:10 x 17:10 - 04/05/2020
+04/05/2020 - [Poc Informatica] Posição com Baldoino de como está o andamento do projeto | CGIT PCB
+04/05/2020 - Fechar a RDM sobre demanda do feriado - aplicação de patches Oracle 
+04/05/2020 - Informaçções sobre demandas gerais com Lynara 
+04/05/2020 - [Poc Informatica] Ponto de Controle com Flávia Bomfim | CGIT PCB
+04/05/2020 - [INFOSUPEC] Ponto de controle | CGIT PCA
+04/05/2020 - Envio de Email para Thiago Davila sobre demanda SERPROBOTS | CGIT PCB
+04/05/2020 - [Poc Informatica] Criação de Atividade para Banco Oracle | CGIT ATB
+
+
+
+
+
+
+
+
 
 ------------------------------------------------------------------------
 ABRIL/2020
