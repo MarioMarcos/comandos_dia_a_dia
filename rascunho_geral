@@ -25,27 +25,100 @@ da DIDES e com permissão de select no banco de Préprodução. Vou seguir a lin
 Assuntos Lynara
 
 
-3-Quando abrimos uma atividade para um Equipe, quem define os participantes e resolve questão de Hora Extra dessa Equipe?
-Em cima da RDM - preciso da atividade - cada um deve colocar no seu SISCOPWEB -
-poderemos abrir uma atividade individual para cada pessoa.
-
-4-ligar para Julio Alves - SUPSI (Assunto: VNC)
-
-5-Fluxo de desenvolvimento - pedir direcionamento para o Geison dar orientaçao
-- se ele nao te der informaçao me fale que vou falar com Lynara, para deslocar
-  uma equide de desenvolvimento com know-how para ver o melhor caminho.
-
 6-Helen conversa com seu Departamento se ele tem orientaçao melhor - marcar uma
 interlocaçao com voces.
 
 ==================================
+2020SS/0000438024 - SS CRIADA PELO Baldoino
 
 
+Equipe Banco DW,
+
+Solicito a criação dos esquemas abaixo relacionados no ambiente de
+Desenvolvimento de BI do Exadata para serem utilizados em Poc Informatica conforme  
+acertado em Reunião Técnica. 
+
+O fornecedor Informatica indicou a necessidade de esquemas de banco de dados Oracle em uma das versões (19c, 18c, 12cR2, 12cR1 ou 11gR), 
+para os repositórios dos diversos produtos. 
+
+Esquemas:
+
+INFA_DOM - Domain Repository, 2 GB de disco.
+INFA_CACHE - Data object cache database, 2 GB de disco.
+INFA_MRS - Model Repository, 2 GB de disco.
+INFA_MOM - Monitoring Model Repository, 2 GB de disco.
+INFA_REF - Reference Data, 2 GB de disco.
+INFA_PWH - Profiling Warehouse, 20 GB de disco.
+INFA_WKFLW_DB - Workflow Database - usuário infa_wkflw_db, 2 GB de disco.
+INFA_TDM - TDM Repository - usuário infa_tdm, 2 GB de disco.
+INFA_TDW - Test Data Warehouse Repository, 2 GB de disco.
+TDM_DOM - Domain Repository, 2 GB de disco.
+TDM_CACHE - Data object cache database, 2 GB de disco.
+TDM_MRS - Model Repository, 2 GB de disco.
+TDM_MOM - Monitoring Model Repository, 2 GB de disco.
+TDM_REF - Reference Data, 2 GB de disco.
+TDM_PWH - Profiling Warehouse, 20 GB de disco.
+CMX_SYSTEM - MDM Hub Master Database, 2 GB de disco.
+CMX_ORS  -  Operational Reference Store, 2 GB de disco.
+AVOS - ActiveVOS Database, 2GB de disco.
+
+Nas configurações com as aplicações solicitaremos o acompanhamento de um DBA
+com direito de administrador para juntamente com o Time OLAPDW possa configurar os bancos da forma correta caso seja necessário.
+
+Os bancos de dados devem atender aos seguintes requisitos:
+Configurar o parâmetro open_cursors para 4000 ou mais
+SELECT VALUE OPEN_CURSORS FROM V$PARAMETER WHERE UPPER(NAME)=UPPER('OPEN_CURSORS')
+Configurar as permissões na visão $parameter para o usuário do banco de dados
+Verificar o usuário do banco de dados para ter as seguintes permissões:
+CREATE INDEX, CREATE SEQUENCE, CREATE SESSION, CREATE SYNONYM, CREATE TABLE, CREATE VIEW, DROP TABLE, INSERT INTO TABLE, ALTER SEQUENCE, ALTER TABLE and UPDATE TABLE privileges
+Configurar o parâmetro de sessões para 1000
+Configurar o parâmetro de processos para 1000
+Os produtos Informatica não suportam sinônimos públicos do Oracle para tabelas de repositório. Deve ser verificado se sinônimos públicos não foram criados para nenhuma tabela no banco de dados.
+ 
+As conexões do banco de dados Workflow DB devem ser configuradas com os parâmetros tamanho máximo do pool de conexão em 128, tamanho mínimo do pool de conexão 0 e tempo máximo de ociosidade em 120 segundos.
+
+Por fim as credenciais devem ser encaminhadas para Gustavo Baldoino (Gustavo.menezes@serpro.gov.br), Gustavo Silva (Gustavo.silva@serpro.gov.br (SUPCD-OLAPDW)
 
 
+============================================================================================
+
+Solicito abertura de RDM para migrar dois bancos de dados do servidor DFCDSRV1022 para o servidor de DFCDSRV0898 que esta na zdm de banco.
+
+Janela de manutenção: 09 de maio 2020 
+periodo: 09:00 a 12:00
+
+Origem: DFCDSRV1022
+Codigo de serviço: 10395 e 10492
+Nome dos bancos: dbpro_10395_fcm, dbpro_10395_fincrmdb, dbpro_10395_sas_coaf, dbpro_10395_sna, dbpro_10395_snadb, dbpro_10492_spot
+
+Destino: DFCDSRV898
+IP: 10.193.0.122
+
+Motivo: Esta previsto um aumento muito grande do SQL Colunar. E esses banco pode ser afetado. Então para evitar que esse banco "sofram" com esse crescimento do SQL Colunar decidiu que é necessário trocar a maquina para evitar indisponibilidades nesses sistemas.
+
+Será necessário altera o IP que conectar na aplicação. 
+
+São necessárias duas ATIVIDADES. Uma para Equipe de SQL SERVER Brasilia e outra para aplicação de DW. (DIVISAO DE SUPORTE AS FERRAMENTAS E AMBIENTES DE DADOS ANALITICOS)
+
+Caso tenha alguma dúvida solicito entrar em contato comigo ou Mario Souza (mario.souza@serpro.gov.br).
 
 
+============================
+BALDOINO
+DOWNLOADS BINÁRIOS nas máquinas amanhã 06/05
+iniciar dia 07/05 - com Informatica
 
+=======================================================================================================================
+FLAVIA
+Bom dia, Mário.
+
+Segue o número de RDM e Faísca das cópias.
+2020RDM/0000041436 - SISCOPWEB
+2020RDM/0000041433 - GFC/FCT
+Faísca nº 57148/2020 - SGP
+
+Entrei em contato com a SUPSI para verificar um caminho mais rápido para aprovação destas cópias, uma vez que as equipes de desenvolvimento não terão acesso. Segundo a SUPSI, Renato Ribeiro (CDCSP) seria o indicado para tratar do assunto
+=======================================================================================================================
 
 
 

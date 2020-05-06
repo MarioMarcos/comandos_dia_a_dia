@@ -5,8 +5,20 @@
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
-08:40 x 12:40 x 13:10 x 17:10 - 05/05/2020
+09:00 x 13:00 x 13:30 x 17:30 - 05/05/2020
+05/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino | CGIT PCB
+05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | CGIT ATB
+05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | CGIT PLANB
+05/05/2020 - [Poc Informatica] - Repasse da demanda sobre criação de schemas para Baldoino criar SS para OLAPDW | CGIT PCB
+05/05/2020 - [Poc Informatica] - Reunião com Tiago Sodré sobre demanda para instalação do JBOSS 7.1 e 7.2 na máquina MDM | CGIT PCB
+05/05/2020 - [Poc Informatica] - Reunião com Giovanni (INFORMATICA), Flavia sobre detalhes no cronograma | CGIT PCM
+05/05/2020 - [Poc Informatica] - Reunião com Negrini para dúvidas com relação ao ambiente de desenvolvimento | CGIT PCB
+05/05/2020 - Encaminhamento de email para o Julio SUPSI para solicitação de informações sobre GRS
 05/05/2020 - 
+
+
+
+
 
 
 
@@ -18,14 +30,6 @@ MAIO/2020
 04/05/2020 - [INFOSUPEC] Ponto de controle | CGIT PCA
 04/05/2020 - Envio de Email para Thiago Davila sobre demanda SERPROBOTS | CGIT PCB
 04/05/2020 - [Poc Informatica] Criação de Atividade para Banco Oracle | CGIT ATB
-
-
-
-
-
-
-
-
 
 ------------------------------------------------------------------------
 ABRIL/2020
