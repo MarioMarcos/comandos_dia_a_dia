@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
@@ -5,6 +12,21 @@
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+
+08:30 x 12:30 x 13:00 x 17:00 - 06/05/2020
+06/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Thiago Sodre, Eduardo silva sobre jboss | CGIT PCB
+06/05/2020 - [Poc Informatica] - Ponto de Controle com Flavia, Leandro cuoco, Anezio ADABAS | CGIT PCM
+06/05/2020 - [Serprodata] - Ponto de Controle com Eduardo Nascimento  | CGIT PCB
+06/05/2020 - [Serprodata e INFOSUPEC] Ponto de Controle com Julio SUPSI sobre questão segurança acesso VNC e RDP | CGIT PCB
+06/05/2020 - [Serprodata] Ponto de Controle com Bruno Assunes sobre máquinas postgres | CGIT PCB
+06/05/2020 - [Inclusão de Exercícios Sql Colunar] Ponto de Controle com Times BancoDW, Área de Negócio, Entrega, Banco SqlServer  | CGIT PCA
+06/05/2020 - Informação sobre demandas para Lynara | CGIT PCB
+06/05/2020 - [Serprodata] Acompanhamento de apoio a configuração do kerberos no Serprodata pelo Julio e Claudio | CGIT ACOMPEXE
+
+
+
+
+
 09:00 x 13:00 x 13:30 x 17:30 - 05/05/2020
 05/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino | CGIT PCB
 05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | CGIT ATB
@@ -14,13 +36,6 @@ MAIO/2020
 05/05/2020 - [Poc Informatica] - Reunião com Giovanni (INFORMATICA), Flavia sobre detalhes no cronograma | CGIT PCM
 05/05/2020 - [Poc Informatica] - Reunião com Negrini para dúvidas com relação ao ambiente de desenvolvimento | CGIT PCB
 05/05/2020 - Encaminhamento de email para o Julio SUPSI para solicitação de informações sobre GRS
-05/05/2020 - 
-
-
-
-
-
-
 
 08:40 x 12:40 x 13:10 x 17:10 - 04/05/2020
 04/05/2020 - [Poc Informatica] Posição com Baldoino de como está o andamento do projeto | CGIT PCB
