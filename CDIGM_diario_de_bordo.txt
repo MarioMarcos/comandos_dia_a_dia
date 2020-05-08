@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
@@ -12,6 +5,42 @@
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+
+08:40 x 12:40 x 13:10 x 17:10 - 08/05/2020
+08/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Eduardo | CGIT PCB
+08/05/2020 - [SERPRODATA] - Ponto de Controle com Gerson sobre máquina | CGIT PBC
+08/05/2020 - [live anita] - Ponto de controle para atender live anita - Datavalid | CGIT PCM
+08/05/2020 - RAFAEL 
+08/05/2020 - WALDMAR
+08/05/2020 - ANA - RDM Datavalid
+08/05/2020 - PLAN - RDM Datavalid
+08/05/2020 - AT - PARA VIRUTA RDM Datavalid 2020AT/0000035732
+08/05/2020 - 35739
+08/05/2020 - 35742
+08/05/2020 - 35743
+08/05/2020 - 35744
+08/05/2020 - pcb claudio
+08/05/2020 - 
+
+
+
+
+
+09:00 x 13:00 x 13:30 x 17:30 - 07/05/2020
+07/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Thiago Sodre, Eduardo silva sobre jboss | CGIT PCB
+baldoinio
+equipe oracle
+claudio Certificado
+bruno Assunes
+07/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Flavia, Giovani | CGIT PCB
+0705/2020 - EDUARDO Nascimento
+07/05/2020 - LYNARA demandas
+07/05/2020 - Live Diretoria
+07/05/2020 - [Serprodata] - Acompanhar atendimento de demandas | CGIT PCB
+07/05/2020 - [ANITA] - Reunião para detalhes para acompanhamento da live anita - Datavalid | CGIT PCA
+07/05/2020 - [SERPRODATA] PONTO DE CONTROLE MEDIO COM Gestores
+
+
 
 08:30 x 12:30 x 13:00 x 17:00 - 06/05/2020
 06/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Thiago Sodre, Eduardo silva sobre jboss | CGIT PCB
@@ -22,9 +51,6 @@ MAIO/2020
 06/05/2020 - [Inclusão de Exercícios Sql Colunar] Ponto de Controle com Times BancoDW, Área de Negócio, Entrega, Banco SqlServer  | CGIT PCA
 06/05/2020 - Informação sobre demandas para Lynara | CGIT PCB
 06/05/2020 - [Serprodata] Acompanhamento de apoio a configuração do kerberos no Serprodata pelo Julio e Claudio | CGIT ACOMPEXE
-
-
-
 
 
 09:00 x 13:00 x 13:30 x 17:30 - 05/05/2020

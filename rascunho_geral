@@ -113,8 +113,8 @@ FLAVIA
 Bom dia, Mário.
 
 Segue o número de RDM e Faísca das cópias.
-2020RDM/0000041436 - SISCOPWEB
-2020RDM/0000041433 - GFC/FCT
+CONCLUIDA - 2020RDM/0000041433- SISCOPWEB - faísca nº 57447/2020 - Postgres - Rafael Leopoldo que fez a cópia - pegar credenciais com ele por email.
+CONCLUIDA - 2020RDM/0000041436 - GFC/FCT - faísca nº 57460/2020 - Sql Server BSA -- Entrar em contato com Portugal do Sql Server para pegar credenciais
 Faísca nº 57148/2020 - SGP
 
 Entrei em contato com a SUPSI para verificar um caminho mais rápido para aprovação destas cópias, uma vez que as equipes de desenvolvimento não terão acesso. Segundo a SUPSI, Renato Ribeiro (CDCSP) seria o indicado para tratar do assunto
@@ -129,6 +129,21 @@ PARA PEDIR BLACKOUT O HATUS O PASSOU
 equipe DAAS - Frederico Gil informar da demanda 
 https://sf.daas.serpro.gov.br/
 161.148.242.16
+
+PARA PEDIR BLACKOUT O WALDEMAR O PASSOU - solicitando
+
+IP: 161.148.236.34
+URL: https://analytics.fazenda.gov.br
+
+Atividades 
+
+2020AT/0000035801 - OLAPDW HATUS
+2020AT/0000035802 - OLAPDW WALDEMAR
+2020AT/0000035798 - SQL SERVER
+2020AT/0000035816 - SIGPB
+2020AT/0000035803 - Implemonit
+
+
 
 =======================================================================================================================
 SALA ANITA - DATAVALID
@@ -163,15 +178,122 @@ equipe do WSE2 - SUPSE aplica
 2-negociarem de que forma seria a negociação com o cliente para quinta sexta e sábado.
 3-
 
+Reunião 07/05/2020 continuação
+ITI - é o sistema de pagamento do ITAU
+
+
+OPÇÕES:
+
+1-Teste de stress agora com os clientes rodando com informações concretas e como escalar - problemas impactaria de forma desmedida para outros clientes
+2-Travar o número de requisiões em 30 e 35 para garantir o atendimento: preocupações: é que já prometeram e não entregaram esse volume que vai ser grande de grandes proporções e a chance é grande
+3-Escalar uma noção clara e onde e quando escalar - não temos preocupações, pois já sabemos aonde estão os gargalos, e utilzação de infra é aumentar quadruplicar por 5 horas, não vamos gastar 5000 mil reais.
+é um período muito curto, e como uma ultra infraestrutura para o DATAVALID e vamos aprender a escalar o Datavalid e vou ganhar o teste stress. Se a volumetria for a esperada.
+
+ITAU passou IPS para o THIAGO IAN - para colocar na whitelist, ou seja, para que os ips cheguem sem problemas no servidores do SERPRO.
+
+PUXAR UMA AUDIO COM TODOS QUE VÃO PARTICIPAR NO MEET DE DOMINGO - SALA ANITA
+
+0,91 centavos por gb em memoria 
+
+RDM 2020RDM/0000043731
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 =======================================================================================================================
 SS Gerson - pediu por fora do planejamento serprodata
 2020SS/0000443112
 
+1-CÓDIGO DE SERVIÇO
+2-NOME DO BANCO ESPECÍFICO NO DESENVOLVIMENTO METADADOS.
+
+DÚVIDA - PRECISA SABER 
+INSERT, ALTER E UPDATE TABLE DE CADA USUÁRIO VAI SER O DONO NÃO EXISTE NO Oracle
+
+INSERT ANY TABLE NA TABELA DE QUALQUER UM 
+
+Reinicar o banco destino vai ser necessário
+
+=======================================================================================================================
+
+ANA CLAUDIA ARAUJO - DESENVOLVIMENTO SGP - FALAR COM ELA QUE NÃO É PARA DISPONIBILIZAR PARA FTP
+
+========================
+
+Código de Serviço: 11432
+
+Equipe Banco Oracle,
+
+Solicito a criação dos esquemas de metadados abaixo relacionados, no ambiente de
+Desenvolvimento de BI do Exadata, MDDES104,  para serem utilizados em Poc Informatica conforme
+acertado em Reunião Técnica.
+
+O fornecedor Informatica indicou a necessidade de esquemas de banco de dados Oracle em uma das versões (19c, 18c, 12cR2, 12cR1 ou 11gR),
+para os repositórios dos diversos produtos.
+
+Esquemas:
+
+INFA_DOM - Domain Repository, 2 GB de disco.
+INFA_CACHE - Data object cache database, 2 GB de disco.
+INFA_MRS - Model Repository, 2 GB de disco.
+INFA_MOM - Monitoring Model Repository, 2 GB de disco.
+INFA_REF - Reference Data, 2 GB de disco.
+INFA_PWH - Profiling Warehouse, 20 GB de disco.
+INFA_WKFLW_DB - Workflow Database - usuário infa_wkflw_db, 2 GB de disco.
+INFA_TDM - TDM Repository - usuário infa_tdm, 2 GB de disco.
+INFA_TDW - Test Data Warehouse Repository, 2 GB de disco.
+TDM_DOM - Domain Repository, 2 GB de disco.
+TDM_CACHE - Data object cache database, 2 GB de disco.
+TDM_MRS - Model Repository, 2 GB de disco.
+TDM_MOM - Monitoring Model Repository, 2 GB de disco.
+TDM_REF - Reference Data, 2 GB de disco.
+TDM_PWH - Profiling Warehouse, 20 GB de disco.
+CMX_SYSTEM - MDM Hub Master Database, 2 GB de disco.
+CMX_ORS - Operational Reference Store, 2 GB de disco.
+AVOS - ActiveVOS Database, 2GB de disco.
+
+Nas configurações com as aplicações solicitaremos o acompanhamento de um DBA
+com direito de administrador para juntamente com o Time OLAPDW possa configurar os bancos da forma correta caso seja necessário.
+
+Os bancos de dados devem atender aos seguintes requisitos:
+Configurar o parâmetro open_cursors para 4000 ou mais
+SELECT VALUE OPEN_CURSORS FROM V$PARAMETER WHERE UPPER(NAME)=UPPER('OPEN_CURSORS')
+Configurar as permissões na visão $parameter para o usuário do banco de dados
+Verificar o usuário do banco de dados para ter as seguintes permissões:
+CREATE INDEX, CREATE SEQUENCE, CREATE SESSION, CREATE SYNONYM, CREATE TABLE, CREATE VIEW, DROP TABLE, INSERT INTO TABLE, ALTER SEQUENCE, ALTER TABLE and UPDATE TABLE privileges
+Configurar o parâmetro de sessões para 1000
+Configurar o parâmetro de processos para 1000
+Os produtos Informatica não suportam sinônimos públicos do Oracle para tabelas de repositório. Deve ser verificado se sinônimos públicos não foram criados para nenhuma tabela no banco de dados.
+
+As conexões do banco de dados Workflow DB devem ser configuradas com os parâmetros tamanho máximo do pool de conexão em 128, tamanho mínimo do pool de conexão 0 e tempo máximo de ociosidade em 120 segundos.
+
+Por fim as credenciais devem ser encaminhadas para Gustavo Baldoino (Gustavo.menezes@serpro.gov.br), Gustavo Silva (Gustavo.silva@serpro.gov.br (SUPCD-OLAPDW)
 
 
 
 
+======================================================================================
+PENDENCIAS serprodata
+
+OK - Criação de Bancos Metadados  (resolvido hoje)
+OK - Criação de regra para acesso ao Pentaho BA Server - pendente   (já estava resolvido)
+OK - Gerson - demanda SUPAI não é nossa (demanda não é nossa)
+PE - Certificado Digital no Servidor Pentaho
+PE - Biblioteca GTK para conexão  da ferramenta spoon do Pdi com o respositorio do Servidor Pentaho (vamos abrir regra para firewall temporária para baixa biblioteca para o GTK)
+PE - SS para workstations adicionais ao projeto (Eduardo vai conversar com Lynara para responder o Geison solicitando prazo se for adicionar as mesmas)
+
+
+======================================================================================
 
 
 
