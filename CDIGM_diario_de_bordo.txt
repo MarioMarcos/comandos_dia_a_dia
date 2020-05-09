@@ -5,13 +5,18 @@ acertar no mes de junho extras relativos a demanda do bug oracle que acompanhei 
 não coloquei as cartinhas no siscopweb.
 xuxu
 
+
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
+https://www.siscopweb.serpro/login.html
+colcoar git aqui
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+
+
 
 08:40 x 12:40 x 13:10 x 17:10 - 08/05/2020
 08/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Eduardo | CGIT PCB

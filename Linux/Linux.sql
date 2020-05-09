@@ -21,11 +21,15 @@ mas deu certo com o apoio do suporte remoto na pessoa de "sueli real" <sueli.rea
 10.31.38.23      ns4.serpro
 10.30.120.22     www.sccdtk.serpro
 
-
 10.31.22.120     www.git.serpro
 10.31.18.14      ns3.serpro
 
 10.200.244.104   www.playops.serpro
+
+10.30.91.66      www.siscopweb.serpro
+
+verificar que talvez colocando o entreposto.bsa.serpro resolva tudo de ai de cima ===== testar ainda
+
 
 OBS: no windows estava funcionando normalmente com OVPN funcionando
 para descobrir um ip de uma aplicacao segura tem que entrar em outra máquina que ele estaja rodando
