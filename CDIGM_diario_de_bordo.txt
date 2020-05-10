@@ -1,17 +1,10 @@
-06 E 07/05/2020
-Tenho um dia com a chefe dos dias trabalhos a noite no SERPRODATA E NA LIVE DA ANITA ATÉ A noite
-
-acertar no mes de junho extras relativos a demanda do bug oracle que acompanhei e não acertei com Lynara pois
-não coloquei as cartinhas no siscopweb.
-xuxu
-
-
+06 E 07/05/2020 - Tenho um dia com a chefe dos dias trabalhos a noite no SERPRODATA E NA LIVE DA ANITA ATÉ A noite
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
 ************************************************************************
 https://www.siscopweb.serpro/login.html
-colcoar git aqui
+git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
@@ -32,10 +25,6 @@ MAIO/2020
 08/05/2020 - 35743
 08/05/2020 - 35744
 08/05/2020 - pcb claudio
-08/05/2020 - 
-
-
-
 
 
 09:00 x 13:00 x 13:30 x 17:30 - 07/05/2020
