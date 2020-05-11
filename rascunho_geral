@@ -140,8 +140,14 @@ PUXAR UMA AUDIO COM TODOS QUE VÃO PARTICIPAR NO MEET DE DOMINGO - SALA ANITA
 
 RDM 2020RDM/0000043731
 
+
 entrando na reunião às 09/05/2020  - 14:37 sala anita para render a chefe - encerrei 22:26x
 10/05/2020 - 15:00 às 15:30 PCB e 16:15 às 18:40
+
+
+HE - 14:37 às 22:26 - Demanda de acompanhamento para resolução de incidente com equipes que teria consequencias na live Anita - Datavalid - RDM 2020RDM/0000043731
+HE - 16:15 às 18:40 - Demanda de acompanhamento para Live Anita - Datavalid - RDM 2020RDM/0000043731
+
 
 Monitoração - APM     - André Rocah Furtado -  EQUIPE MILTO CURY - MONITORAÇAO APM      -        chamar através do chefe Milton Cury
 Virtualização         - Erico Rodrigues (61) 9 8122-4042 (Erico Rodrigues Silva)        -        achei pelo chat.serpro
@@ -155,8 +161,6 @@ Postgres              - Rafael Leopoldo                                         
 FICOU 
 BACKUP
 E ALGUMAS ROTINAS PARA TESTAR
-
-
 
 =======================================================================================================================
 SS Gerson - pediu por fora do planejamento serprodata
@@ -188,6 +192,7 @@ acertado em Reunião Técnica.
 
 O fornecedor Informatica indicou a necessidade de esquemas de banco de dados Oracle em uma das versões (19c, 18c, 12cR2, 12cR1 ou 11gR),
 para os repositórios dos diversos produtos.
++6
 
 Esquemas:
 
@@ -228,6 +233,9 @@ As conexões do banco de dados Workflow DB devem ser configuradas com os parâme
 Por fim as credenciais devem ser encaminhadas para Gustavo Baldoino (Gustavo.menezes@serpro.gov.br), Gustavo Silva (Gustavo.silva@serpro.gov.br (SUPCD-OLAPDW)
 
 
+2020SS/0000457008 - SS PARA PEDIR PRIORIDADE PARA FIREWALL OK. 11/05/2020
+
+
 ======================================================================================
 PENDENCIAS serprodata
 
@@ -245,4 +253,21 @@ A segunda máquina com comportamento anormal.
 Ela está com requisições desproporcionais. Quando vai aumentando a métrica os pacotes começam a se perder. Métrica da máquina normal se matem a 211 enquanto a segunda vai aumentando chegando na casa de 4000 a 5000 requisições.
 Estão conferindo parâmetros entre a normal e a problemática para  identificar qual parâmetro de rede que não está totalmente funcional.
 Quando terminarem essa análise, e não resolver...vão avaliar a clonagem da máquina normal.
+
+===========================================================================================================================================================================================================================================================
+ESTALEIRO NA AWS - COM REINALDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

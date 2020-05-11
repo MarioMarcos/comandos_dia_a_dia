@@ -11,6 +11,18 @@ MAIO/2020
 
 
 
+
+
+08:25 x 12:25 x 12:55 x 16:55 - 11/05/2020
+11/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Gerson e Lynara para entrega do projeto | CGIT PCM
+11/05/2020 - [Inclusão dos Exercícios Sql Colunar] - Ponto de Controle com Rafael, Edinardo, Padovani, Nakamura, Rodrigo, Paulo, Alisson | CGIT PCM
+11/05/2020 - Ajustes com Fabricio Oracle sobre demanda de schemas | CGIT PCB
+11/05/2020 - Envio de informações para Alisson resolver com José Lopes sobre banco de metadados | CGIT PCB  ====FAZER AINDA
+11/05/2020 - Atividade para Bruno Assunes, sobre apoio na demanda da live Anita | CGIT ATB  ======FAZER AINDA
+11/05/2020 - Reunião para resolver incidentes no Sql colunar com o Sas - com Nakamura, Waldemar, Padovani e Centro de Comandos | CGIT PCM
+11/05/2020 - Reunião com Lynara para alinhamento de demandas 
+11/05/2020 - Reunião com Lynara, Improta e Reinaldo | CGIT PCB
+
 08:40 x 12:40 x 13:10 x 17:10 - 08/05/2020
 08/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Eduardo | CGIT PCB
 08/05/2020 - [SERPRODATA] - Ponto de Controle com Gerson sobre máquina | CGIT PBC
