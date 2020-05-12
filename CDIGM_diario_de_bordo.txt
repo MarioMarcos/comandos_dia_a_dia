@@ -8,18 +8,21 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+09:00 x 13:00 x 13:30 x 17:41 - 12/05/2020
+12/05/2020 - Informações para Lynara - sobre extras atendimento Datavalid
+12/05/2020 - Encaminhamento de email com dados de erros para Luis Adriano
+12/05/2020 - Ajustes nas minhas demandas para lançar no Git.serpor 
+12/05/2020 - [Infosupec] Ponto de controle com times | PCA
 
 
 
-
-
-08:25 x 12:25 x 12:55 x 16:55 - 11/05/2020
+08:25 x 12:25 x 13:25 x 19:10 - 11/05/2020
 11/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Gerson e Lynara para entrega do projeto | CGIT PCM
 11/05/2020 - [Inclusão dos Exercícios Sql Colunar] - Ponto de Controle com Rafael, Edinardo, Padovani, Nakamura, Rodrigo, Paulo, Alisson | CGIT PCM
 11/05/2020 - Ajustes com Fabricio Oracle sobre demanda de schemas | CGIT PCB
-11/05/2020 - Envio de informações para Alisson resolver com José Lopes sobre banco de metadados | CGIT PCB  ====FAZER AINDA
-11/05/2020 - Atividade para Bruno Assunes, sobre apoio na demanda da live Anita | CGIT ATB  ======FAZER AINDA
-11/05/2020 - Reunião para resolver incidentes no Sql colunar com o Sas - com Nakamura, Waldemar, Padovani e Centro de Comandos | CGIT PCM
+11/05/2020 - Envio de informações para Alisson resolver com José Lopes sobre banco de metadados | CGIT PCB  
+11/05/2020 - Atividade para Bruno Assunes, sobre apoio na demanda da live Anita | CGIT ATB  
+11/05/2020 - [Inclusão de Exercícios no Sql colunar] - Reunião para resolver incidentes no Sql colunar com o Sas - com Nakamura, Waldemar, Padovani e Centro de Comandos | CGIT PCM
 11/05/2020 - Reunião com Lynara para alinhamento de demandas 
 11/05/2020 - Reunião com Lynara, Improta e Reinaldo | CGIT PCB
 
@@ -27,33 +30,35 @@ MAIO/2020
 08/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Eduardo | CGIT PCB
 08/05/2020 - [SERPRODATA] - Ponto de Controle com Gerson sobre máquina | CGIT PBC
 08/05/2020 - [live anita] - Ponto de controle para atender live anita - Datavalid | CGIT PCM
-08/05/2020 - RAFAEL 
-08/05/2020 - WALDMAR
-08/05/2020 - ANA - RDM Datavalid
-08/05/2020 - PLAN - RDM Datavalid
-08/05/2020 - AT - PARA VIRUTA RDM Datavalid 2020AT/0000035732
-08/05/2020 - 35739
-08/05/2020 - 35742
-08/05/2020 - 35743
-08/05/2020 - 35744
-08/05/2020 - pcb claudio
-
+08/05/2020 - [Inclusão de Exercícios no Sql colunar] - Informações com Rafael Ribeiro sobre demanda de migração de bancos sql server | CGIT PCB
+08/05/2020 - [Inclusão de Exercícios no Sql colunar] Tratativas com Waldemar sobre demanda migração das bases de dados | CGIT PCB
+08/05/2020 - [Live Anita] Analise da RDM 2020RDM/0000043731 | CGIT ATB
+08/05/2020 - [Live Anita] Planejamento da RDM 2020RDM/0000043731 | CGIT PLANB
+08/05/2020 - [Live Anita] Atividade 2020AT/0000035732 na RDM 2020RDM/0000043731 | CGIT ATB
+08/05/2020 - [Live Anita] Atividade 2020AT/0000035739 na RDM 2020RDM/0000043731 | CGIT ATB 
+08/05/2020 - [Live Anita] Atividade 2020AT/0000035742 na RDM 2020RDM/0000043731 | CGIT ATB 
+08/05/2020 - [Live Anita] Atividade 2020AT/0000035743 na RDM 2020RDM/0000043731 | CGIT ATB 
+08/05/2020 - [Live Anita] Atividade 2020AT/0000035744 na RDM 2020RDM/0000043731 | CGIT ATB 
+08/05/2020 - [Serprodata] Ponto de controle com Claudio | CGIT PCB
+08/05/2020 - [Inclusão de Exercícios no Sql colunar]  Atividade 2020AT/0000035801 na RDM 2020RDM/0000041552 | CGIT ATB 
+08/05/2020 - [Inclusão de Exercícios no Sql colunar]  Atividade 2020AT/0000035802 na RDM 2020RDM/0000041552 | CGIT ATB 
+08/05/2020 - [Inclusão de Exercícios no Sql colunar]  Atividade 2020AT/0000035798 na RDM 2020RDM/0000041552 | CGIT ATB 
+08/05/2020 - [Inclusão de Exercícios no Sql colunar]  Atividade 2020AT/0000035816 na RDM 2020RDM/0000041552 | CGIT ATB 
+08/05/2020 - [Inclusão de Exercícios no Sql colunar]  Atividade 2020AT/0000035803 na RDM 2020RDM/0000041552 | CGIT ATB 
 
 09:00 x 13:00 x 13:30 x 17:30 - 07/05/2020
 07/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Thiago Sodre, Eduardo silva sobre jboss | CGIT PCB
-baldoinio
-equipe oracle
-claudio Certificado
-bruno Assunes
-07/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Flavia, Giovani | CGIT PCB
-0705/2020 - EDUARDO Nascimento
-07/05/2020 - LYNARA demandas
-07/05/2020 - Live Diretoria
+07/05/2020 - [Poc Informatica] - Informações com Baldoino sobre andamento da demanda
+07/05/2020 - [Poc Informatica] - Reunião com Equipe Oracle para tratar detalhes das demandas e entregas | CGIT PCM
+07/05/2020 - [Serprodata] - Informações sobre demanda de Certificado Digital para demanda 
+07/05/2020 - Solicitação de informações de como está a demanda do Postgres para Bruno Assunes | CGIT PCB 
+07/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Flavia, Giovani | CGIT PCM
+07/05/2020 - Informações com Eduardo Nascimento 
+07/05/2020 - Informações e orientação demandas com Lynara  
+07/05/2020 - Live Diretoria | CGIT PCB
 07/05/2020 - [Serprodata] - Acompanhar atendimento de demandas | CGIT PCB
 07/05/2020 - [ANITA] - Reunião para detalhes para acompanhamento da live anita - Datavalid | CGIT PCA
-07/05/2020 - [SERPRODATA] PONTO DE CONTROLE MEDIO COM Gestores
-
-
+07/05/2020 - [Serprodata] Ponto de Controle Geison, Gerson, Neila, Claudio, Lynara para alinhamento da demanda INFOSUPEC | CGIT PCM
 
 08:30 x 12:30 x 13:00 x 17:00 - 06/05/2020
 06/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino, Thiago Sodre, Eduardo silva sobre jboss | CGIT PCB
@@ -64,7 +69,6 @@ bruno Assunes
 06/05/2020 - [Inclusão de Exercícios Sql Colunar] Ponto de Controle com Times BancoDW, Área de Negócio, Entrega, Banco SqlServer  | CGIT PCA
 06/05/2020 - Informação sobre demandas para Lynara | CGIT PCB
 06/05/2020 - [Serprodata] Acompanhamento de apoio a configuração do kerberos no Serprodata pelo Julio e Claudio | CGIT ACOMPEXE
-
 
 09:00 x 13:00 x 13:30 x 17:30 - 05/05/2020
 05/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino | CGIT PCB
