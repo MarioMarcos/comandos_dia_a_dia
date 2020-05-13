@@ -8,13 +8,23 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+09:00 x 13:00 x 13:30 x 17:30 - 13/05/2020
+13/05/2020 - Solicitaão de informações para Nakamura para continuação da migração dos bancos
+13/05/2020 - [Poc Informatica] Ponto de controle Eduardo, Baldoino | CGIT PCB
+13/05/2020 - EDUARDO Alinhamento
+13/05/2020 - IAC - Instrução de como utilizar o IAC por Santiago SPO com Equipe OlapDW | CGIT PCA
+13/05/2020 - [Poc Informatica] Conferência de cronograma e atualização da demanda | CGIT PCB
+13/05/2020 - [Poc Informatica] Reunião com equipes para definir atuação do Datalake na demanda | CGIT PCM
+13/05/2020 - Reclassificação de RDMs antigas para nosso grupo CDIGM  | CGIT PCB
+
+
+
+
 09:00 x 13:00 x 13:30 x 17:41 - 12/05/2020
 12/05/2020 - Informações para Lynara - sobre extras atendimento Datavalid
 12/05/2020 - Encaminhamento de email com dados de erros para Luis Adriano
 12/05/2020 - Ajustes nas minhas demandas para lançar no Git.serpor 
 12/05/2020 - [Infosupec] Ponto de controle com times | PCA
-
-
 
 08:25 x 12:25 x 13:25 x 19:10 - 11/05/2020
 11/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Gerson e Lynara para entrega do projeto | CGIT PCM
