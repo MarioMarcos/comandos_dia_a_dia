@@ -8,6 +8,16 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+09:00 x 13:00 x 13:30 x 17:42 - 14/05/2020
+14/05/2020 - Solicitação de informações para Nakamura para continuação da migração dos bancos
+14/05/2020 - [Poc informatica] Gustavo Baldoinio, Eduardo, Gustavo Silva, Leandro - INFO, Fernando Rosa, Rafael Linhas | CGIT PCA
+14/05/2020 - [Infosupec] Marcio Cunha - informações para publicação | CGIT PCB
+14/05/2020 - Informações com Nakamura sobre usuário banco Sql Server metadados.
+14/05/2020 - Informações com Kelly CDIGM sobre demanda recusada segurança
+14/05/2020 - Informações com Baldoino sobre área do Oracle Client.
+14/05/2020 - Live presidente | CGIT PCB
+14/05/2020 - [Live Anita] Desativação do ambiente com Luis Adriano | CGIT PCM
+
 09:00 x 13:00 x 13:30 x 17:30 - 13/05/2020
 13/05/2020 - Solicitaão de informações para Nakamura para continuação da migração dos bancos
 13/05/2020 - [Poc Informatica] Ponto de controle Eduardo, Baldoino | CGIT PCB
@@ -16,9 +26,6 @@ MAIO/2020
 13/05/2020 - [Poc Informatica] Conferência de cronograma e atualização da demanda | CGIT PCB
 13/05/2020 - [Poc Informatica] Reunião com equipes para definir atuação do Datalake na demanda | CGIT PCM
 13/05/2020 - Reclassificação de RDMs antigas para nosso grupo CDIGM  | CGIT PCB
-
-
-
 
 09:00 x 13:00 x 13:30 x 17:41 - 12/05/2020
 12/05/2020 - Informações para Lynara - sobre extras atendimento Datavalid

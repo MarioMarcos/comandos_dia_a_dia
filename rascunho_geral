@@ -265,6 +265,54 @@ Edegard Casaroto - parceiro Santiago que vai assumir nas férias do Santiago
 Santiago vai sair de férias e posteriormente quando ele voltar marcar novamente na agenda para um reforço no IAC
 =================================================================================================
 
+Desativação ANITA com Luis Adriano
+CD \ CDRM \ CDRMDESAMB \ CDRMDESAMBBSA
+
+
+Migrar dados das máquinas que pqartcadsfklsj live anita e desativaçã todos os ativos
+Desativação dos ativos referente a live Anita - Datavalid realizada no dia 10/05/2020
+
+já foi feito já foram tirados do balanceamento 
+
+
+1- Migrar dados,        Luis junto com Benito para alinhar como vai ser o procedimento
+                        Marcar reunião dos dois.
+                       
+2- Remover monitoração,        Milton Cury - Luis vai solicitar
+3- Devolver ip,                Gestão CD   - Luis vai executar
+4- Remover regras              SUPOP       - LUIS VAI abrir SS
+5- Remover da documentação     Se houver?  - só se precisar
+6- Retirar referência da 
+   liberação do banco postgres Postgres    - Luis vai abrir SS
+7- Matar servidores            Gestão CD   - REMOVER PELO RUNDECK
+8- Remover do balanceamento    SUPOP       - Luis vai abrir SS
+
+
+==================
+incidente
+
+
+
+Desativar máquina SPCDSRVV2211, e salvar os dados que forem necessários, já que a mesma foi substituida por outra máquina nova SPCDSRVV5247, que já está em funcionamento.
+
+Lembrete: Entregar ips e regras de firewall
+obs:. remover o ip final 252 do estaleiro, pois o mesmo foi setado para configuração da máquina 2211 e não está sendo utilizado.
+
+
+=============================================================================
+TITO segurança
+email com o registro de reunião de 25 de março 13:18
+
+2020SS/0000467737
+NEGOCIAR SS do tito 
+italo fizermos a reunião e não era para ter isso, dá uma olhada para ser tratada como se fosse um desvio logo não precisa de fluxo de excesão 
+
+=============================================================================
+
+
+
+
+
 
 
 
