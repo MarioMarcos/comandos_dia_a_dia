@@ -1,4 +1,5 @@
 06 E 07/05/2020 - Tenho um dia com a chefe dos dias trabalhos a noite no SERPRODATA E NA LIVE DA ANITA ATÉ A noite
+
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
@@ -8,6 +9,14 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+08:40 x 12:40 x 13:10 x 18:30 - 15/05/2020
+15/05/2020 - [Serprodata] Ponto de Controle com segurança Itallo | CGIT PCB
+15/05/2020 - [Poc Informatica] Ponto de Controle com Baldoino | CGIT PCB
+15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha | CGIT PCB
+15/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCA
+15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha e Marcio | CGIT PCM
+15/05/2020 - [Poc Estaleiro/Aws] Reunião com times de segurança, estaleiro, diope, dides | CGIT PCA
+
 09:00 x 13:00 x 13:30 x 17:42 - 14/05/2020
 14/05/2020 - Solicitação de informações para Nakamura para continuação da migração dos bancos
 14/05/2020 - [Poc informatica] Gustavo Baldoinio, Eduardo, Gustavo Silva, Leandro - INFO, Fernando Rosa, Rafael Linhas | CGIT PCA
@@ -85,26 +94,26 @@ MAIO/2020
 06/05/2020 - [Serprodata] Ponto de Controle com Bruno Assunes sobre máquinas postgres | CGIT PCB
 06/05/2020 - [Inclusão de Exercícios Sql Colunar] Ponto de Controle com Times BancoDW, Área de Negócio, Entrega, Banco SqlServer  | CGIT PCA
 06/05/2020 - Informação sobre demandas para Lynara | CGIT PCB
-06/05/2020 - [Serprodata] Acompanhamento de apoio a configuração do kerberos no Serprodata pelo Julio e Claudio | CGIT ACOMPEXE
+=========06/05/2020 - [Serprodata] Acompanhamento de apoio a configuração do kerberos no Serprodata pelo Julio e Claudio | GIT ACOMPEXE
 
 09:00 x 13:00 x 13:30 x 17:30 - 05/05/2020
-05/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino | CGIT PCB
-05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | CGIT ATB
-05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | CGIT PLANB
-05/05/2020 - [Poc Informatica] - Repasse da demanda sobre criação de schemas para Baldoino criar SS para OLAPDW | CGIT PCB
-05/05/2020 - [Poc Informatica] - Reunião com Tiago Sodré sobre demanda para instalação do JBOSS 7.1 e 7.2 na máquina MDM | CGIT PCB
-05/05/2020 - [Poc Informatica] - Reunião com Giovanni (INFORMATICA), Flavia sobre detalhes no cronograma | CGIT PCM
-05/05/2020 - [Poc Informatica] - Reunião com Negrini para dúvidas com relação ao ambiente de desenvolvimento | CGIT PCB
+05/05/2020 - [Poc Informatica] - Ponto de Controle com Gustasvo Baldoino | GIT PCB
+05/05/2020 - [Sql Colunar inclusão de exercícios] Planejamento da RDM 2020RDM/0000041552 | GIT PLANB
+05/05/2020 - [Sql Colunar inclusão de exercícios] Análise da RDM 2020RDM/0000041552 | GIT ATB
+05/05/2020 - [Poc Informatica] - Repasse da demanda sobre criação de schemas para Baldoino criar SS para OLAPDW | GIT PCA
+05/05/2020 - [Poc Informatica] - Reunião com Tiago Sodré sobre demanda para instalação do JBOSS 7.1 e 7.2 na máquina MDM | GIT PCM
+05/05/2020 - [Poc Informatica] - Reunião com Giovanni (INFORMATICA), Flavia sobre detalhes no cronograma | GIT PCM
+05/05/2020 - [Poc Informatica] - Reunião com Negrini para dúvidas com relação ao ambiente de desenvolvimento | GIT PCB
 05/05/2020 - Encaminhamento de email para o Julio SUPSI para solicitação de informações sobre GRS
 
 08:40 x 12:40 x 13:10 x 17:10 - 04/05/2020
-04/05/2020 - [Poc Informatica] Posição com Baldoino de como está o andamento do projeto | CGIT PCB
+04/05/2020 - [Poc Informatica] Posição com Baldoino de como está o andamento do projeto | GIT PCB
 04/05/2020 - Fechar a RDM sobre demanda do feriado - aplicação de patches Oracle 
 04/05/2020 - Informaçções sobre demandas gerais com Lynara 
-04/05/2020 - [Poc Informatica] Ponto de Controle com Flávia Bomfim | CGIT PCB
-04/05/2020 - [INFOSUPEC] Ponto de controle | CGIT PCA
-04/05/2020 - Envio de Email para Thiago Davila sobre demanda SERPROBOTS | CGIT PCB
-04/05/2020 - [Poc Informatica] Criação de Atividade para Banco Oracle | CGIT ATB
+04/05/2020 - [Poc Informatica] Ponto de Controle com Flávia Bomfim | GIT PCB
+04/05/2020 - [INFOSUPEC] Ponto de controle | GIT PCA
+04/05/2020 - Envio de Email para Thiago Davila sobre demanda SERPROBOTS | GIT PCB
+04/05/2020 - [Poc Informatica] Criação de Atividade para Banco Oracle | GIT ATB
 
 ------------------------------------------------------------------------
 ABRIL/2020
