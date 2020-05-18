@@ -309,6 +309,80 @@ italo fizermos a reunião e não era para ter isso, dá uma olhada para ser trat
 =========================================================================================================================
 
 
+=================================================================================================================
+informação reinaldo ------------ AWS - Serpro
+AWS - REINALDO QUE MANDA UM QUESTIONÁRIO PARA MIGRAÇÃO PARA NUVEM COM AS CARACTERÍSTICA QUE ELE QUER MIGRAR
+S.O, REDES, ARMAZENAMENTO
+
+AÍ EU VERIFICO VAI VOLUMETRIA E AI O REINALDO VAI NA CALCULADORA PARA ESTIMAR E FAZER UMA previsão
+
+E SE FALTAR ALGUM DADO, A AWS TEM UMA ESTIMATIVA PARA DADOS QUE ELES NAÕ MANDAM
+
+DEPOIS VAI PARA A EQUIPE DO FLAMARION E MONTA UMA ARQUITETURA E AMNDA A CALCULADORA COM ESTIMATIVA DE consultoria
+E FAZEM UMA TRADUÇÃO DA PLANILHA COM UMA PRECIFICAÇÃO - USN DO SERPRO, E UST A PROPOSTA DEVE CONTEMPLAR QUE ENCAMINHAR PARA A REA DE NEGOICIO QUE ENCAMINHA UMA PROPOSTA PARA
+
+O CLIENTE QUE DEFINE SE VAI ACEITAR PARA INICIAR O PROJETO PARA MIGRAÇÃO OU NOVA INSTALALÇÃO.
+
+USN - VALOR COM O DÓLAR QUE MUDAR DIARIAMENTE PELO BANCO CENTRAL A PARTIR DO 12 DIA
+
+
+==Existe modulador para EC2 e RDS - por Ronaldo
+
+USN -  MAUINA OU SERVIÇO
+UST - PESSOAL QUE ESTÁ REALIZANDO O SERVIÇO OU CRIANDO MAQUINA
+
+TIMES VÃO ATUAR CONFORME ON PREMISE, OU SEJA CADA ÁREA VAI ATUAR NA AWS TAMBÉM.
+
+SEGURANÇA - SUSPI = AWS SEGURANÇA
+REDES     -       = AWS REDES
+BANCOS    -       = AWS BANCOS
+STORAGE   -       = AWS STORAGE
+
+
+PROJETO ESTALEIRO AWS:
+Tarefas: Tiago Teixiera cobrando Nota técnica
+
+Nota Técnica do Katz passar para Tiago Teixeira
+
+OP - DANILO - relatório
+DE - Tiago - Aplicação escolhida, informações relatório
+SI - Fabiano
+CD - BOSCO
+
+
+CLOUD ENDURE -  por Reinaldo - Teradata para Sql Server verificar posteriormente
+
+SUPSI - Vão administrar a criação de contas subconta para poc estaleiro
+root account - serpro - está com Katz
+
+
+
+PROJETO SIGEPE - AWS - AGUARDAR RESPOSTA DO REINALDO - JÁ AUTORIZADO PARA FAZER - FALTA SÓ ARQUITETURA
+
+por Reinaldo
+Para resolver PROBLEMA DE LATENCIA COLOCAR CLOUDFRONT na frente
+
+
+Arquitetura baseada em São Paulo ... Por Ronaldo
+
+
+
+
+18/05/2020
+
+
+
+===================================================================================================================
+.
+
+
+
+
+
+
+
+
+
 
 
 
