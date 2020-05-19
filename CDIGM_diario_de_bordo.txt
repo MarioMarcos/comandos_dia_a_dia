@@ -9,10 +9,21 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+08:30 x 12:30 x 13:00 x 17:00 - 19/05/2020
+19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides - Nota Técnica | CGIT PCB
+19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides e Reinaldo - Nota Técnica | CGIT PCB
+19/05/2020 - [Poc iformatica] Ponto de controle com Baldoino e Giovanni | CGIT PCB
+19/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
+
+
+
+
 08:50 x 12:50 x 13:20 x 17:20 - 18/05/2020
-18/05/2020 - Informações com reinalPegar demandas aws estaleiro
+18/05/2020 - Informações com reinaldo Pegar demandas aws estaleiro
 18/05/2020 - [Poc iformatica] Ponto de controle semanal | CGIT PCB
 18/05/2020 - [Infosupec] Ponto de controle com todo time para acompanhamento semanal | CGIT PCA
+18/05/2020 - [Desativação Live Anita] Ponto de controle com Luis CD e Benito Dides | CGIT PCM
+18/05/2020 - [Desativação Live Anita] Atividade 2020AT/0000038033 na RDM 2020RDM/0000043731 | CGIT ATB
 18/05/2020 - [Serprodata] Ponto de Controle com o Jeferson Firewall e Claudio | CGIT PCM
 
 08:40 x 12:40 x 13:10 x 18:30 - 15/05/2020
@@ -31,37 +42,37 @@ MAIO/2020
 14/05/2020 - Informações com Kelly CDIGM sobre demanda recusada segurança
 14/05/2020 - Informações com Baldoino sobre área do Oracle Client.
 14/05/2020 - Live presidente | CGIT PCB
-14/05/2020 - [Live Anita] Desativação do ambiente com Luis Adriano | CGIT PCM
+==============14/05/2020 - [Live Anita] Desativação do ambiente com Luis Adriano | CGIT PCM
 
 09:00 x 13:00 x 13:30 x 17:30 - 13/05/2020
 13/05/2020 - Solicitaão de informações para Nakamura para continuação da migração dos bancos
-13/05/2020 - [Poc Informatica] Ponto de controle Eduardo, Baldoino | CGIT PCB
+13/05/2020 - [Poc Informatica] Ponto de controle Eduardo, Baldoino | GIT PCB
 13/05/2020 - EDUARDO Alinhamento
-13/05/2020 - IAC - Instrução de como utilizar o IAC por Santiago SPO com Equipe OlapDW | CGIT PCA
-13/05/2020 - [Poc Informatica] Conferência de cronograma e atualização da demanda | CGIT PCB
-13/05/2020 - [Poc Informatica] Reunião com equipes para definir atuação do Datalake na demanda | CGIT PCM
-13/05/2020 - Reclassificação de RDMs antigas para nosso grupo CDIGM  | CGIT PCB
+13/05/2020 - IAC - Instrução de como utilizar o IAC por Santiago SPO com Equipe OlapDW | GIT PCA
+13/05/2020 - [Poc Informatica] Conferência de cronograma e atualização da demanda | GIT PCB
+13/05/2020 - [Poc Informatica] Reunião com equipes para definir atuação do Datalake na demanda | GIT PCM
+13/05/2020 - Reclassificação de RDMs antigas para nosso grupo CDIGM  | GIT PCB
 
 09:00 x 13:00 x 13:30 x 17:41 - 12/05/2020
 12/05/2020 - Informações para Lynara - sobre extras atendimento Datavalid
-12/05/2020 - Encaminhamento de email com dados de erros para Luis Adriano
-12/05/2020 - Ajustes nas minhas demandas para lançar no Git.serpor 
-12/05/2020 - [Infosupec] Ponto de controle com times | PCA
+12/05/2020 - Encaminhamento de email com dados de erros para Luis Adriano | GIT PCB
+12/05/2020 - Ajustes nas minhas demandas para lançar no Git.serpro 
+12/05/2020 - [Infosupec] Ponto de controle com times | GIT PCA
 
 08:25 x 12:25 x 13:25 x 19:10 - 11/05/2020
-11/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Gerson e Lynara para entrega do projeto | CGIT PCM
-11/05/2020 - [Inclusão dos Exercícios Sql Colunar] - Ponto de Controle com Rafael, Edinardo, Padovani, Nakamura, Rodrigo, Paulo, Alisson | CGIT PCM
-11/05/2020 - Ajustes com Fabricio Oracle sobre demanda de schemas | CGIT PCB
-11/05/2020 - Envio de informações para Alisson resolver com José Lopes sobre banco de metadados | CGIT PCB  
-11/05/2020 - Atividade para Bruno Assunes, sobre apoio na demanda da live Anita | CGIT ATB  
-11/05/2020 - [Inclusão de Exercícios no Sql colunar] - Reunião para resolver incidentes no Sql colunar com o Sas - com Nakamura, Waldemar, Padovani e Centro de Comandos | CGIT PCM
+11/05/2020 - [SERPRODATA] - Ponto de Controle com Claudio, Gerson e Lynara para entrega do projeto | GIT PCM
+11/05/2020 - [Inclusão dos Exercícios Sql Colunar] - Ponto de Controle com Rafael, Edinardo, Padovani, Nakamura, Rodrigo, Paulo, Alisson | GIT PCM
+11/05/2020 - Ajustes com Fabricio Oracle sobre demanda de schemas | GIT PCB
+11/05/2020 - Envio de informações para Alisson resolver com José Lopes sobre banco de metadados | GIT PCB  
+11/05/2020 - Atividade para Bruno Assunes, sobre apoio na demanda da live Anita | GIT ATB  
+11/05/2020 - [Inclusão de Exercícios no Sql colunar] - Reunião para resolver incidentes no Sql colunar com o Sas - com Nakamura, Waldemar, Padovani e Centro de Comandos | GIT PCM
 11/05/2020 - Reunião com Lynara para alinhamento de demandas 
-11/05/2020 - Reunião com Lynara, Improta e Reinaldo | CGIT PCB
+11/05/2020 - Reunião com Lynara, Improta e Reinaldo | GIT PCB
 
-10/05/2020 - Domingo - Acompanhamento de Execução da live anita | CGIT ACOMPALT
+10/05/2020 - Domingo - Acompanhamento de Execução da live anita | GIT ACOMPALT
 
-09/05/2020 - Sábado - acompanhamento de incidente para live anita - Datavalid | CGIT ACOMPALT
-=========09/05/2020 - Sábado - acompanhamento de demanda de migração Sql colunar com equipes Olapdw e Sql Server | CGIT ACOMPAME
+09/05/2020 - Sábado - acompanhamento de incidente para live anita - Datavalid | GIT ACOMPALT
+09/05/2020 - Sábado - acompanhamento de demanda de migração Sql colunar com equipes Olapdw e Sql Server | GIT ACOMPAME
 
 
 08:40 x 12:40 x 13:10 x 17:10 - 08/05/2020
