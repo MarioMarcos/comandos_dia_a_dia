@@ -9,16 +9,15 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
-08:30 x 12:30 x 13:00 x 17:00 - 19/05/2020
+08:30 x 12:30 x 13:00 x 18:30 - 19/05/2020
 19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides - Nota Técnica | CGIT PCB
 19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides e Reinaldo - Nota Técnica | CGIT PCB
 19/05/2020 - [Poc iformatica] Ponto de controle com Baldoino e Giovanni | CGIT PCB
-19/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
+19/05/2020 - [Infosupec] Ponto de Controle com Claudio Rocha | CGIT PCB
+19/05/2020 - Alinhamento de Demandas com Lynara
+19/05/2020 - [Poc Estaleiro/Aws] Ponto de Controle com Danilo sobre Nota Técnica | CGIT PCB
 
-
-
-
-08:50 x 12:50 x 13:20 x 17:20 - 18/05/2020
+08:50 x 12:50 x 13:20 x 19:00 - 18/05/2020
 18/05/2020 - Informações com reinaldo Pegar demandas aws estaleiro
 18/05/2020 - [Poc iformatica] Ponto de controle semanal | CGIT PCB
 18/05/2020 - [Infosupec] Ponto de controle com todo time para acompanhamento semanal | CGIT PCA
