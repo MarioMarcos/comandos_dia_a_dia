@@ -9,6 +9,12 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+09:00 x 13:00 x 13:30 x 17:30 - 20/05/2020
+20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Lynara e Gerson | CGIT PCB
+20/05/2020 - [Poc informatica] Ponto de controle Andrigo, Giovanni Informatica e Baldoinio | CGIT PCM
+20/05/2020 - [Segurança] Ponto de controle com Maravilha, Julio, Gerson e Itallo | CGIT PCA
+20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Gerson firewall - regras para serprodata | CGIT PCB
+
 08:30 x 12:30 x 13:00 x 18:30 - 19/05/2020
 19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides - Nota Técnica | CGIT PCB
 19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides e Reinaldo - Nota Técnica | CGIT PCB
@@ -28,20 +34,20 @@ MAIO/2020
 08:40 x 12:40 x 13:10 x 18:30 - 15/05/2020
 15/05/2020 - [Serprodata] Ponto de Controle com segurança Itallo | CGIT PCB
 15/05/2020 - [Poc Informatica] Ponto de Controle com Baldoino | CGIT PCB
-15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha | CGIT PCB
-15/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCA
-15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha e Marcio | CGIT PCM
-15/05/2020 - [Poc Estaleiro/Aws] Reunião com times de segurança, estaleiro, diope, dides | CGIT PCA
+===========15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha | CGIT PCB
+15/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | GIT PCA
+15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha e Marcio | GIT PCM
+15/05/2020 - [Poc Estaleiro/Aws] Reunião com times de segurança, estaleiro, diope, dides | GIT PCA
 
 09:00 x 13:00 x 13:30 x 17:42 - 14/05/2020
 14/05/2020 - Solicitação de informações para Nakamura para continuação da migração dos bancos
-14/05/2020 - [Poc informatica] Gustavo Baldoinio, Eduardo, Gustavo Silva, Leandro - INFO, Fernando Rosa, Rafael Linhas | CGIT PCA
-14/05/2020 - [Infosupec] Marcio Cunha - informações para publicação | CGIT PCB
+14/05/2020 - [Poc informatica] Gustavo Baldoinio, Eduardo, Gustavo Silva, Leandro - INFO, Fernando Rosa, Rafael Linhas | GIT PCA
+14/05/2020 - [Infosupec] Marcio Cunha - informações para publicação | GIT PCB
 14/05/2020 - Informações com Nakamura sobre usuário banco Sql Server metadados.
 14/05/2020 - Informações com Kelly CDIGM sobre demanda recusada segurança
 14/05/2020 - Informações com Baldoino sobre área do Oracle Client.
-14/05/2020 - Live presidente | CGIT PCB
-==============14/05/2020 - [Live Anita] Desativação do ambiente com Luis Adriano | CGIT PCM
+14/05/2020 - Live presidente | GIT PCB
+14/05/2020 - [Live Anita] Desativação do ambiente com Luis Adriano | GIT PCM
 
 09:00 x 13:00 x 13:30 x 17:30 - 13/05/2020
 13/05/2020 - Solicitaão de informações para Nakamura para continuação da migração dos bancos

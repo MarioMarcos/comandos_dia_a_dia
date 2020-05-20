@@ -1,0 +1,103 @@
+atualização aqui....
+Tô usando 20.04 aqui.....a todo vapor.... trabalhando e tudo.... hehehe
+Realmente ele tá melhor, configurações mais intuitivas, os detalhes estão mais bem acabados, integração do KDE Connect com o celular, as notificações..... configurações de tela, tá tudo um pouco melhor e mais intuitivo de mexer....
+Porém ele teve uns bugs..... De início meu som já não funcionava, tive que dar uma quebrada de cabeça pra arrumar tudo....
+Mas ficou show..... tá muito bom....
+Outra coisa....
+Pra trabalhar.... O-Vpn não tem como instalar, então eu extraí o pacote .DEB e "instalei" na mão..... Colocando os arquivos nos seus lugares corretos e iniciando a conexão via linha de comando. Funciona lindamente. Só não abre aquela janelinha pedindo certificado e senha. É uma linha de comando só que inicia a conexão. 
+Tá perfeito.
+O Token...... O meu, que é aquele branquinho ainda.... Esse não funciona. Como ele é mais antigo, não fazem mais o driver dele, então não tem driver. Ele até instala o driver, mas não funciona.
+Mas eu raramente utilizo o token pra trabalhar, tem anos mesmo que não uso. Ele só fica guardado na mochila, então não vai fazer falta por enquanto.....
+Explicando como eu arrisquei..... Eu consegui liberar uns 50 GB aqui no meu HD pra instalar outros sistemas pra testar.... Pra não ter que mexer no meu principal que é o 18..... Aí dá pra testar direito. Na VM não dá....
+Daí acabou que tô usando ele como padrão.....
+E o 18 tá lá quietinho.... Se precisar, tá lá. Por exemplo, se precisar usar o Token (cert A3), tem que ser lá no 18.
+que massa
+mas não tenho coragem de arriscar tanto agora não
+hehehehehehehe
+você muito ajuste aí
+mas vou ler este seu texto direitinho para ver se encaro
+nem sabia que dava para instalar dois sistemas assim
+Uai.... Tu não usa Windows e Linux na mesma máquina com Dual Boot?
+É a mesma coisa.
+No menu do Grub aparecem os 3 agora.
+Acho que deu um pouco de dor de cabeça o som aqui porque meu notebook é um pouco mais antigo.....
+E o Kernel desse veio um pouco bugado.... Mas já saiu atualização e tudo..... 
+Por enquanto tá resolvido....
+Tudo redondo.
+Inclusive o tema do SDDM (tela de login) agora funciona certinho..... Tá bonito....
+......
+E só pra reforçar........ Esse KDE Plasma é muito f****da...... kkkk.. ... Tá cada vez melhor... Muito bom. Tudo do jeitinho que a gente quer. Muitos temas se quiser dar uma variada, instala fácil, ícone, cores..... Áreas de trabalho..... caraca, muito bom....
+Previsão do tempo na barra de tarefa, seletor de iluminação noturna agora é nativo, só configurar os horários, etc.....
+Em cada tela eu coloquei um Painel (barra de tarefas)..... Só aparecem as janelas daquela tela em cada barra, Alt+Tab só alterna janelas da tela que estiver ativa na hora. É só colocar o mouse na outra tela que ela se torna a tela ativa...... Caraca, é muito bom....
+Bom, leia tudo aí depois.... kkk
+Vou já encerrar aqui.....
+ahhhh ......e tô usando o Thunderbird aqui...... 100% ..... E-mail, Calendário e Contatos do Serpro, tudo funcionando...... 
+Fiquei puto com o Serpro Mail um dia desses e taquei o Thunderbird aqui. Outra vida.
+esse Thunderbird me chama a atenção também
+minha agenda agora bomba
+e preciso que esteja tudo funcionando bem
+mas ele é muito bom para filtrar
+vou colocar ele no backlog para testar depois
+e o seu texto
+vou começar ler bem devagarzinhoooooooooooooooooo
+para entender tudo e fazendo uma checklist para ver o que fazer.....
+Belos dias e longas noites - Versão Roland
+ 
+
+
+
+ 
+[17:55, 18/05/2020] Mário Marcos: e você pode digitar para aparecer
+[17:56, 18/05/2020] Ronaldo Serpro: A mudança de janela eu uso "Em Pilha".....
+[17:56, 18/05/2020] Ronaldo Serpro: Alt+Tab..... se quiser, é só alterar aí depois....
+[17:56, 18/05/2020] Ronaldo Serpro: Tem em Pilha e Em Capa, que também é legalzinho...
+
+
+
+[14:18, 09/05/2020] Ronaldo Serpro: Acho que é melhor você colocar os DNS no resolv.conf
+[14:18, 09/05/2020] Mário Marcos: habilito a OVPN
+[14:18, 09/05/2020] Mário Marcos: e mesmo assim vários sites do serpro
+[14:19, 09/05/2020] Mário Marcos: dão o erro de DNS PROBE
+[14:19, 09/05/2020] Mário Marcos: aí vou atrás do IP e coloco com a URL no etc hosts
+[14:19, 09/05/2020] Mário Marcos: aí eles funcionam
+[14:19, 09/05/2020] Mário Marcos: mais é muito trabalhoso
+[14:19, 09/05/2020] Mário Marcos: porque são vários
+[14:19, 09/05/2020] Mário Marcos: todo dia aparece um
+[14:19, 09/05/2020] Ronaldo Serpro: Mas tu viu se ele tá configurando os DBSs?
+[14:19, 09/05/2020] Mário Marcos: o que é DBSs?
+[14:19, 09/05/2020] Ronaldo Serpro: DNS
+
+
+
+[14:20, 09/05/2020] Ronaldo Serpro: Esse negócio de automático pra mim não funciona não... Só se aparecer no /etc/resolv.conf
+[14:21, 09/05/2020] Mário Marcos: ai no ipv4
+[14:21, 09/05/2020] Mário Marcos: está automático
+[14:21, 09/05/2020] Ronaldo Serpro: Sim. Depois quando eu conectar eu te mando os DNS da OVPN
+
+
+[14:21, 09/05/2020] Ronaldo Serpro: Ok, então ele tem que incluir no resolv
+[14:21, 09/05/2020] Mário Marcos: depois mande foto da sua aí montada com o novo monitor
+[14:21, 09/05/2020] Mário Marcos: pode ser
+[14:21, 09/05/2020] Ronaldo Serpro: Pode tá faltando os pacotes aí que fazem isso
+[14:22, 09/05/2020] Ronaldo Serpro: Tive um probleminha com isso quando reinstalei
+[14:22, 09/05/2020] Mário Marcos: hummmm
+[14:22, 09/05/2020] Ronaldo Serpro: Depois eu te mando o que precisei instalar
+
+
+
+[14:23, 09/05/2020] Ronaldo Serpro: Um deles é o net-utils.... Se não me engano, que tem o ifconfig. Outro é o resolvconf ....
+[14:23, 09/05/2020] Ronaldo Serpro: O ovpn usa esses trecos pra configurar
+
+
+
+
+15/05/2020 09:30:05) Ronaldo Bezerra da Silva: Ei.... Acho que esses são os pacotes pro DNS funcionar automaticamente com o O-Vpn:
+
+net-tools
+resolvconf
+(15/05/2020 09:30:27) Ronaldo Bezerra da Silva: Se bem me lembro, esses dois são certeza. Veja se já tem eles instalados.
+(15/05/2020 09:32:32) Ronaldo Bezerra da Silva: Sobre os jogos, bem, eu não curto muito jogo de esporte, muito menos online.... hehehe.... No máximo uma corridinha de carro, coisa assim.... No mais prefiro jogos de aventura, ação, RPG, terror.... essas coisas.... FPS também não curto tanto, sou muito ruim... 
+(17:15:54) mario.souza@sim.serpro.gov.br/948089868158983290211626: show
+(17:16:11) mario.souza@sim.serpro.gov.br/948089868158983290211626: vou verificar aqui depois se existe estes pacotes
+ 
+
