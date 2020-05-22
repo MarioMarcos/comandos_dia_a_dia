@@ -9,32 +9,46 @@ git.serpro
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
-09:00 x 13:00 x 13:30 x 17:30 - 20/05/2020
-20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Lynara e Gerson | CGIT PCB
-20/05/2020 - [Poc informatica] Ponto de controle Andrigo, Giovanni Informatica e Baldoinio | CGIT PCM
-20/05/2020 - [Segurança] Ponto de controle com Maravilha, Julio, Gerson e Itallo | CGIT PCA
-20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Gerson firewall - regras para serprodata | CGIT PCB
+09:00 x 13:00 x 13:30 x 17:30 - 22/05/2020
+22/05/2020 - [Poc Acesso Gov AWS] Ponto de Controle com times | CGIT PCM
+
+
+
+09:00 x 13:00 x 13:30 x 18:10 - 21/05/2020
+21/05/2020 - [Poc Acesso Gov AWS] Ponto de Controle com times | CGIT PCM
+21/05/2020 - [Serprodata] Ponto de controle para edição de texto para regras de firewall | GIT PCB
+21/05/2020 - [Poc Estaleiro AWS] Ponto de Controle com times | GIT PCA
+21/05/2020 - [Serprodata] Ponto de controle para conferência de regras de firewall | GIT PCB
+21/05/2020 - [Serprobots] Solictação de prioridade na criação de certificado  | GIT PCB
+21/05/2020 - [Poc informatica] Ponto de Controle com Bruno Assunes Postgres | GIT PCB
+
+
+09:00 x 13:00 x 13:30 x 18:10 - 20/05/2020
+20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Lynara e Gerson | GIT PCB
+20/05/2020 - [Poc informatica] Ponto de controle Andrigo, Giovanni Informatica e Baldoinio | GIT PCM
+20/05/2020 - [Segurança] Ponto de controle com Maravilha, Julio, Gerson e Itallo | GIT PCA
+20/05/2020 - [Serprodata] Ponto de Controle com Claudio, Gerson firewall - regras para serprodata | GIT PCB
 
 08:30 x 12:30 x 13:00 x 18:30 - 19/05/2020
-19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides - Nota Técnica | CGIT PCB
-19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides e Reinaldo - Nota Técnica | CGIT PCB
-19/05/2020 - [Poc iformatica] Ponto de controle com Baldoino e Giovanni | CGIT PCB
-19/05/2020 - [Infosupec] Ponto de Controle com Claudio Rocha | CGIT PCB
+19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides - Nota Técnica | GIT PCB
+19/05/2020 - [Poc Estaleiro/Aws] Reunião com times de Dides e Reinaldo - Nota Técnica | GIT PCB
+19/05/2020 - [Poc iformatica] Ponto de controle com Baldoino e Giovanni | GIT PCB
+19/05/2020 - [Infosupec] Ponto de Controle com Claudio Rocha | GIT PCB
 19/05/2020 - Alinhamento de Demandas com Lynara
-19/05/2020 - [Poc Estaleiro/Aws] Ponto de Controle com Danilo sobre Nota Técnica | CGIT PCB
+19/05/2020 - [Poc Estaleiro/Aws] Ponto de Controle com Danilo sobre Nota Técnica | GIT PCB
 
 08:50 x 12:50 x 13:20 x 19:00 - 18/05/2020
 18/05/2020 - Informações com reinaldo Pegar demandas aws estaleiro
-18/05/2020 - [Poc iformatica] Ponto de controle semanal | CGIT PCB
-18/05/2020 - [Infosupec] Ponto de controle com todo time para acompanhamento semanal | CGIT PCA
-18/05/2020 - [Desativação Live Anita] Ponto de controle com Luis CD e Benito Dides | CGIT PCM
-18/05/2020 - [Desativação Live Anita] Atividade 2020AT/0000038033 na RDM 2020RDM/0000043731 | CGIT ATB
-18/05/2020 - [Serprodata] Ponto de Controle com o Jeferson Firewall e Claudio | CGIT PCM
+18/05/2020 - [Poc iformatica] Ponto de controle semanal | GIT PCB
+18/05/2020 - [Infosupec] Ponto de controle com todo time para acompanhamento semanal | GIT PCA
+18/05/2020 - [Desativação Live Anita] Ponto de controle com Luis CD e Benito Dides | GIT PCM
+18/05/2020 - [Desativação Live Anita] Atividade 2020AT/0000038033 na RDM 2020RDM/0000043731 | GIT ATB
+18/05/2020 - [Serprodata] Ponto de Controle com o Jeferson Firewall e Claudio | GIT PCM
 
 08:40 x 12:40 x 13:10 x 18:30 - 15/05/2020
-15/05/2020 - [Serprodata] Ponto de Controle com segurança Itallo | CGIT PCB
-15/05/2020 - [Poc Informatica] Ponto de Controle com Baldoino | CGIT PCB
-===========15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha | CGIT PCB
+15/05/2020 - [Serprodata] Ponto de Controle com segurança Itallo | GIT PCB
+15/05/2020 - [Poc Informatica] Ponto de Controle com Baldoino | GIT PCB
+15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha | GIT PCB
 15/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | GIT PCA
 15/05/2020 - [Infosupec] Ponto de Controle com Marcio Cunha e Marcio | GIT PCM
 15/05/2020 - [Poc Estaleiro/Aws] Reunião com times de segurança, estaleiro, diope, dides | GIT PCA

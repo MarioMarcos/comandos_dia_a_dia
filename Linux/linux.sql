@@ -13,6 +13,27 @@ ISSO É PARA ACESSAR O SCCD E OUTROS, INCLUSIVE O EMAIL COM CERTIFICADO e nos na
 corrigir principalmente o erro "Fechar Brows e retirar o token e tente novamente" um saco
 mas deu certo com o apoio do suporte remoto na pessoa de "sueli real" <sueli.real@serpro.gov.br>; 
 ----------------------------------------------------------------------------------------
+======================================================================================================================
+21/05/2020 - Esta solução é que deve ser colocado primeiro e vai resolver todas questões do sites serpro
+Dicas para resolver DNS com problemas acessos no navegador para o Serpro - OVPN - fazer isso sempre que instalar um ubuntu novo.
+Sem isso não vai funcionar os sites do serpro.
+Por Ronaldo Bezerra - ajudou e resolveu tudo
+
+1- instalei o sudo apt install resolvconf ----- para alterar e fixar o resolv.conf - colocar no linux.sql para instalar depois a configuração do resolv.conf DNS
+e executei esse aqui também 
+
+2- entrar no arquivo: cd /etc/resolvconf/resolv.conf.d/     ===>>>>   vi head   ====>>>> alterar e colocar os DNSs abaixo
+nameserver 10.31.18.14
+nameserver 10.31.8.100
+
+3- reiniciei o serviço: systemctl restart resolvconf - para reiniciar o serviço
+e depois testei e funcionou no navegador depois da OVPN conectada todos os sites do serpro entraram sem problemas
+
+obs: se isso acima não funcionar, a solução será colocar ip e url no /etc/hosts e depois conectar na ovpn e testar cada site. É bem mais trabalhoso
+
+
+===============================================================================
+Essa aqui é só se a de cima não funcionar corretamente ok.
 24/03/2020 - configuracao para acesso ao SCCD, GIT E PLAYOPS
 ==Solucao para o problema no SCCD que mesmo com OVPN  funcionando não inicializava o sccd, git, playops  nos browsers chrome e no firefox
 ==end. https://www.sccdtk.serpro ou https://www.sccd.serpro 
@@ -24,6 +45,7 @@ mas deu certo com o apoio do suporte remoto na pessoa de "sueli real" <sueli.rea
 10.31.22.120     www.git.serpro
 10.31.18.14      ns3.serpro
 
+10.30.0.40       www.entreposto.bsa.serpro
 10.200.244.104   www.playops.serpro
 
 10.30.91.66      www.siscopweb.serpro
@@ -48,7 +70,6 @@ Com esses comandos abaixo executados como root - acessados pelo GRUB e reiniciei
 --Ver se existe o drives NVIDIA
 dpkg -l | grep -i nvidia
 
-
 In summary
 
 --Remove todos os drives nvidia
@@ -64,12 +85,7 @@ sudo rm /etc/X11/xorg.conf
 echo 'nouveau' | sudo tee -a /etc/modules
 
 =================================================================================================
-
-
-
 ! /bin/ksh
-
-
 o link do watchdata para instalação do token ----- está na pasta documentos/outros.
 
 --==================================================================================================================================
@@ -210,11 +226,11 @@ Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu
   instale o kde connector no computador com sudo apt-get install kdeconnector e use sudo apt-get install kdeconnect indicator-kdeconnect.
   OBS: So funciona no WIFI. tem que retirar o cabo de rede para que ele funcione.
 
-
 49- Instale o net-tools para ter opçao de usar o ifconfig no linux para ver ip, comando: sudo apt-get install net-toolssudo apt-get install net-tools
 
 50-Instalar DROPBOX para usar como sincronizador de pastas
-
+51-Configurar sem falta o DNS resolv.conf - conforme nota abaixo no arquivo linux.sql sobre DNS por Ronaldo Bezerra. La tem a configuracao para funcionar
+   os sites do serpro depois de habilitado o OVPN.
 
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
