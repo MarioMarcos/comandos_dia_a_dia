@@ -51,7 +51,6 @@ São necessárias duas ATIVIDADES. Uma para Equipe de SQL SERVER Brasilia e outr
 
 Caso tenha alguma dúvida solicito entrar em contato comigo ou Mario Souza (mario.souza@serpro.gov.br).
 
-
 =======================================================================================================================
 FLAVIA
 Bom dia, Mário.
@@ -178,87 +177,8 @@ INSERT ANY TABLE NA TABELA DE QUALQUER UM
 Reinicar o banco destino vai ser necessário
 
 =======================================================================================================================
-
 ANA CLAUDIA ARAUJO - DESENVOLVIMENTO SGP - FALAR COM ELA QUE NÃO É PARA DISPONIBILIZAR PARA FTP
-
-========================
-
-Código de Serviço: 11432
-
-Equipe Banco Oracle,
-
-Solicito a criação dos esquemas de metadados abaixo relacionados, no ambiente de
-Desenvolvimento de BI do Exadata, MDDES104,  para serem utilizados em Poc Informatica conforme
-acertado em Reunião Técnica.
-
-O fornecedor Informatica indicou a necessidade de esquemas de banco de dados Oracle em uma das versões (19c, 18c, 12cR2, 12cR1 ou 11gR),
-para os repositórios dos diversos produtos.
-+6
-
-Esquemas:
-
-INFA_DOM - Domain Repository, 2 GB de disco.
-INFA_CACHE - Data object cache database, 2 GB de disco.
-INFA_MRS - Model Repository, 2 GB de disco.
-INFA_MOM - Monitoring Model Repository, 2 GB de disco.
-INFA_REF - Reference Data, 2 GB de disco.
-INFA_PWH - Profiling Warehouse, 20 GB de disco.
-INFA_WKFLW_DB - Workflow Database - usuário infa_wkflw_db, 2 GB de disco.
-INFA_TDM - TDM Repository - usuário infa_tdm, 2 GB de disco.
-INFA_TDW - Test Data Warehouse Repository, 2 GB de disco.
-TDM_DOM - Domain Repository, 2 GB de disco.
-TDM_CACHE - Data object cache database, 2 GB de disco.
-TDM_MRS - Model Repository, 2 GB de disco.
-TDM_MOM - Monitoring Model Repository, 2 GB de disco.
-TDM_REF - Reference Data, 2 GB de disco.
-TDM_PWH - Profiling Warehouse, 20 GB de disco.
-CMX_SYSTEM - MDM Hub Master Database, 2 GB de disco.
-CMX_ORS - Operational Reference Store, 2 GB de disco.
-AVOS - ActiveVOS Database, 2GB de disco.
-
-Nas configurações com as aplicações solicitaremos o acompanhamento de um DBA
-com direito de administrador para juntamente com o Time OLAPDW possa configurar os bancos da forma correta caso seja necessário.
-
-Os bancos de dados devem atender aos seguintes requisitos:
-Configurar o parâmetro open_cursors para 4000 ou mais
-SELECT VALUE OPEN_CURSORS FROM V$PARAMETER WHERE UPPER(NAME)=UPPER('OPEN_CURSORS')
-Configurar as permissões na visão $parameter para o usuário do banco de dados
-Verificar o usuário do banco de dados para ter as seguintes permissões:
-CREATE INDEX, CREATE SEQUENCE, CREATE SESSION, CREATE SYNONYM, CREATE TABLE, CREATE VIEW, DROP TABLE, INSERT INTO TABLE, ALTER SEQUENCE, ALTER TABLE and UPDATE TABLE privileges
-Configurar o parâmetro de sessões para 1000
-Configurar o parâmetro de processos para 1000
-Os produtos Informatica não suportam sinônimos públicos do Oracle para tabelas de repositório. Deve ser verificado se sinônimos públicos não foram criados para nenhuma tabela no banco de dados.
-
-As conexões do banco de dados Workflow DB devem ser configuradas com os parâmetros tamanho máximo do pool de conexão em 128, tamanho mínimo do pool de conexão 0 e tempo máximo de ociosidade em 120 segundos.
-
-Por fim as credenciais devem ser encaminhadas para Gustavo Baldoino (Gustavo.menezes@serpro.gov.br), Gustavo Silva (Gustavo.silva@serpro.gov.br (SUPCD-OLAPDW)
-
-
-2020SS/0000457008 - SS PARA PEDIR PRIORIDADE PARA FIREWALL OK. 11/05/2020
-
-
-======================================================================================
-PENDENCIAS serprodata
-
-OK - Criação de Bancos Metadados  (resolvido hoje)
-OK - Criação de regra para acesso ao Pentaho BA Server - pendente   (já estava resolvido)
-OK - Gerson - demanda SUPAI não é nossa (demanda não é nossa)
-PE - Certificado Digital no Servidor Pentaho
-PE - Biblioteca GTK para conexão  da ferramenta spoon do Pdi com o respositorio do Servidor Pentaho (vamos abrir regra para firewall temporária para baixa biblioteca para o GTK)
-PE - SS para workstations adicionais ao projeto (Eduardo vai conversar com Lynara para responder o Geison solicitando prazo se for adicionar as mesmas)
-
-
-======================================================================================
-
-A segunda máquina com comportamento anormal. 
-Ela está com requisições desproporcionais. Quando vai aumentando a métrica os pacotes começam a se perder. Métrica da máquina normal se matem a 211 enquanto a segunda vai aumentando chegando na casa de 4000 a 5000 requisições.
-Estão conferindo parâmetros entre a normal e a problemática para  identificar qual parâmetro de rede que não está totalmente funcional.
-Quando terminarem essa análise, e não resolver...vão avaliar a clonagem da máquina normal.
-
-===========================================================================================================================================================================================================================================================
-ESTALEIRO NA AWS - COM REINALDO
-
-
+=======================================================================================================================
 
 13/05/2020======================IAC estrutura==================================================
 Edegard Casaroto - parceiro Santiago que vai assumir nas férias do Santiago
@@ -270,8 +190,6 @@ Santiago vai sair de férias e posteriormente quando ele voltar marcar novamente
 
 Desativação ANITA com Luis Adriano
 CD \ CDRM \ CDRMDESAMB \ CDRMDESAMBBSA
-
-
 
 já foi feito já foram tirados do balanceamento 
 
@@ -298,144 +216,10 @@ Lembrete: Entregar ips e regras de firewall
 obs:. remover o ip final 252 do estaleiro, pois o mesmo foi setado para configuração da máquina 2211 e não está sendo utilizado.
 
 
-==========================================================================================================================
-TITO segurança
-email com o registro de reunião de 25 de março 13:18
 
-2020SS/0000467737
-NEGOCIAR SS do tito 
-italo fizermos a reunião e não era para ter isso, dá uma olhada para ser tratada como se fosse um desvio logo não precisa de fluxo de excesão 
-
-=========================================================================================================================
-
-
-=================================================================================================================
-informação reinaldo ------------ AWS - Serpro
-AWS - REINALDO QUE MANDA UM QUESTIONÁRIO PARA MIGRAÇÃO PARA NUVEM COM AS CARACTERÍSTICA QUE ELE QUER MIGRAR
-S.O, REDES, ARMAZENAMENTO
-
-AÍ EU VERIFICO VAI VOLUMETRIA E AI O REINALDO VAI NA CALCULADORA PARA ESTIMAR E FAZER UMA previsão
-
-E SE FALTAR ALGUM DADO, A AWS TEM UMA ESTIMATIVA PARA DADOS QUE ELES NAÕ MANDAM
-
-DEPOIS VAI PARA A EQUIPE DO FLAMARION E MONTA UMA ARQUITETURA E AMNDA A CALCULADORA COM ESTIMATIVA DE consultoria
-E FAZEM UMA TRADUÇÃO DA PLANILHA COM UMA PRECIFICAÇÃO - USN DO SERPRO, E UST A PROPOSTA DEVE CONTEMPLAR QUE ENCAMINHAR PARA A REA DE NEGOICIO QUE ENCAMINHA UMA PROPOSTA PARA
-
-O CLIENTE QUE DEFINE SE VAI ACEITAR PARA INICIAR O PROJETO PARA MIGRAÇÃO OU NOVA INSTALALÇÃO.
-
-USN - VALOR COM O DÓLAR QUE MUDAR DIARIAMENTE PELO BANCO CENTRAL A PARTIR DO 12 DIA
-
-
-==Existe modulador para EC2 e RDS - por Ronaldo
-
-USN -  MAUINA OU SERVIÇO
-UST - PESSOAL QUE ESTÁ REALIZANDO O SERVIÇO OU CRIANDO MAQUINA
-
-TIMES VÃO ATUAR CONFORME ON PREMISE, OU SEJA CADA ÁREA VAI ATUAR NA AWS TAMBÉM.
-
-SEGURANÇA - SUSPI = AWS SEGURANÇA
-REDES     -       = AWS REDES
-BANCOS    -       = AWS BANCOS
-STORAGE   -       = AWS STORAGE
-
-
-PROJETO ESTALEIRO AWS:
-Tarefas: Tiago Teixiera cobrando Nota técnica
-
-Nota Técnica do Katz passar para Tiago Teixeira
-
-OP - DANILO - relatório
-DE - Tiago - Aplicação escolhida, informações relatório
-SI - Fabiano
-CD - BOSCO
-
-
-CLOUD ENDURE -  por Reinaldo - Teradata para Sql Server verificar posteriormente
-
-SUPSI - Vão administrar a criação de contas subconta para poc estaleiro
-root account - serpro - está com Katz
-
-
-
-PROJETO SIGEPE - AWS - AGUARDAR RESPOSTA DO REINALDO - JÁ AUTORIZADO PARA FAZER - FALTA SÓ ARQUITETURA
-
-por Reinaldo
-Para resolver PROBLEMA DE LATENCIA COLOCAR CLOUDFRONT na frente
-
-
-Arquitetura baseada em São Paulo ... Por Ronaldo
-
-
-
-
-18/05/2020
-
-
-
-===================================================================================================================
-Reunião Aws - Estaleiro  19/05/2020
-Objetivo é escalar o Estaleiro na AWS
-obejtivos - ter toda a facilidade dentro do Serpro eu não usaria e sim utilizar e produzir ela 
-dentro da AWS.
-
-
-a)
-com Tiago Medeiros e Equipe - DIDES
-
-Desenvolvimento.
-
-1-Somente para cobrar a aplicação e mostrar o modelo para confecção da nota técnica
-2-Cobrar a questão da aplicação: ACESSO GOV.Br
-
-LEANDRO DEITOS - O LEITOR AO FINAL DA LEITURA PRECISA TER CONSCIÊNCIA DO QUE?
-
-outra reunião com Reinaldo também participando.
-Resposta do Reinaldo 
-1-Delimitar o escopo de cada área
-2-o que se vai fazer em cada área
-3-e o que cada área espera o critério de sucesso para essa POC
-4-e o que se vai fazer e o esperado foi atingido (ter métricas no Estaleiro e na Aws para comparativo.)
-
-
-5-os rescursos vão ser os mesmos - pergunta do time
-
-
-
-b)
-com Danilo e Equipe - SUPOP - Já está atuando.
-
-Desenvolvimento.
-
-1-Somente para cobrar a aplicação e mostrar o modelo para confecção da nota técnica
-2-Cobrar a questão da aplicação 
-3-Informar prazo novamente
-
-1-Delimitar o escopo de cada área
-2-o que se vai fazer em cada área
-3-e o que cada área espera o critério de sucesso para essa POC
-4-e o que se vai fazer e o esperado foi atingido (ter métricas no Estaleiro e na Aws para comparativo.)
-
-
-=========================20/05/2020=================================================
-Resolver questões do Mário em casa na máquina - sugestões do Andrigo abaixo 
-e também no arquivo do Ronaldo 
-DNS PARA ACESSO A TODOS OS SITES DO SERPRO VIA OVPN que não está pegando o arquivo
-10.31.8.100 setar na 
-DNS
-se você setar depois tem que tirar para utilizar os outros SITES
-ver com o Ronaldo.
 ===================================================================
 
-=====================================================
-SISCOR - PARA LIBERAR 
-Júlio Cesar Ribeiro - Siscor  para acesso das aplicações da rede 161.148.239.0 para acessar 
-os bancos xxxxxxxxxxxxxxxxx  em homologação
-e por consquência as mesmas aplicações vão mascarar os dados e enviar para 
-as redes de desenvolvimento dos bancos ssssssssssssssssssssssss
 
-encaminhar para o Julio e copiar Andrigo.....
-pegar redes de bancos oracle, sqlserver e postgres
-====================================================
 
 POR ANDRIGO --- Em andamento
 Grupo: gp-s-filtrowebusuarios-POCINFORMATICA
@@ -503,8 +287,6 @@ o desenvovedor dentro do serpro acessa  a rede de desenvolvimento. chegou um aco
 
 COMO VAI ACESSAR O DESENVOLVIMENTO: acesso de casa ao ambiente do desenvolvimento do datalake e como vai ser o acesso ao lago. por parte de segurança
 
-
-
 1-Solução para casa(temporário pandemia): via OVPN, via entreposto que ele faça tudo na intranet
 2-utilizar a workstation - para produção tem que estar escrito como entreposto.
 3-zdm entreposto as workstation tem que ser pedido como entreposto para ser utilizado 
@@ -524,8 +306,18 @@ Workstation/Entreposto coloquem esses cara para se autenticar no ambiente de dse
 1-Workstation virtual vai ser utilizado - como entreposto - continua 
 2-desenvolvedores -->>>> vai para o datalake no desenvolvimento ? 
 
+===========================================================================================================
+por Gerson Tessler - colocar na RDM no Histórico para setar com o aguardando cliente se manifestar para iniciar as entregas novamente
+PME - Pentaho Metadata Editor
+PSW - Pentaho Schema Workbench
+===========================================================================================================
 
+1-Equipe de Oracle, colocar o Fabrício, Seger e Leonardo Alexandre de São Paulo. O Seger entra em férias no início de Junho.
+Para demanda da POC informática
 
+2-Equipe Sql Server - Nakamura, Paulo e Rodrigo vão participar da demanda poc para mascarar o dado.
+
+3-
 
 
 

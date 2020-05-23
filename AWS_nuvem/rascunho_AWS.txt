@@ -1,0 +1,105 @@
+=================================================================================================================
+informação reinaldo ------------ AWS - Serpro
+
+a) IDA AO CLIENTE: Entende com o cliente sobre as características do que ele quer migrar ou criar como: S.O, Redes, Armazenamento, informações esta preenchidas em um questionário.
+
+b) Com o questionário em mãos (em casa) aí verifica a Volumetria ==>> Vamos para a calculadora da AWS simply Monthy calculator para estimar e fazer uma previsão
+
+c) E se faltar algum dado, a AWS tem uma estimativa para dados que os clientes não tem, e não nos enviam; 
+
+d) Depois vai para equipe do Flamarion que monta uma arquitetura e manda a calculadora com estimativa de valor da consultoria
+e fazem uma tradução da planilha com uma precificação  - USN do Serpro, e UST. A proposta deve comptemplar  DEVE CONTEMPLAR QUE ENCAMINHAR PARA A REA DE NEGOICIO QUE ENCAMINHA UMA PROPOSTA PARA
+
+f) O cliente que define se vai aceitar ou não para iniciar o projeto para migração ou uma nova instalação;
+
+
+
+
+Definição Serpro
+USN - Valor com o dólar que mudar diarimente pelo Banco Central a partir do meio dia
+USN - Valor para utilização de Máquinda ou Serviço
+UST - Pessoal que está realizando o serviço ou criando máquina 
+
+IMES VÃO ATUAR CONFORME ON PREMISE, OU SEJA CADA ÁREA VAI ATUAR NA AWS TAMBÉM.
+
+SEGURANÇA - SUSPI = AWS SEGURANÇA
+REDES     -       = AWS REDES
+BANCOS    -       = AWS BANCOS
+STORAGE   -       = AWS STORAGE
+
+PROJETO ESTALEIRO AWS:
+Tarefas: Tiago Teixiera cobrando Nota técnica
+
+Nota Técnica do Katz passar para Tiago Teixeira
+
+OP - DANILO - relatório
+DE - Tiago - Aplicação escolhida, informações relatório
+SI - Fabiano
+CD - BOSCO
+
+
+CLOUD ENDURE -  por Reinaldo - Teradata para Sql Server verificar posteriormente
+
+SUPSI - Vão administrar a criação de contas subconta para poc estaleiro
+root account - serpro - está com Katz
+
+==Existe modulador para EC2 e RDS - por Ronaldo
+
+PROJETO SIGEPE - AWS - AGUARDAR RESPOSTA DO REINALDO - JÁ AUTORIZADO PARA FAZER - FALTA SÓ ARQUITETURA
+
+por Reinaldo
+Para resolver PROBLEMA DE LATENCIA COLOCAR CLOUDFRONT na frente
+
+
+Arquitetura baseada em São Paulo ... Por Ronaldo
+
+
+
+
+18/05/2020
+
+
+
+===================================================================================================================
+Reunião Aws - Estaleiro  19/05/2020
+Objetivo é escalar o Estaleiro na AWS
+obejtivos - ter toda a facilidade dentro do Serpro eu não usaria e sim utilizar e produzir ela 
+dentro da AWS.
+
+
+a)
+com Tiago Medeiros e Equipe - DIDES
+
+Desenvolvimento.
+
+1-Somente para cobrar a aplicação e mostrar o modelo para confecção da nota técnica
+2-Cobrar a questão da aplicação: ACESSO GOV.Br
+
+LEANDRO DEITOS - O LEITOR AO FINAL DA LEITURA PRECISA TER CONSCIÊNCIA DO QUE?
+
+outra reunião com Reinaldo também participando.
+Resposta do Reinaldo 
+1-Delimitar o escopo de cada área
+2-o que se vai fazer em cada área
+3-e o que cada área espera o critério de sucesso para essa POC
+4-e o que se vai fazer e o esperado foi atingido (ter métricas no Estaleiro e na Aws para comparativo.)
+
+
+5-os rescursos vão ser os mesmos - pergunta do time
+
+
+
+b)
+com Danilo e Equipe - SUPOP - Já está atuando.
+
+Desenvolvimento.
+
+1-Somente para cobrar a aplicação e mostrar o modelo para confecção da nota técnica
+2-Cobrar a questão da aplicação 
+3-Informar prazo novamente
+
+1-Delimitar o escopo de cada área
+2-o que se vai fazer em cada área
+3-e o que cada área espera o critério de sucesso para essa POC
+4-e o que se vai fazer e o esperado foi atingido (ter métricas no Estaleiro e na Aws para comparativo.)
+
