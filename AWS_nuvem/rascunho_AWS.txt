@@ -13,8 +13,6 @@ e fazem uma tradução da planilha com uma precificação  - USN do Serpro, e US
 f) O cliente que define se vai aceitar ou não para iniciar o projeto para migração ou uma nova instalação;
 
 
-
-
 Definição Serpro
 USN - Valor com o dólar que mudar diarimente pelo Banco Central a partir do meio dia
 USN - Valor para utilização de Máquinda ou Serviço
