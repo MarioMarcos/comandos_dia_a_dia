@@ -145,6 +145,8 @@ Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu
 50-Configurar sem falta o DNS resolv.conf - conforme nota abaixo no arquivo linux.sql sobre DNS por Ronaldo Bezerra. La tem a configuracao para funcionar
    os sites do serpro depois de habilitado o OVPN.
 
+51- Já estou usando ele terminator  -- apt get install terminator == dica klesio para trabalhar com várias telas 
+
 ==Estes aqui são para testar e depois colocar acima para instalação
   -Testar RAMBOX CENTRAL PARA MENSAGENS ==achei legal
   -Testar Analisar a instalação de DROPBOX, pois ele tem client para linux 
@@ -157,6 +159,5 @@ Para apagar o o plasma: sudo apt install ppa-purge && sudo ppa-purge ppa:kubuntu
                               sudo apt-get update
                               sudo apt-get install audio-recorder 
   -Testar Audacity para gravação e edição de som
-  -Testar terminator  -- apt get install terminator == dica klesio para trabalhar com várias telas 
-  -Testar HTOP -- apt get install htop
+    -Testar HTOP -- apt get install htop
 --FIM INSTALAÇÃO ACIMA==================================================================
