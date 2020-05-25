@@ -319,6 +319,27 @@ Para demanda da POC informática
 
 3-
 
+===========================================================================================================================
+Rascunho para Lynara
+
+Lynara, posição de hoje. Amanhã a tarde talvez mude o cenário 1, por isso peço que ainda não repasse para o Improta, porque vai mudar bastante e para melhor a entrega.
+Talvez não será necessário os outros cenários e mudança se concretizar. é sobre os acessos. Gerson ficou de me falar amanhã final da tarde.
+
+INFOSUPEC - Previsão para entrega total já com validações e datalke com algumas bases ingeridas. 
+
+1-Linux - Entregue - Fase de validação até sexta-feira pela Equipe Desenvolvimento 
+2-Pentaho - Entregue - Fase de validação até sexta-feira pela Equipe Desenvolvimento 
+3-Banco Postgres - Entregue
+4-Datalake - Em andamento, passamos para fase de ingestão de bases produtivos - ficou decidido até sexta feira ingerir pelo menos dois bancos no dalake desenvolvimento
+Temos 22 bases para ingestão 
+
+5-Nova situação (aguardar até Gerson dá posiçao amanhã a tarde)
+Urgente: 
+1- Um cenário é recomendável que seja feita workstation virtual no desenvolvimento, contudo eles já tem a possibilidade de utilizar mas não tem como fazer auditoria nas máquinas
+   verificar com a SUPSI. (aguardar posicionamento do Gerson que tem uma informação nova) 
+2- Consultar na segurança se é possível colocar zdm de produção do Pentaho as workstations virtuais acessar o datalake de DESENVOLVIMENTO (5 VMS) 15 dias
+3- Construir as workstations na zdm desenvolvimento (Vai ter que criar na ZDM) 5 (VMS) - 15 dias - A zdm tem que ser antes
+4- Construir as workstations no zdm na Homologação(Vai ter que criar ZDM) 15 dias - A zdm tem que ser antes
 
 
 
@@ -330,3 +351,63 @@ Para demanda da POC informática
 
 
 
+
+
+
+
+
+1-Siscor com todos bancos de produção pedindo cópia para o desenvolvimento para atender infosucec
+relação de bancos.
+
+2-
+
+
+Gerson, vai passar o manual para Helen
+
+
+1-
+PASSAR A ORIGEM PARA DATALAKE
+SE FOR PRODUÇÃO JÁ PASSAR SISCOR JUNTO OK..
+PRODUTIVO PARA DESENVOLVIMENTO PRECISA DE SISCOR. PARA OS DESENVOLVDOERES PRECISA DIRETAMENTE ....
+VINCIIUS - LEVANTAR COM O PESSOAL 
+SSCDEÉ MUITO GRANDE
+CARGA ÚNICA 
+CARGA - ÚNICA MENSAL 
+CADASTRADO NO AD DO DATALAKE - PARA ACESSAR PELO IMPALA
+GERSON --- VER A POSSIBILIDADE SENHA SPA PELA SUPAI COM SAINT CLAIR
+
+
+ENCAIXAR - 
+SERPRODATA - USAR SEMPRE O SENHA PSA PARA O INFOSUPEC
+
+
+
+Obrigado Kelly, pela orientação.
+
+
+Srs(as),
+Em linhas gerais, o fluxo tem início a partir de um ticket de solicitação de serviço (SS) negado.
+O solicitante rebecerá por email as informações de cancelamento do ticket e a justificativa de não conformidade 
+com as normas de segurança. O solicitante opta por iniciar o fluxo de exceção que será encaminhado para a SUPSI. 
+Ao final, a SUPSI emite um parecer deliberando sobre os riscos e encerra o processo.
+
+SISCOR -----> SUPSI para: Caio, Tiago Iahn
+                        cc: (opcional) : julio Cesar G. Ribeiro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================================================================================================================

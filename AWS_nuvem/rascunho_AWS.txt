@@ -101,3 +101,55 @@ Desenvolvimento.
 3-e o que cada área espera o critério de sucesso para essa POC
 4-e o que se vai fazer e o esperado foi atingido (ter métricas no Estaleiro e na Aws para comparativo.)
 
+============================================================================
+25/05/2020 CURSO AWS ESSENTIALS PARA SETOR PUBLICO
+
+1-LINK INFRAESTRUTURA
+https://infrastructure.aws/
+
+2-Verificar Cloudformation Designer - dica
+
+3-Direct Conect -e um cabo que comunica na AWS direto na operadora e pode ser ligado ao cliente. Sem passar pela Internet.
+
+4-AWS SHIELD para atacks DDOS 
+
+5-Compliance - AWS Artfacts - relatórios e entidades de terceiros como a AWS LGPD e se eu estou compliance com objetivo de cumprir os requisitos compliance corporativos., 
+               controles gerenciados por mim e pelos meus parceiros e tenho que continuar a fazer isso continuamente.
+               para continuarmos sendo compliance
+
+Modelo de cobranças de serviços
+6-a) paga sobre demanda,
+  b) pagar reservando AWS dá desconto muito maior, 
+  c) Use mais, pague menos.
+
+7 -Data Transfer
+  Tráfego de entrada raramente é cobrado
+
+8 -Analizar AWS Cost Explorer
+Para ver gráficos, planilhas - realmente olhar, ter a visibilidade como está funcionando.
+
+9 -Trust Advisor - tipo de serviço que está utilizando, se podemos economizar, ele consegue ver dentro da nossa conta se tem ali oportunidade de redução de consultoria
+   qtd 7 check -  gratuitos 
+
+10-Support - 
+
+
+11-5 pilares da framework - pegar depois novamente. eu tenho em algum lugar
+1-Performance
+2-Secutiry
+3-Reliability 
+4-Operacional Excellence
+5-Cost Optimization
+
+
+
+
+
+
+
+============================================================================
+
+
+
+
+
