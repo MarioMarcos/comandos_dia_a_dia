@@ -17,6 +17,15 @@ www.timer-tab.com - site para cronômetro legal == testar ainda
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+
+09:00 x 13:00 x 13:30 x 20:00- 27/05/2020
+27/05/2020 - [Arquitetura CMB] Reunião de alinhamento Arquitetura CMB | CGIT PCA
+27/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
+27/05/2020 - [Poc Informatica] Ajustes máquina Baldoinio com Claudio e mario, e ainda também  LDAP grupos  | CGIT PCM 
+
+
+
+
 08:40 x 12:40 x 13:10 x 18:40- 26/05/2020
 26/05/2020 - [Poc Acesso.gov.br AWS] Reunião de alinhamento para POC AWS | CGIT PCA
 26/05/2020 - [Curso AWS kubernetes] | CGIT PCM
@@ -25,9 +34,8 @@ MAIO/2020
 26/05/2020 - [Poc Informatica] Reunião de alinhamento POC | CGIT PCB
 26/05/2020 - [Infosupec] Reunião de urgência para definição | CGIT PCM
 
-
 08:25 x 12:25 x 12:55 x 18:27 - 25/05/2020
-25/05/2020 - [AWS Essentials] Curso AWS Essentials webinnar | CGIT PCM
+========25/05/2020 - [AWS Essentials] Curso AWS Essentials webinnar | CGIT PCM
 25/05/2020 - [Poc Informatica] Informações para inclusão de mais um recurso para ajudar na POC | GIT PCB
 25/05/2020 - [Infosupec] Reunião com os times para ponto de controle | GIT PCA
 

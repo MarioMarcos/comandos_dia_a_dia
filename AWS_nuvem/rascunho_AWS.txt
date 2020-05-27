@@ -2,14 +2,10 @@
 informação reinaldo ------------ AWS - Serpro
 
 a) IDA AO CLIENTE: Entende com o cliente sobre as características do que ele quer migrar ou criar como: S.O, Redes, Armazenamento, informações esta preenchidas em um questionário.
-
 b) Com o questionário em mãos (em casa) aí verifica a Volumetria ==>> Vamos para a calculadora da AWS simply Monthy calculator para estimar e fazer uma previsão
-
 c) E se faltar algum dado, a AWS tem uma estimativa para dados que os clientes não tem, e não nos enviam; 
-
 d) Depois vai para equipe do Flamarion que monta uma arquitetura e manda a calculadora com estimativa de valor da consultoria
 e fazem uma tradução da planilha com uma precificação  - USN do Serpro, e UST. A proposta deve comptemplar  DEVE CONTEMPLAR QUE ENCAMINHAR PARA A REA DE NEGOICIO QUE ENCAMINHA UMA PROPOSTA PARA
-
 f) O cliente que define se vai aceitar ou não para iniciar o projeto para migração ou uma nova instalação;
 
 
@@ -168,6 +164,32 @@ BOOTCAMP PARTE 2 26/05/2020
 
 S3 - já é replicado por padrão nas AZ - com alta disponibilidade 
 random.org --- vai gerar números randômicos legal para colocar em favoritos
+
+
+============================================================================
+27/05/2020 - Arquitetura CMB com Reinaldo - Casa da Moeda
+
+SUPCD - não tem previsão para treinamentos.
+
+1-Preencheram o questionário (no mundo ideal) mas na prática tem pouca informação
+2-Preencher a arquitetura - baseado na apresentação do Reinaldo.
+3-Reinaldo demonstrando mais um pouco do questionário com suas dúvidas
+4-TENTAR SEMPRE INDICAR UMA POSIÇÃO PARA O CLIENTE  e se ele vier com algum diferente nós discutiremos.
+
+
+
+INFO: 
+      a) RDS na maioria dos bancos já tem licenças dos bancos
+      b) Arbitrou alguns preços baseados na experiência da AWS (para alguns preços que o cliente não passa para usar a calculadora)
+      c) Verificar AWS Cloud Endure - para sincronização com bancos on PREMISE (Quero verificar para projeto DWTG)
+      d) Verificar AWS ASSINC - manda vms do on premise para AWS 
+      e) Casa da Moeda procurou o Serpro, pela dispensa de licitação para contratar.
+      f) Nat gateway não tem custo 
+      g) site ec2instances. -ver direito qual é o link pois ele ajuda na montagem do dado para calculadora.
+
+link para o cronograma e dados da Casa da Moeda.      
+
+https://docs.google.com/presentation/d/1F09UfUi883fM_ko3fmiaq7So7YHXqUSZpatfCkiMkeA/edit?usp=sharing
 
 
 
