@@ -142,12 +142,34 @@ Para ver gráficos, planilhas - realmente olhar, ter a visibilidade como está f
 5-Cost Optimization
 
 
+=============================================================================
+POC - AWS - acesso gov.br
 
+Karlos Correia AWS - informa
+Mini estaleiro na AWS - Dedicado a parte de acesso.gov - um estaleirinho
+pergunta se temos como mensurar métricas para testes de capacidades.
+R: Pessoal informou que tem como sim, realizar testes de métricas
 
+Desenvolvimento 
 
-
+1-60 dias pelos Alex para realização da POC
+2-Marcus V.L do Amaral AWS - informa que o General solicitou um tempo mais curto em 3 semanas 
+3-Criticidade muito alta do Acesso.GOV, uma preocupação para todos
+4-Prioritário: SSO
+E não prioritaŕios: Cadastros, recuperação de senhas, só se der tempo vai testar
+5-Karlos AWS apresentou a arquitetura proposta pela AWS
+6-Reinaldo demonstrou para AWS o cronograma com o que o Serpro tem hoje para os mesmos terem conhecimento.
+7-Vão enviar cópias dos Dashboards da aplicação no Serpro para AWS avaliar
+8-Vamos dividir as contas em dois cenários à pedido pela AWS, isso por questão de prazo.
+9-Próximos passos finalizar a nota técnica para avançarmos
 
 ============================================================================
+BOOTCAMP PARTE 2 26/05/2020 
+
+S3 - já é replicado por padrão nas AZ - com alta disponibilidade 
+random.org --- vai gerar números randômicos legal para colocar em favoritos
+
+
 
 
 
