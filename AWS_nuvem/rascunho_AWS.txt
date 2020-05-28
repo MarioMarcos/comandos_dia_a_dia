@@ -192,6 +192,10 @@ link para o cronograma e dados da Casa da Moeda.
 https://docs.google.com/presentation/d/1F09UfUi883fM_ko3fmiaq7So7YHXqUSZpatfCkiMkeA/edit?usp=sharing
 
 
+===================================================
+BOOTCAMP AULA 3
+
+Load balance já é multi AZ
 
 
 
