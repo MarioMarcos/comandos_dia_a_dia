@@ -1,7 +1,9 @@
 06 E 07/05/2020 - Tenho um dia com a chefe dos dias trabalhos a noite no SERPRODATA E NA LIVE DA ANITA ATÉ A noite
 ver com Lynara
+sexta das 17:00 às 22:30 22/05/2020 folga com a chefe
+
 sábado colocar das 10:00 às 15:00 execução pentaho 23/05/2020
-sexta das 17:00 às 22:30 22/05/2020
+
 
 https://www.siscopweb.serpro/login.html
 git.serpro
@@ -17,13 +19,16 @@ www.timer-tab.com - site para cronômetro legal == testar ainda
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+08:40 x 12:40 x 13:10 x 17:10- 28/05/2020
+28/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Pauxis, Rafael Linhares e Leandro Informatica | CGIT PCM
+28/05/2020 - [Poc Informatica] Ponto de controle com Eduardo Nascimento para alinamento de substituições do Baldoino | CGIT PCB
+28/05/2020 - 
+
 
 09:00 x 13:00 x 13:30 x 20:00- 27/05/2020
 27/05/2020 - [Arquitetura CMB] Reunião de alinhamento Arquitetura CMB | CGIT PCA
 27/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
 27/05/2020 - [Poc Informatica] Ajustes máquina Baldoinio com Claudio e mario, e ainda também  LDAP grupos  | CGIT PCM 
-
-
 
 
 08:40 x 12:40 x 13:10 x 18:40- 26/05/2020

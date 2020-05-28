@@ -399,6 +399,28 @@ SISCOR -----> SUPSI para: Caio, Tiago Iahn
 2020RDM/0000051204 thiago e douglas
 
 
+==============================================================================================
+GERSON
+
+1. A equipe utilizará Workstations Virtuais que deverão ser instaladas em uma ZDM de Workstations a ser criada no segmento de rede de homologação do SERPRO.(SUPCD)
+7. Deverá ser avaliada a necessidade de Worstations Virtuais no ambiente produtivo (SUPAI/SUPCD/SUPEC).
+3. Deverá ser emitido um SISCOR para que essas Worstations Virtuais acessem o Datalake de Desenvolvimento demitido para os servidores Pentao BA e Pentaho PDI nesse mesmo segmento de rede. (SUPAI/SUPCD/SUPEC)
+
+
+
+
+2. A equipe do InfoSUPEC apresentará uma lista com a ordem de prioridade de entrega das 10 Workstations do projeto de forma a que sejam feitas entregas escalonadas dessas.  (SUPAI/SUPEC)
+4. Deverão ser produzidos diagramas de arquitetura dos ambientes de Desenvolvimento/homologação e produção do InfoSUPEC (Gerson/SUPAI)
+5. Dever~qo ser produzidos scripts de acionamento/atendimento para a publicação em homologação das Soluções de BI (Dashboards, Relatórios, Aplicações, Esquemas OLAP, erc.) desenvolvidas pelo projeto InfoSUPEC  (SUPAI/SUPCD)
+6. Deverão ser produzidos scripts de acionamento/atendimento para a publicação em produção das Soluções de BI (Dashboards, Relatórios, Aplicações, Esquemas OLAP, erc.) homologadas pelo projeto InfoSUPEC  (SUPAI/SUPCD)
+8. Deverá ser publicada uma nova versão do manual de uso das workstations virtuais focado no uso das mesmas pelos desenvolvedores do projeto InfoSUPEC. (SUPAI/SUPCD)
+
+
+
+
+
+
+Solicito então que sejam realizados os devidos ajustes no projeto de entrega do ambiente de homologação do InfoSUPEC incluindo os itens pertinentes A entrega acima relacionados.
 
 
 
