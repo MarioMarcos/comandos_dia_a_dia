@@ -15,35 +15,46 @@ www.timer-tab.com - site para cronômetro legal == testar ainda
 ######################################################################
 ************************************************************************
 
+------------------------------------------------------------------------
+JUNHO/2020
+------------------------------------------------------------------------
+
+
+
+
+
 
 ------------------------------------------------------------------------
 MAIO/2020
 ------------------------------------------------------------------------
+08:35 x 12:35 x 13:05 x 18:20- 29/05/2020
+29/05/2020 - [Poc Informatica] Ponto de controle com  Patrick e Leandro fornecedor para alinhamento em cópia de dados | CGIT PCB
+29/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Leandro fornecedor, Rafael Linhares e Fabrício Putinni para questões bancos Oracle | CGIT PCB
+29/05/2020 - [INFOSUPE] Ponto de controle com Claudio, Marcio Cunha e Helen como entrega parcial | CGIT PCB
+
+
 08:40 x 12:40 x 13:10 x 19:10- 28/05/2020
-28/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Pauxis, Rafael Linhares e Leandro Informatica | CGIT PCM
-28/05/2020 - [Poc Informatica] Ponto de controle com Eduardo Nascimento para alinamento de substituições do Baldoino | CGIT PCB
-28/05/2020 - [Poc Informatica] Ponto de controle com Equipe Eduardo Nascimento para alinhamento de substituições do Baldoino | CGIT PCB
-28/05/2020 - [Poc Informatica] Ponto de controle com com Patrick e Leandro fornecedor para alinhamento em cópia de dados | CGIT PCB
-28/05/2020 - [Infosupec] Ponto de controle com com Claudio | CGIT PCB
-
-
+28/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Pauxis, Rafael Linhares e Leandro Informatica | GIT PCM
+28/05/2020 - [Poc Informatica] Ponto de controle com Eduardo Nascimento para alinamento de substituições do Baldoino | GIT PCB
+28/05/2020 - [Poc Informatica] Ponto de controle com Equipe Eduardo Nascimento para alinhamento de substituições do Baldoino | GIT PCB
+28/05/2020 - [Poc Informatica] Ponto de controle com com Patrick e Leandro fornecedor para alinhamento em cópia de dados | GIT PCB
+28/05/2020 - [Infosupec] Ponto de controle com com Claudio | GIT PCB
 
 09:00 x 13:00 x 13:30 x 20:00- 27/05/2020
-27/05/2020 - [Arquitetura CMB] Reunião de alinhamento Arquitetura CMB | CGIT PCA
-27/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
-27/05/2020 - [Poc Informatica] Ajustes máquina Baldoinio com Claudio e mario, e ainda também  LDAP grupos  | CGIT PCM 
-
+27/05/2020 - [Arquitetura CMB] Reunião de alinhamento Arquitetura CMB | GIT PCA
+27/05/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | GIT PCM
+27/05/2020 - [Poc Informatica] Ajustes máquina Baldoinio com Claudio e mario, e ainda também  LDAP grupos  | GIT PCM 
 
 08:40 x 12:40 x 13:10 x 18:40- 26/05/2020
-26/05/2020 - [Poc Acesso.gov.br AWS] Reunião de alinhamento para POC AWS | CGIT PCA
-26/05/2020 - [Curso AWS kubernetes] | CGIT PCM
-26/05/2020 - [Serprobots] Atividade RDM 2020RDM/0000051204 | CGIT ATB
-26/05/2020 - [Serprobots] Planejamento RDM 2020RDM/0000051204 | CGIT PLANB
-26/05/2020 - [Poc Informatica] Reunião de alinhamento POC | CGIT PCB
-26/05/2020 - [Infosupec] Reunião de urgência para definição | CGIT PCM
+26/05/2020 - [Poc Acesso.gov.br AWS] Reunião de alinhamento para POC AWS | GIT PCA
+26/05/2020 - [Curso AWS kubernetes] | GIT PCM
+26/05/2020 - [Serprobots] Atividade RDM 2020RDM/0000051204 | GIT ATB
+26/05/2020 - [Serprobots] Planejamento RDM 2020RDM/0000051204 | GIT PLANB
+26/05/2020 - [Poc Informatica] Reunião de alinhamento POC | GIT PCB
+26/05/2020 - [Infosupec] Reunião de urgência para definição | GIT PCM
 
 08:25 x 12:25 x 12:55 x 18:27 - 25/05/2020
-========25/05/2020 - [AWS Essentials] Curso AWS Essentials webinnar | CGIT PCM
+25/05/2020 - [AWS Essentials] Curso AWS Essentials webinnar | GIT PCM
 25/05/2020 - [Poc Informatica] Informações para inclusão de mais um recurso para ajudar na POC | GIT PCB
 25/05/2020 - [Infosupec] Reunião com os times para ponto de controle | GIT PCA
 

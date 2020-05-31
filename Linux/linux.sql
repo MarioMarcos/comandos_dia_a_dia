@@ -25,6 +25,10 @@ e executei esse aqui também
 2- entrar no arquivo: cd /etc/resolvconf/resolv.conf.d/     ===>>>>   vi head   ====>>>> alterar e colocar os DNSs abaixo
 nameserver 10.31.18.14
 nameserver 10.31.8.100
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+
 
 3- reiniciei o serviço: systemctl restart resolvconf - para reiniciar o serviço
 e depois testei e funcionou no navegador depois da OVPN conectada todos os sites do serpro entraram sem problemas

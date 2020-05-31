@@ -402,11 +402,38 @@ SISCOR -----> SUPSI para: Caio, Tiago Iahn
 ==============================================================================================
 GERSON
 
+
+Rascunho para Lynara
+
+Lynara, posição de hoje. Amanhã a tarde talvez mude o cenário 1, por isso peço que ainda não repasse para o Improta, porque vai mudar bastante e para melhor a entrega.
+Talvez não será necessário os outros cenários e mudança se concretizar. é sobre os acessos. Gerson ficou de me falar amanhã final da tarde.
+
+INFOSUPEC - Previsão para entrega total já com validações e datalke com algumas bases ingeridas. 
+
+1-Linux - Entregue - Fase de validação até sexta-feira pela Equipe Desenvolvimento 
+2-Pentaho - Entregue - Fase de validação até sexta-feira pela Equipe Desenvolvimento 
+3-Banco Postgres - Entregue
+4-Datalake - Em andamento, passamos para fase de ingestão de bases produtivos - ficou decidido até sexta feira ingerir pelo menos dois bancos no dalake desenvolvimento
+Temos 22 bases para ingestão 
+
+
+
+5-Nova situação (aguardar até Gerson dá posiçao amanhã a tarde)
+Urgente: 
+1- Um cenário é recomendável que seja feita workstation virtual no desenvolvimento, contudo eles já tem a possibilidade de utilizar mas não tem como fazer auditoria nas máquinas
+   verificar com a SUPSI. (aguardar posicionamento do Gerson que tem uma informação nova) 
+2- Consultar na segurança se é possível colocar zdm de produção do Pentaho as workstations virtuais acessar o datalake de DESENVOLVIMENTO (5 VMS) 15 dias
+3- Construir as workstations na zdm desenvolvimento (Vai ter que criar na ZDM) 5 (VMS) - 15 dias - A zdm tem que ser antes
+4- Construir as workstations no zdm na Homologação(Vai ter que criar ZDM) 15 dias - A zdm tem que ser antes
+
+
+
+
+REUNIÃO INFOSUPEC REPASSADO PELO GERSON.
+
 1. A equipe utilizará Workstations Virtuais que deverão ser instaladas em uma ZDM de Workstations a ser criada no segmento de rede de homologação do SERPRO.(SUPCD)
 7. Deverá ser avaliada a necessidade de Worstations Virtuais no ambiente produtivo (SUPAI/SUPCD/SUPEC).
 3. Deverá ser emitido um SISCOR para que essas Worstations Virtuais acessem o Datalake de Desenvolvimento demitido para os servidores Pentao BA e Pentaho PDI nesse mesmo segmento de rede. (SUPAI/SUPCD/SUPEC)
-
-
 
 2. A equipe do InfoSUPEC apresentará uma lista com a ordem de prioridade de entrega das 10 Workstations do projeto de forma a que sejam feitas entregas escalonadas dessas.  (SUPAI/SUPEC)
 4. Deverão ser produzidos diagramas de arquitetura dos ambientes de Desenvolvimento/homologação e produção do InfoSUPEC (Gerson/SUPAI)
@@ -418,7 +445,3 @@ GERSON
 Solicito então que sejam realizados os devidos ajustes no projeto de entrega do ambiente de homologação do InfoSUPEC incluindo os itens pertinentes A entrega acima relacionados.
 
 ===========================================================================================================================
-
-
-
-
