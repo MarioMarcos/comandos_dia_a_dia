@@ -2,7 +2,7 @@
 ver com Lynara
 sexta das 17:00 às 22:30 22/05/2020 folga com a chefe
 
-sábado colocar das 10:00 às 15:00 execução pentaho 23/05/2020
+HE - 10:00 às 15:00 execução pentaho 23/05/2020 - 2020RDM/0000038212 
 
 
 https://www.siscopweb.serpro/login.html
@@ -19,7 +19,8 @@ www.timer-tab.com - site para cronômetro legal == testar ainda
 JUNHO/2020
 ------------------------------------------------------------------------
 
-
+16:00 x 18:00 - 01/06/2020
+01/06/2020 - [Ibama AWS] Ponto de controle com times para arquitetura IBAMA | CGIT PCA
 
 
 
@@ -28,9 +29,9 @@ JUNHO/2020
 MAIO/2020
 ------------------------------------------------------------------------
 08:35 x 12:35 x 13:05 x 18:20- 29/05/2020
-29/05/2020 - [Poc Informatica] Ponto de controle com  Patrick e Leandro fornecedor para alinhamento em cópia de dados | CGIT PCB
-29/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Leandro fornecedor, Rafael Linhares e Fabrício Putinni para questões bancos Oracle | CGIT PCB
-29/05/2020 - [INFOSUPE] Ponto de controle com Claudio, Marcio Cunha e Helen como entrega parcial | CGIT PCB
+29/05/2020 - [Poc Informatica] Ponto de controle com  Patrick e Leandro fornecedor para alinhamento em cópia de dados | GIT PCB
+29/05/2020 - [Poc Informatica] Ponto de controle com Patrick, Leandro fornecedor, Rafael Linhares e Fabrício Putinni para questões bancos Oracle | GIT PCB
+29/05/2020 - [INFOSUPEC] Ponto de controle com Claudio, Marcio Cunha e Helen como entrega parcial | GIT PCB
 
 
 08:40 x 12:40 x 13:10 x 19:10- 28/05/2020
