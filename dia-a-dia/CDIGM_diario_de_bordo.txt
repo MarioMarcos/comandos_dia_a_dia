@@ -9,7 +9,7 @@ https://www.siscopweb.serpro/login.html
 git.serpro
 www.timer-tab.com - site para cronômetro legal == testar ainda
 É relaxante muscular, Dolamim flex - por Aline Lucy
-
+https://solucoes.corporativo.serpro/sigecom/private/templates/menuDinamico.jsf     ==== site sigecom colocar nos favoritos e na relação de links
 ######################################################################
 ********************* DIARIO DE BORDO *******************************
 ######################################################################
@@ -18,11 +18,29 @@ www.timer-tab.com - site para cronômetro legal == testar ainda
 ------------------------------------------------------------------------
 JUNHO/2020
 ------------------------------------------------------------------------
+08:31 x 12:31 x 13:01 x 17:01- 05/06/2020
+
+05/06/2020 - [COFECON AWS] Reunião para preparar arquitetura e precificação para COFECON | CGIT PCA
+05/06/2020 - [Poc informatica] Conferência dos dados para abertura de atividade com Fabrício Putinni - Oracle BSA | CGIT PCB
+05/06/2020 - [Inclusão dos Exercícios Sql Colunar] Ponto de Controle com times | CGIT PCM
+05/06/2020 - [Infosupec] Ponto de Controle com Pauxis, Gerson e Eduardo Nascimento | CGIT PCM
+05/06/2020 - [Curso Alura AWS] CGIT PCM 
+
+
+
+
+08:00 x 12:00 x 13:30 x 17:30- 04/06/2020
+04/06/2020 - [Curso Alura AWS] CGIT PCM 
+04/06/2020 - [Poc Informatica] ponto de controle andamento da demanda | CGIT PCM
+04/06/2020 - [Poc Informatica] Abertura de Atividade para Postgres | CGIT ATB
+04/06/2020 - [Poc Estaleiro AWS] ponto de controle time estaleiro | CGIT PCA
+04/06/2020 - [Infosupec] ponto de controle com Helen  | CGIT PCB
+
+14:00 x 18:00 - 02/06/2020
+03/06/2020 - [Ibama AWS] Ponto de controle com times para arquitetura IBAMA | CGIT PCA
 
 16:00 x 18:00 - 01/06/2020
 01/06/2020 - [Ibama AWS] Ponto de controle com times para arquitetura IBAMA | CGIT PCA
-
-
 
 
 ------------------------------------------------------------------------

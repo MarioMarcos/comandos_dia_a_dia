@@ -445,3 +445,67 @@ REUNIÃO INFOSUPEC REPASSADO PELO GERSON.
 Solicito então que sejam realizados os devidos ajustes no projeto de entrega do ambiente de homologação do InfoSUPEC incluindo os itens pertinentes A entrega acima relacionados.
 
 ===========================================================================================================================
+PENDENTE PARA ABRIR ATIVIDADES
+Código de Serviço: 11432
+Banco de Dados Exadata - BSA
+
+
+Aos cuidados de Fabrício Putinni, 
+
+Solicito os seguintes serviços para andamento da POC INFORMATICA, já detalhados em reunião prévia. Contudo se tiver mais algum ajuste é só informar para que possamos corrigir.
+
+Segue abaixo as atividades:
+
+1-Criar cópia da estrutura do schema de homologação (SISGP) (Transacional OLTP) no ambiente de desenvolvimento (Transacional OLTP);
+2-Criar usuário de conexão para acesso com a seguinte permissão: read no banco de homologação e repassar as credenciais para Patrick Silva/Gustavo Baldoino/Mário Marcos/Eduardo Nascimento;
+3-Criar usuário de conexão para acesso com as seguintes permissões: Insert, Update, Delete e Alter Any Table, no banco de desenvolvimento criado pelo item 1 (transacional OLTP) e repassar as credenciais para Patrick Silva/Gustavo Baldoino/Mário Marcos/Eduardo Nascimento;
+
+Att, 
+
+
+
+
+
+Aos cuidados de Fabrício Putinni e Leonardo Seger
+
+Solicito a participação efetivamente juntamente com o fornecedor Informatica da POC na atividade de construção do processo de mascaramento e cópia dos dados do banco de dados xxxxxxxxxxxxx em homologação para o banco de dados vazio no desenvolvimento, processo este executado pela ferramenta TDM do fornecedor INFORMATICA;
+Este trabalho está sendo planejado pela CDIGM - Mário Marcos e executado por várias times da SUPCD.
+
+Att, 
+
+
+
+ 
+ 
+===========================================================================================================================
+PREPARANDO PARA O POSTGRES
+
+Aos cuidados de Julio Cesar Gonçalves Ribeiro            
+
+Siscor para acesso das aplicações da rede 161.148.239.0 para acessar os bancos em ambiente de Homologação e Desenvolvimento:
+
+Ambiente de Homologação 
+
+BMario, se você estiver se referindo ao código 06818, abaixo as informações solicitadas.
+
+Banco do Postgres - Brasília - OLTP
+Rede de Homologação 
+IP: 200.198.211.104
+Porta: 5469
+
+Banco do Postgres - Brasília - OLTP
+Rede de Desenvolvimento 
+IP: 10.31.0.169
+Porta: 5432
+
+Favor abrir uma SS para esta solicitação.
+
+Estas regras faram parte do projeto de Poc com o fornecedor Informatica para aplicações no mascaramento de dados.
+
+
+=========================================================================================================================
+-------------------------------
+ALice Yochick Saito: RDM - Pauxis - para INFOSUPEC.
+
+RDM: Necessitamos de uma ZDM de Workstations virtuais no ambiente de homologação para aplicações PENTAHO/Datalake em Brasília por recomendação da SUPSI, relativo ao projeto INFOSUPEC. Este atendimento se faz necessário pois os desenvolvedores terão acesso exclusivo ao datalake de desenvolvimento através das Workstations virtuais.
+=========================================================================================================================
